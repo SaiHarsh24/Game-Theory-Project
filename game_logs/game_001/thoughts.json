@@ -1,0 +1,1697 @@
+[
+    {
+        "turn": 0,
+        "phase": "action",
+        "player": "Player 1",
+        "persona": "The Chaos Agent",
+        "private_hand": [
+            "Q",
+            "Q",
+            "A",
+            "A",
+            "K"
+        ],
+        "table_rank": "K",
+        "pile_size": 0,
+        "last_play": null,
+        "reasoning": "I have one K in my hand, so a maximum of 7 K's could be out there (6 total + 1 in my hand + 2 jokers). Since this is the first play, I will play a few cards to get something on the table and gauge the others' reactions. It's time to stir things up.",
+        "action": {
+            "type": "play",
+            "cards": [
+                "Q",
+                "Q"
+            ]
+        },
+        "speech": "I play 2 K. Feels like a good start to this round, doesn't it?",
+        "result": "ACTION: Player 1 played 2 cards face down.",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 1,
+        "phase": "bidding",
+        "player": "Player 1",
+        "persona": "The Chaos Agent",
+        "urgency": 8,
+        "reasoning": "Player 2's hesitation is amusing; my claim stands firm.",
+        "speech": "They're thinking too hard. Two Kings, simple as that.",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 1,
+        "phase": "bidding",
+        "player": "Player 3",
+        "persona": "The Paranoid",
+        "urgency": 6,
+        "reasoning": "Player 2 calling Liar now risks the trigger landing on them, which could benefit me.",
+        "speech": "Wait, Player 2? Really going for it now?",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 1,
+        "phase": "action",
+        "player": "Player 2",
+        "persona": "The Sweetheart",
+        "private_hand": [
+            "A",
+            "Joker",
+            "Q",
+            "K",
+            "K"
+        ],
+        "table_rank": "K",
+        "pile_size": 2,
+        "last_play": {
+            "player_id": "Player 1",
+            "cards_played": [
+                "Q",
+                "Q"
+            ],
+            "claimed_count": 2
+        },
+        "reasoning": "I have two K's and one Joker, meaning a maximum of 5 K's could be out. Player 1 claimed two, and the pile has two, totaling four. That's plausible, so I'll play along for now.",
+        "action": {
+            "type": "play",
+            "cards": [
+                "A",
+                "Q"
+            ]
+        },
+        "speech": "I play 2 K. Hoping this round lasts a little longer, honestly!",
+        "result": "ACTION: Player 2 played 2 cards face down.",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 2,
+        "phase": "bidding",
+        "player": "Player 2",
+        "persona": "The Sweetheart",
+        "urgency": 8,
+        "reasoning": "I feel pretty good about my claim, but Player 3's hesitation suggests they might be onto something.",
+        "speech": "Oh dear, Player 3, you seem worried!",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 2,
+        "phase": "bidding",
+        "player": "Player 4",
+        "persona": "The Hothead",
+        "urgency": 6,
+        "reasoning": "Player 3 calling now risks the trigger landing on me if they're wrong, so I'd prefer they wait.",
+        "speech": "Don't do it, 3. Too soon.",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 2,
+        "phase": "action",
+        "player": "Player 3",
+        "persona": "The Paranoid",
+        "private_hand": [
+            "Q",
+            "Q",
+            "A",
+            "K",
+            "Q"
+        ],
+        "table_rank": "K",
+        "pile_size": 4,
+        "last_play": {
+            "player_id": "Player 2",
+            "cards_played": [
+                "A",
+                "Q"
+            ],
+            "claimed_count": 2
+        },
+        "reasoning": "I only have one K. That means at most 7 K's could be in play. The pile has 4 claimed, so it's possible, but I'm uneasy. I'll play a card to see what happens next.",
+        "action": {
+            "type": "play",
+            "cards": [
+                "K"
+            ]
+        },
+        "speech": "I play 1 K. Player 2's confidence is unsettling me, honestly.",
+        "result": "ACTION: Player 3 played 1 cards face down.",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 3,
+        "phase": "bidding",
+        "player": "Player 3",
+        "persona": "The Paranoid",
+        "urgency": 8,
+        "reasoning": "Player 4's hesitation makes me think they suspect something, so I need to appear resolute.",
+        "speech": "Seriously? Just one King. What's the big deal?",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 3,
+        "phase": "bidding",
+        "player": "Player 1",
+        "persona": "The Chaos Agent",
+        "urgency": 7,
+        "reasoning": "Player 4 calling Liar now could trigger the revolver and benefit me, but it's a risky play.",
+        "speech": "Player 4, hold up. Let's see what happens first.",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 3,
+        "phase": "action",
+        "player": "Player 4",
+        "persona": "The Hothead",
+        "private_hand": [
+            "A",
+            "K",
+            "A",
+            "K",
+            "Joker"
+        ],
+        "table_rank": "K",
+        "pile_size": 5,
+        "last_play": {
+            "player_id": "Player 3",
+            "cards_played": [
+                "K"
+            ],
+            "claimed_count": 1
+        },
+        "reasoning": "Player 3 claimed one King. I have two Kings and a Joker, totaling three potential Kings. With five cards already on the pile, it's possible they're telling the truth, but I'm feeling reckless.",
+        "action": {
+            "type": "play",
+            "cards": [
+                "K",
+                "A"
+            ]
+        },
+        "speech": "I play 2 K. Seriously, how many Kings are even left?",
+        "result": "ACTION: Player 4 played 2 cards face down.",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 4,
+        "phase": "bidding",
+        "player": "Player 4",
+        "persona": "The Hothead",
+        "urgency": 8,
+        "reasoning": "Player 1's hesitation suggests they suspect something, so I need to project absolute confidence to dissuade them.",
+        "speech": "Just two Kings. Seriously, what's the problem, 1?",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 4,
+        "phase": "bidding",
+        "player": "Player 3",
+        "persona": "The Paranoid",
+        "urgency": 6,
+        "reasoning": "Player 1 calling Liar now risks the trigger falling on them, which could benefit me.",
+        "speech": "Wait, Player 1... are you sure about this?",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 4,
+        "phase": "action",
+        "player": "Player 1",
+        "persona": "The Chaos Agent",
+        "private_hand": [
+            "A",
+            "A",
+            "K"
+        ],
+        "table_rank": "K",
+        "pile_size": 7,
+        "last_play": {
+            "player_id": "Player 4",
+            "cards_played": [
+                "K",
+                "A"
+            ],
+            "claimed_count": 2
+        },
+        "reasoning": "Player 4 claimed two Kings, and I only hold one. The pile is already at seven, so it's getting tight, and I want to shake things up a bit.",
+        "action": {
+            "type": "call_liar",
+            "cards": []
+        },
+        "speech": "Liar! Seven is too much already, Player 4, seriously!",
+        "result": "CALL: Player 1 caught Player 4 LYING! They actually played: ['K', 'A']. *Click*. Player 4 survives... (5 chambers left).",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 5,
+        "phase": "action",
+        "player": "Player 4",
+        "persona": "The Hothead",
+        "private_hand": [
+            "Q",
+            "K",
+            "A",
+            "K",
+            "K"
+        ],
+        "table_rank": "K",
+        "pile_size": 0,
+        "last_play": null,
+        "reasoning": "I have three Kings in my hand, and there are no cards on the pile. It's early, so I'll play some Kings and make a bold claim to start the round aggressively.",
+        "action": {
+            "type": "play",
+            "cards": [
+                "K",
+                "K"
+            ]
+        },
+        "speech": "I play 2 K. Let\u2019s see who gets rattled first.",
+        "result": "ACTION: Player 4 played 2 cards face down.",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 6,
+        "phase": "bidding",
+        "player": "Player 4",
+        "persona": "The Hothead",
+        "urgency": 8,
+        "reasoning": "Player 1 is suspicious, but I'm sticking to my guns; I have nothing to lose.",
+        "speech": "Seriously? You questioning me, 1?",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 6,
+        "phase": "action",
+        "player": "Player 1",
+        "persona": "The Chaos Agent",
+        "private_hand": [
+            "Q",
+            "Q",
+            "Joker",
+            "A",
+            "K"
+        ],
+        "table_rank": "K",
+        "pile_size": 2,
+        "last_play": {
+            "player_id": "Player 4",
+            "cards_played": [
+                "K",
+                "K"
+            ],
+            "claimed_count": 2
+        },
+        "reasoning": "Player 4's claim of two Kings seems bold after the last round. My hand has one King and a Joker, so I'll throw in some confusion and play a few.",
+        "action": {
+            "type": "play",
+            "cards": [
+                "Q",
+                "K"
+            ]
+        },
+        "speech": "I play 2 K. Player 4, you\u2019re awfully confident, aren't you?",
+        "result": "ACTION: Player 1 played 2 cards face down.",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 7,
+        "phase": "bidding",
+        "player": "Player 1",
+        "persona": "The Chaos Agent",
+        "urgency": 8,
+        "reasoning": "Player 2's hesitation is amusing, I'll press the advantage with a casual jab.",
+        "speech": "Really? You doubting my Kings, Player 2?",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 7,
+        "phase": "bidding",
+        "player": "Player 4",
+        "persona": "The Hothead",
+        "urgency": 6,
+        "reasoning": "Player 2 calling now risks a trigger if wrong, potentially leaving me safer if Player 1 was truthful.",
+        "speech": "Don't be stupid. Let me see what happens.",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 7,
+        "phase": "action",
+        "player": "Player 2",
+        "persona": "The Sweetheart",
+        "private_hand": [
+            "K",
+            "Q",
+            "A",
+            "Joker",
+            "A"
+        ],
+        "table_rank": "K",
+        "pile_size": 4,
+        "last_play": {
+            "player_id": "Player 1",
+            "cards_played": [
+                "Q",
+                "K"
+            ],
+            "claimed_count": 2
+        },
+        "reasoning": "Player 1 claimed two Kings, and I only have one. The pile has 4 claimed Kings, and that seems a bit high already. I'll play a couple cards to see where this goes.",
+        "action": {
+            "type": "play",
+            "cards": [
+                "Q",
+                "A"
+            ]
+        },
+        "speech": "I play 2 K. Hope everyone\u2019s feeling lucky tonight!",
+        "result": "ACTION: Player 2 played 2 cards face down.",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 8,
+        "phase": "bidding",
+        "player": "Player 2",
+        "persona": "The Sweetheart",
+        "urgency": 8,
+        "reasoning": "I feel pretty good about my claim, hoping Player 3 will hesitate.",
+        "speech": "Oh, Player 3, don't worry so much, it's just Kings!",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 8,
+        "phase": "bidding",
+        "player": "Player 4",
+        "persona": "The Hothead",
+        "urgency": 7,
+        "reasoning": "Player 3 calling Liar now could expose a lot of Kings, benefiting me if I'm holding a Queen.",
+        "speech": "Don't be a fool, 3. Let it ride.",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 8,
+        "phase": "action",
+        "player": "Player 3",
+        "persona": "The Paranoid",
+        "private_hand": [
+            "Q",
+            "A",
+            "Q",
+            "K",
+            "A"
+        ],
+        "table_rank": "K",
+        "pile_size": 6,
+        "last_play": {
+            "player_id": "Player 2",
+            "cards_played": [
+                "Q",
+                "A"
+            ],
+            "claimed_count": 2
+        },
+        "reasoning": "I have one K and two Jokers, so I could play up to 3 K's. Player 2 claimed 2 K's, and the pile is now at 6, which seems plausible given the remaining cards. I'll play to avoid suspicion for now.",
+        "action": {
+            "type": "play",
+            "cards": [
+                "K",
+                "Q"
+            ]
+        },
+        "speech": "I play 2 K. This is getting out of hand, isn't it?",
+        "result": "ACTION: Player 3 played 2 cards face down.",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 9,
+        "phase": "bidding",
+        "player": "Player 3",
+        "persona": "The Paranoid",
+        "urgency": 8,
+        "reasoning": "Player 4 is clearly suspicious, but I'm sticking with my claim for now.",
+        "speech": "Are you going to call it, Player 4? Just two Kings, I swear!",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 9,
+        "phase": "bidding",
+        "player": "Player 2",
+        "persona": "The Sweetheart",
+        "urgency": 6,
+        "reasoning": "Player 4 calling Liar now would mean I'm next and potentially exposed, so I want them to hesitate.",
+        "speech": "Oh, Player 4, give it a little more thought, okay?",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 9,
+        "phase": "action",
+        "player": "Player 4",
+        "persona": "The Hothead",
+        "private_hand": [
+            "Q",
+            "A",
+            "K"
+        ],
+        "table_rank": "K",
+        "pile_size": 8,
+        "last_play": {
+            "player_id": "Player 3",
+            "cards_played": [
+                "K",
+                "Q"
+            ],
+            "claimed_count": 2
+        },
+        "reasoning": "Player 3 claimed 2 Kings, and I have one. The pile has 8 claimed Kings, so it's getting ridiculous. I'll risk it and call them out.",
+        "action": {
+            "type": "call_liar",
+            "cards": []
+        },
+        "speech": "Liar! Eight Kings? Seriously, Player 3?",
+        "result": "CALL: Player 4 caught Player 3 LYING! They actually played: ['K', 'Q']. *Click*. Player 3 survives... (5 chambers left).",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 10,
+        "phase": "action",
+        "player": "Player 3",
+        "persona": "The Paranoid",
+        "private_hand": [
+            "A",
+            "K",
+            "K",
+            "K",
+            "A"
+        ],
+        "table_rank": "Q",
+        "pile_size": 0,
+        "last_play": null,
+        "reasoning": "I have zero Queens or Jokers, so I need to play something. It's early, and I don't want to risk the trigger, so a small play seems best.",
+        "action": {
+            "type": "play",
+            "cards": [
+                "K",
+                "K"
+            ]
+        },
+        "speech": "I play 2 Q. Really, what are they all hiding?",
+        "result": "ACTION: Player 3 played 2 cards face down.",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 11,
+        "phase": "bidding",
+        "player": "Player 3",
+        "persona": "The Paranoid",
+        "urgency": 8,
+        "reasoning": "Player 4 is suspicious, and I'm not entirely sure they're wrong, but I can't back down now.",
+        "speech": "They're looking for a weakness... two Queens, I tell you!",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 11,
+        "phase": "bidding",
+        "player": "Player 2",
+        "persona": "The Sweetheart",
+        "urgency": 6,
+        "reasoning": "Player 4 calling now could backfire and put them at risk if Player 3 is telling the truth, benefiting me if they are wrong.",
+        "speech": "Oh, Player 4, just take your time, okay?",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 11,
+        "phase": "action",
+        "player": "Player 4",
+        "persona": "The Hothead",
+        "private_hand": [
+            "K",
+            "Q",
+            "K",
+            "A",
+            "A"
+        ],
+        "table_rank": "Q",
+        "pile_size": 2,
+        "last_play": {
+            "player_id": "Player 3",
+            "cards_played": [
+                "K",
+                "K"
+            ],
+            "claimed_count": 2
+        },
+        "reasoning": "Player 3 claimed 2 Queens, and I only hold one. The pile has two claimed Queens, and there are only 4 Queens and 2 Jokers left. This is getting ridiculous.",
+        "action": {
+            "type": "call_liar",
+            "cards": []
+        },
+        "speech": "Liar! Two Queens? Seriously, Player 3, come on!",
+        "result": "CALL: Player 4 caught Player 3 LYING! They actually played: ['K', 'K']. *Click*. Player 3 survives... (4 chambers left).",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 12,
+        "phase": "action",
+        "player": "Player 3",
+        "persona": "The Paranoid",
+        "private_hand": [
+            "Q",
+            "A",
+            "Q",
+            "A",
+            "K"
+        ],
+        "table_rank": "K",
+        "pile_size": 0,
+        "last_play": null,
+        "reasoning": "I have one K and two Jokers could be K, so I could claim up to 3. The pile is empty, so it's still early. I'll play a few cards and see what happens.",
+        "action": {
+            "type": "play",
+            "cards": [
+                "Q",
+                "A"
+            ]
+        },
+        "speech": "I play 2 K. They're watching me, aren't they? So careful...",
+        "result": "ACTION: Player 3 played 2 cards face down.",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 13,
+        "phase": "bidding",
+        "player": "Player 3",
+        "persona": "The Paranoid",
+        "urgency": 8,
+        "reasoning": "Player 4's hesitation makes me think they suspect something, but I need to hold firm.",
+        "speech": "They're thinking... two Kings. Absolutely two Kings, Player 4.",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 13,
+        "phase": "action",
+        "player": "Player 4",
+        "persona": "The Hothead",
+        "private_hand": [
+            "Q",
+            "A",
+            "A",
+            "K",
+            "Joker"
+        ],
+        "table_rank": "K",
+        "pile_size": 2,
+        "last_play": {
+            "player_id": "Player 3",
+            "cards_played": [
+                "Q",
+                "A"
+            ],
+            "claimed_count": 2
+        },
+        "reasoning": "I have one K and one Joker, totaling two possible Kings. Player 3 claims two Kings, and the pile already has two. This is pushing it, but I'm feeling lucky.",
+        "action": {
+            "type": "play",
+            "cards": [
+                "A",
+                "A"
+            ]
+        },
+        "speech": "I play 2 K. They\u2019re really trying to push it, aren\u2019t they?",
+        "result": "ACTION: Player 4 played 2 cards face down.",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 14,
+        "phase": "bidding",
+        "player": "Player 4",
+        "persona": "The Hothead",
+        "urgency": 8,
+        "reasoning": "Player 1 is definitely suspicious, but I'm sticking to my guns and pushing the narrative.",
+        "speech": "Look at him. He's questioning me. Two Kings.",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 14,
+        "phase": "bidding",
+        "player": "Player 3",
+        "persona": "The Paranoid",
+        "urgency": 7,
+        "reasoning": "Player 1 calling now risks the trigger falling on them if they're wrong, which could benefit me.",
+        "speech": "Wait, Player 1? Are you sure about that call?",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 14,
+        "phase": "action",
+        "player": "Player 1",
+        "persona": "The Chaos Agent",
+        "private_hand": [
+            "K",
+            "Q",
+            "K",
+            "A",
+            "A"
+        ],
+        "table_rank": "K",
+        "pile_size": 4,
+        "last_play": {
+            "player_id": "Player 4",
+            "cards_played": [
+                "A",
+                "A"
+            ],
+            "claimed_count": 2
+        },
+        "reasoning": "Player 4 claimed 2 Kings, and I only hold two. With the pile at 4, it's tight but not impossible, so I'll add to the chaos and play.",
+        "action": {
+            "type": "play",
+            "cards": [
+                "K",
+                "Q"
+            ]
+        },
+        "speech": "I play 2 K. He looks so confident, doesn\u2019t he?",
+        "result": "ACTION: Player 1 played 2 cards face down.",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 15,
+        "phase": "bidding",
+        "player": "Player 1",
+        "persona": "The Chaos Agent",
+        "urgency": 8,
+        "reasoning": "They're thinking I'm hiding something, but two Kings is a perfectly reasonable play.",
+        "speech": "Really staring, huh? Two Kings, I said.",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 15,
+        "phase": "bidding",
+        "player": "Player 3",
+        "persona": "The Paranoid",
+        "urgency": 6,
+        "reasoning": "Player 2 calling Liar now could mean more cards are revealed, potentially helping me later.",
+        "speech": "Player 2, are you *sure*? This feels\u2026 rushed.",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 15,
+        "phase": "action",
+        "player": "Player 2",
+        "persona": "The Sweetheart",
+        "private_hand": [
+            "K",
+            "Q",
+            "Q",
+            "Joker",
+            "K"
+        ],
+        "table_rank": "K",
+        "pile_size": 6,
+        "last_play": {
+            "player_id": "Player 1",
+            "cards_played": [
+                "K",
+                "Q"
+            ],
+            "claimed_count": 2
+        },
+        "reasoning": "I have two K's and one Joker, so a maximum of 5 K's could be in play. The pile size of 6 K's claimed is already too high. I think Player 1 is pushing it a bit too far.",
+        "action": {
+            "type": "call_liar",
+            "cards": []
+        },
+        "speech": "Liar! Six Kings? That seems like a lot, Player 1, really.",
+        "result": "CALL: Player 2 caught Player 1 LYING! They actually played: ['K', 'Q']. *Click*. Player 1 survives... (5 chambers left).",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 16,
+        "phase": "action",
+        "player": "Player 1",
+        "persona": "The Chaos Agent",
+        "private_hand": [
+            "K",
+            "K",
+            "Q",
+            "K",
+            "K"
+        ],
+        "table_rank": "A",
+        "pile_size": 0,
+        "last_play": null,
+        "reasoning": "It's the start of the round, so playing cards makes sense. I'll put down a couple to see what happens, and create some initial uncertainty.",
+        "action": {
+            "type": "play",
+            "cards": [
+                "K",
+                "K"
+            ]
+        },
+        "speech": "I play 2 A. Feels like everyone\u2019s already on edge, doesn't it?",
+        "result": "ACTION: Player 1 played 2 cards face down.",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 17,
+        "phase": "bidding",
+        "player": "Player 1",
+        "persona": "The Chaos Agent",
+        "urgency": 8,
+        "reasoning": "Player 2's hesitation is amusing, so I'll playfully taunt their doubt.",
+        "speech": "Oh, are you questioning my Aces, Player 2?",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 17,
+        "phase": "bidding",
+        "player": "Player 3",
+        "persona": "The Paranoid",
+        "urgency": 6,
+        "reasoning": "Player 2 calling Liar now could backfire if Player 1 is telling the truth, leaving Player 2 with the trigger.",
+        "speech": "Oh, Player 2, are you *sure* about that?",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 17,
+        "phase": "action",
+        "player": "Player 2",
+        "persona": "The Sweetheart",
+        "private_hand": [
+            "Q",
+            "A",
+            "Q",
+            "Q",
+            "K"
+        ],
+        "table_rank": "A",
+        "pile_size": 2,
+        "last_play": {
+            "player_id": "Player 1",
+            "cards_played": [
+                "K",
+                "K"
+            ],
+            "claimed_count": 2
+        },
+        "reasoning": "Player 1 claimed two Aces, and I only have one. The pile has two Aces already, so it's possible they're telling the truth, but I'll play it safe and add to the confusion.",
+        "action": {
+            "type": "play",
+            "cards": [
+                "Q",
+                "Q"
+            ]
+        },
+        "speech": "I play 1 A. Just trying to keep things interesting, Player 1!",
+        "result": "ACTION: Player 2 played 2 cards face down.",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 18,
+        "phase": "bidding",
+        "player": "Player 2",
+        "persona": "The Sweetheart",
+        "urgency": 8,
+        "reasoning": "I'm feeling pretty confident about my claim, as I have an Ace in my hand, and want to keep Player 3 guessing.",
+        "speech": "Oh, Player 3, don't worry about me, really!",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 18,
+        "phase": "bidding",
+        "player": "Player 4",
+        "persona": "The Hothead",
+        "urgency": 6,
+        "reasoning": "Player 3 calling Liar now risks triggering the revolver on themselves, potentially benefiting me if they're wrong.",
+        "speech": "Don't do it, Player 3. Just... don't.",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 18,
+        "phase": "action",
+        "player": "Player 3",
+        "persona": "The Paranoid",
+        "private_hand": [
+            "Q",
+            "A",
+            "A",
+            "K",
+            "Joker"
+        ],
+        "table_rank": "A",
+        "pile_size": 4,
+        "last_play": {
+            "player_id": "Player 2",
+            "cards_played": [
+                "Q",
+                "Q"
+            ],
+            "claimed_count": 2
+        },
+        "reasoning": "I have two A's and one Joker, so a maximum of 8 A's could exist. Player 1 and Player 2 claimed 4 A's total, and the pile has 4, so it's not impossible yet. I\u2019ll play a few to see what happens.",
+        "action": {
+            "type": "play",
+            "cards": [
+                "A",
+                "A"
+            ]
+        },
+        "speech": "I play 2 A. They\u2019re really pushing it, aren\u2019t they?",
+        "result": "ACTION: Player 3 played 2 cards face down.",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 19,
+        "phase": "bidding",
+        "player": "Player 3",
+        "persona": "The Paranoid",
+        "urgency": 8,
+        "reasoning": "They're really scrutinizing me; I have to maintain the appearance of certainty even though I'm not entirely sure.",
+        "speech": "Seriously, Player 4? Two Aces. What's the problem?",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 19,
+        "phase": "action",
+        "player": "Player 4",
+        "persona": "The Hothead",
+        "private_hand": [
+            "A",
+            "Joker",
+            "Q",
+            "A",
+            "A"
+        ],
+        "table_rank": "A",
+        "pile_size": 6,
+        "last_play": {
+            "player_id": "Player 3",
+            "cards_played": [
+                "A",
+                "A"
+            ],
+            "claimed_count": 2
+        },
+        "reasoning": "Player 3 claimed two Aces, and I have three. With the pile at six, it\u2019s possible they\u2019re telling the truth, but I\u2019m feeling aggressive. I'll risk it and play some cards.",
+        "action": {
+            "type": "play",
+            "cards": [
+                "A",
+                "Q"
+            ]
+        },
+        "speech": "I play 2 A. This is getting ridiculous, Player 3.",
+        "result": "ACTION: Player 4 played 2 cards face down.",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 20,
+        "phase": "bidding",
+        "player": "Player 4",
+        "persona": "The Hothead",
+        "urgency": 8,
+        "reasoning": "Player 1 is clearly suspicious, but I'm sticking to my guns and hoping they back down.",
+        "speech": "Seriously? Don't be ridiculous, Player 1.",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 20,
+        "phase": "bidding",
+        "player": "Player 3",
+        "persona": "The Paranoid",
+        "urgency": 7,
+        "reasoning": "Player 1 calling Liar now could trigger me if Player 4 is truthful, which I doubt.",
+        "speech": "Player 1, wait! Let's see what happens first...",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 20,
+        "phase": "action",
+        "player": "Player 1",
+        "persona": "The Chaos Agent",
+        "private_hand": [
+            "Q",
+            "K",
+            "K"
+        ],
+        "table_rank": "A",
+        "pile_size": 8,
+        "last_play": {
+            "player_id": "Player 4",
+            "cards_played": [
+                "A",
+                "Q"
+            ],
+            "claimed_count": 2
+        },
+        "reasoning": "I have zero A's and no Jokers, so the maximum possible A's are 6 + 2 = 8. The pile has 8 claimed A's, so it's possible. I'm feeling chaotic today, so I\u2019ll play a few to stir things up.",
+        "action": {
+            "type": "play",
+            "cards": [
+                "K",
+                "K"
+            ]
+        },
+        "speech": "I play 2 A. Seriously, Player 4, what are you even doing?",
+        "result": "ACTION: Player 1 played 2 cards face down.",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 21,
+        "phase": "bidding",
+        "player": "Player 1",
+        "persona": "The Chaos Agent",
+        "urgency": 8,
+        "reasoning": "Player 2's hesitation suggests they're onto something, so I'll lean into the confusion.",
+        "speech": "Really, Player 2? Two Aces are *that* suspicious?",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 21,
+        "phase": "bidding",
+        "player": "Player 3",
+        "persona": "The Paranoid",
+        "urgency": 7,
+        "reasoning": "Player 2 calling Liar now risks the trigger landing on them, which could benefit me.",
+        "speech": "Wait, Player 2! Are you *sure* about that call?",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 21,
+        "phase": "action",
+        "player": "Player 2",
+        "persona": "The Sweetheart",
+        "private_hand": [
+            "A",
+            "Q",
+            "K"
+        ],
+        "table_rank": "A",
+        "pile_size": 10,
+        "last_play": {
+            "player_id": "Player 1",
+            "cards_played": [
+                "K",
+                "K"
+            ],
+            "claimed_count": 2
+        },
+        "reasoning": "I have one Ace. That means a maximum of 8 Aces could be out there (6 + 2 Jokers). The pile size is 10, which is too high. I think Player 1 is pushing it.",
+        "action": {
+            "type": "call_liar",
+            "cards": []
+        },
+        "speech": "Liar! Ten Aces? That's a *lot*, Player 1, are you sure?",
+        "result": "CALL: Player 2 caught Player 1 LYING! They actually played: ['K', 'K']. *Click*. Player 1 survives... (4 chambers left).",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 22,
+        "phase": "action",
+        "player": "Player 1",
+        "persona": "The Chaos Agent",
+        "private_hand": [
+            "K",
+            "K",
+            "K",
+            "K",
+            "A"
+        ],
+        "table_rank": "A",
+        "pile_size": 0,
+        "last_play": null,
+        "reasoning": "It's the first round, so I must play. I have one A and can add Jokers to reach a believable count, confusing everyone.",
+        "action": {
+            "type": "play",
+            "cards": [
+                "K",
+                "A"
+            ]
+        },
+        "speech": "I play 2 A. This feels like a setup, doesn't it?",
+        "result": "ACTION: Player 1 played 2 cards face down.",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 23,
+        "phase": "bidding",
+        "player": "Player 1",
+        "persona": "The Chaos Agent",
+        "urgency": 8,
+        "reasoning": "Player 2's hesitation suggests they think I'm pushing them, so I'll amplify the confusion.",
+        "speech": "Seriously, Player 2, are you doubting *everything* now?",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 23,
+        "phase": "bidding",
+        "player": "Player 4",
+        "persona": "The Hothead",
+        "urgency": 6,
+        "reasoning": "Player 2 calling now risks the trigger landing on them if wrong, potentially benefitting me if they're mistaken.",
+        "speech": "Don't be reckless, Player 2. Really?",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 23,
+        "phase": "action",
+        "player": "Player 2",
+        "persona": "The Sweetheart",
+        "private_hand": [
+            "A",
+            "K",
+            "Q",
+            "A",
+            "Q"
+        ],
+        "table_rank": "A",
+        "pile_size": 2,
+        "last_play": {
+            "player_id": "Player 1",
+            "cards_played": [
+                "K",
+                "A"
+            ],
+            "claimed_count": 2
+        },
+        "reasoning": "I have two A's and there are two cards in the pile, so it's still possible Player 1 is telling the truth. I'll play a few cards to see where this goes and support the table.",
+        "action": {
+            "type": "play",
+            "cards": [
+                "K",
+                "Q"
+            ]
+        },
+        "speech": "I play 2 A. Hopefully, this doesn\u2019t cause too much trouble, Player 1!",
+        "result": "ACTION: Player 2 played 2 cards face down.",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 24,
+        "phase": "bidding",
+        "player": "Player 2",
+        "persona": "The Sweetheart",
+        "urgency": 8,
+        "reasoning": "I feel fairly confident, given my hand and Player 3's cautious nature.",
+        "speech": "Oh, Player 3, don't worry so much! Two Aces, really.",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 24,
+        "phase": "bidding",
+        "player": "Player 1",
+        "persona": "The Chaos Agent",
+        "urgency": 6,
+        "reasoning": "Player 3 calling Liar now could draw attention to me, so I'd rather they didn't.",
+        "speech": "Easy, Player 3. Let's see where this goes, yeah?",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 24,
+        "phase": "action",
+        "player": "Player 3",
+        "persona": "The Paranoid",
+        "private_hand": [
+            "A",
+            "A",
+            "Q",
+            "Q",
+            "Q"
+        ],
+        "table_rank": "A",
+        "pile_size": 4,
+        "last_play": {
+            "player_id": "Player 2",
+            "cards_played": [
+                "K",
+                "Q"
+            ],
+            "claimed_count": 2
+        },
+        "reasoning": "I have two A's, so a maximum of 8 A's (6 + 2 Jokers) could exist. Player 1 and 2 claimed 4 A's total, which is plausible. I'll play some cards to keep things moving.",
+        "action": {
+            "type": "play",
+            "cards": [
+                "Q",
+                "Q"
+            ]
+        },
+        "speech": "I play 2 A. Player 2's confidence is unnerving, honestly.",
+        "result": "ACTION: Player 3 played 2 cards face down.",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 25,
+        "phase": "bidding",
+        "player": "Player 3",
+        "persona": "The Paranoid",
+        "urgency": 8,
+        "reasoning": "Player 4 is definitely suspicious, but I'm sticking to my story for now.",
+        "speech": "Seriously? Player 4, are you questioning *me* now?",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 25,
+        "phase": "bidding",
+        "player": "Player 1",
+        "persona": "The Chaos Agent",
+        "urgency": 6,
+        "reasoning": "Player 4 calling Liar now could expose Player 3 and shift attention, potentially benefiting me later.",
+        "speech": "Go for it, Player 4. See what shakes loose.",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 25,
+        "phase": "action",
+        "player": "Player 4",
+        "persona": "The Hothead",
+        "private_hand": [
+            "Joker",
+            "K",
+            "Q",
+            "Joker",
+            "A"
+        ],
+        "table_rank": "A",
+        "pile_size": 6,
+        "last_play": {
+            "player_id": "Player 3",
+            "cards_played": [
+                "Q",
+                "Q"
+            ],
+            "claimed_count": 2
+        },
+        "reasoning": "Player 3 claimed two Aces, and I have one Ace and a Joker. The pile size is already high, and I think they're pushing it. I'm feeling reckless and calling them out.",
+        "action": {
+            "type": "call_liar",
+            "cards": []
+        },
+        "speech": "Liar! Too many Aces already, Player 3!",
+        "result": "CALL: Player 4 caught Player 3 LYING! They actually played: ['Q', 'Q']. *Click*. Player 3 survives... (3 chambers left).",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 26,
+        "phase": "action",
+        "player": "Player 3",
+        "persona": "The Paranoid",
+        "private_hand": [
+            "K",
+            "Joker",
+            "A",
+            "A",
+            "K"
+        ],
+        "table_rank": "A",
+        "pile_size": 0,
+        "last_play": null,
+        "reasoning": "I have two A's and one Joker, so I could truthfully claim up to 3 A's. The pile is empty, so it's early to accuse anyone. I\u2019ll play a few cards to see what happens.",
+        "action": {
+            "type": "play",
+            "cards": [
+                "A",
+                "Joker"
+            ]
+        },
+        "speech": "I play 2 A. This feels...wrong. Really wrong, actually.",
+        "result": "ACTION: Player 3 played 2 cards face down.",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 27,
+        "phase": "bidding",
+        "player": "Player 3",
+        "persona": "The Paranoid",
+        "urgency": 8,
+        "reasoning": "Player 4's hesitation is unsettling; they're clearly thinking hard about it.",
+        "speech": "They're really thinking... I *did* play two Aces.",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 27,
+        "phase": "bidding",
+        "player": "Player 1",
+        "persona": "The Chaos Agent",
+        "urgency": 7,
+        "reasoning": "Player 4 calling now could lead to a trigger if wrong, increasing my chances of winning.",
+        "speech": "Go for it, Player 4. Might shake things up nicely.",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 27,
+        "phase": "action",
+        "player": "Player 4",
+        "persona": "The Hothead",
+        "private_hand": [
+            "K",
+            "K",
+            "Q",
+            "Q",
+            "Joker"
+        ],
+        "table_rank": "A",
+        "pile_size": 2,
+        "last_play": {
+            "player_id": "Player 3",
+            "cards_played": [
+                "A",
+                "Joker"
+            ],
+            "claimed_count": 2
+        },
+        "reasoning": "I have one Joker, so I can claim up to 2 Aces. Player 3 said they played two Aces, and there are only two in the pile. I'm calling them out on it!",
+        "action": {
+            "type": "call_liar",
+            "cards": []
+        },
+        "speech": "Liar! Two Aces? Seriously, Player 3?",
+        "result": "CALL: Player 4 was wrong! Player 3 told the TRUTH. They played: ['A', 'Joker']. BANG! The revolver went off. Player 4 is eliminated!",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 28,
+        "phase": "action",
+        "player": "Player 1",
+        "persona": "The Chaos Agent",
+        "private_hand": [
+            "Joker",
+            "Q",
+            "Q",
+            "K",
+            "A"
+        ],
+        "table_rank": "K",
+        "pile_size": 0,
+        "last_play": null,
+        "reasoning": "I have one K and one Joker, so I can legitimately claim up to two Ks. The pile is empty, so there's no immediate contradiction, but I'm feeling mischievous.",
+        "action": {
+            "type": "play",
+            "cards": [
+                "Q",
+                "K"
+            ]
+        },
+        "speech": "I play 2 K. This is going to be fun to watch unfold.",
+        "result": "ACTION: Player 1 played 2 cards face down.",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 29,
+        "phase": "bidding",
+        "player": "Player 1",
+        "persona": "The Chaos Agent",
+        "urgency": 8,
+        "reasoning": "Player 2's hesitation is amusing; I'll lean into the confusion.",
+        "speech": "Go ahead, Player 2. Don't be shy.",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 29,
+        "phase": "bidding",
+        "player": "Player 3",
+        "persona": "The Paranoid",
+        "urgency": 6,
+        "reasoning": "Player 2 calling Liar now could backfire and put them on the trigger if they're wrong, which could benefit me.",
+        "speech": "Careful, Player 2. Feels a bit\u2026quick, doesn't it?",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 29,
+        "phase": "action",
+        "player": "Player 2",
+        "persona": "The Sweetheart",
+        "private_hand": [
+            "Q",
+            "K",
+            "A",
+            "A",
+            "A"
+        ],
+        "table_rank": "K",
+        "pile_size": 2,
+        "last_play": {
+            "player_id": "Player 1",
+            "cards_played": [
+                "Q",
+                "K"
+            ],
+            "claimed_count": 2
+        },
+        "reasoning": "I have one K and two Jokers, so I can legitimately claim up to three Ks. Player 1 claimed two Ks, and there are two cards already in the pile, so it's still plausible. I'll play a few cards to keep things moving.",
+        "action": {
+            "type": "play",
+            "cards": [
+                "K",
+                "A"
+            ]
+        },
+        "speech": "I play 2 K. Hopefully, this keeps things interesting, Player 3!",
+        "result": "ACTION: Player 2 played 2 cards face down.",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 30,
+        "phase": "bidding",
+        "player": "Player 2",
+        "persona": "The Sweetheart",
+        "urgency": 8,
+        "reasoning": "I'm feeling quite confident in my claim of two Kings, and want to encourage Player 3 to proceed with caution.",
+        "speech": "Oh, Player 3, don't get yourself into trouble now!",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 30,
+        "phase": "bidding",
+        "player": "Player 1",
+        "persona": "The Chaos Agent",
+        "urgency": 7,
+        "reasoning": "Player 3 calling now could backfire and put the trigger on them, which would be beneficial for me.",
+        "speech": "Easy there, Player 3. Don't rush into anything.",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 30,
+        "phase": "action",
+        "player": "Player 3",
+        "persona": "The Paranoid",
+        "private_hand": [
+            "Q",
+            "Joker",
+            "K",
+            "Q",
+            "A"
+        ],
+        "table_rank": "K",
+        "pile_size": 4,
+        "last_play": {
+            "player_id": "Player 2",
+            "cards_played": [
+                "K",
+                "A"
+            ],
+            "claimed_count": 2
+        },
+        "reasoning": "Player 2 claimed two K's, and I only have one. There are four cards already claimed, so it's possible, but feels suspicious. I'll play to see what happens.",
+        "action": {
+            "type": "play",
+            "cards": [
+                "K"
+            ]
+        },
+        "speech": "I play 1 K. Something about this feels really wrong, doesn't it?",
+        "result": "ACTION: Player 3 played 1 cards face down.",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 31,
+        "phase": "bidding",
+        "player": "Player 3",
+        "persona": "The Paranoid",
+        "urgency": 8,
+        "reasoning": "Player 1's hesitation is unsettling; I'm not entirely sure they believe me.",
+        "speech": "Are you going to call it, Player 1? Just say something!",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 31,
+        "phase": "action",
+        "player": "Player 1",
+        "persona": "The Chaos Agent",
+        "private_hand": [
+            "Joker",
+            "Q",
+            "A"
+        ],
+        "table_rank": "K",
+        "pile_size": 5,
+        "last_play": {
+            "player_id": "Player 3",
+            "cards_played": [
+                "K"
+            ],
+            "claimed_count": 1
+        },
+        "reasoning": "I have one Joker, so a maximum of 7 K's could exist. Player 2 and 3 already claimed 4, and there are 5 in the pile, exceeding the possible total. Player 3's claim feels very suspect, especially after that comment!",
+        "action": {
+            "type": "call_liar",
+            "cards": []
+        },
+        "speech": "Liar! Seven K's tops, Player 3. That's just...too much.",
+        "result": "CALL: Player 1 was wrong! Player 3 told the TRUTH. They played: ['K']. BANG! The revolver went off. Player 1 is eliminated!",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 32,
+        "phase": "action",
+        "player": "Player 2",
+        "persona": "The Sweetheart",
+        "private_hand": [
+            "K",
+            "Q",
+            "K",
+            "K",
+            "A"
+        ],
+        "table_rank": "A",
+        "pile_size": 0,
+        "last_play": null,
+        "reasoning": "It's the first round, so I need to play some cards. I have one A and two Jokers, so claiming 1 A seems reasonable to start things off.",
+        "action": {
+            "type": "play",
+            "cards": [
+                "A"
+            ]
+        },
+        "speech": "I play 1 A. Hopefully, this round will be a bit more exciting!",
+        "result": "ACTION: Player 2 played 1 cards face down.",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 33,
+        "phase": "bidding",
+        "player": "Player 2",
+        "persona": "The Sweetheart",
+        "urgency": 8,
+        "reasoning": "I'm feeling pretty confident, as I have a King and Queen, so calling me on an Ace would be a risk for Player 3.",
+        "speech": "Just trying to keep things moving, Player 3. Don't overthink it.",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 33,
+        "phase": "action",
+        "player": "Player 3",
+        "persona": "The Paranoid",
+        "private_hand": [
+            "K",
+            "A",
+            "K",
+            "Q",
+            "K"
+        ],
+        "table_rank": "A",
+        "pile_size": 1,
+        "last_play": {
+            "player_id": "Player 2",
+            "cards_played": [
+                "A"
+            ],
+            "claimed_count": 1
+        },
+        "reasoning": "I have one A and no Jokers. That means a maximum of 7 A's exist between everyone else and the pile. The pile has only one A, so it's not impossible yet, but Player 2 seems awfully eager.",
+        "action": {
+            "type": "play",
+            "cards": [
+                "K",
+                "K"
+            ]
+        },
+        "speech": "I play 2 A's. This is moving way too fast, isn't it?",
+        "result": "ACTION: Player 3 played 2 cards face down.",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 34,
+        "phase": "bidding",
+        "player": "Player 3",
+        "persona": "The Paranoid",
+        "urgency": 8,
+        "reasoning": "Player 2 seems to be really studying me, which makes me even more sure I'm right.",
+        "speech": "They're looking too hard, Player 2. Two Aces, I swear.",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 34,
+        "phase": "action",
+        "player": "Player 2",
+        "persona": "The Sweetheart",
+        "private_hand": [
+            "K",
+            "Q",
+            "K",
+            "K"
+        ],
+        "table_rank": "A",
+        "pile_size": 3,
+        "last_play": {
+            "player_id": "Player 3",
+            "cards_played": [
+                "K",
+                "K"
+            ],
+            "claimed_count": 2
+        },
+        "reasoning": "I have no Aces in my hand. Player 3 claimed two, and the pile already has three Aces. That's a lot of Aces floating around, and I don't think it's true.",
+        "action": {
+            "type": "call_liar",
+            "cards": []
+        },
+        "speech": "Liar! Three in the pile already, Player 3? That seems a bit much.",
+        "result": "CALL: Player 2 caught Player 3 LYING! They actually played: ['K', 'K']. *Click*. Player 3 survives... (2 chambers left).",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 35,
+        "phase": "action",
+        "player": "Player 3",
+        "persona": "The Paranoid",
+        "private_hand": [
+            "K",
+            "K",
+            "A",
+            "A",
+            "A"
+        ],
+        "table_rank": "K",
+        "pile_size": 0,
+        "last_play": null,
+        "reasoning": "I have two Kings and the pile is empty. It's early, so I'll play some cards. Hopefully, nobody is lying yet.",
+        "action": {
+            "type": "play",
+            "cards": [
+                "K",
+                "K"
+            ]
+        },
+        "speech": "I play 2 K's. This feels too quiet, doesn't it?",
+        "result": "ACTION: Player 3 played 2 cards face down.",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 36,
+        "phase": "bidding",
+        "player": "Player 3",
+        "persona": "The Paranoid",
+        "urgency": 8,
+        "reasoning": "They're really scrutinizing me... I need to appear confident, even though I'm not.",
+        "speech": "Two Kings, I said it. Just... two Kings, okay?",
+        "label": null,
+        "label_reason": null
+    },
+    {
+        "turn": 36,
+        "phase": "action",
+        "player": "Player 2",
+        "persona": "The Sweetheart",
+        "private_hand": [
+            "Joker",
+            "Q",
+            "Q",
+            "Joker",
+            "A"
+        ],
+        "table_rank": "K",
+        "pile_size": 2,
+        "last_play": {
+            "player_id": "Player 3",
+            "cards_played": [
+                "K",
+                "K"
+            ],
+            "claimed_count": 2
+        },
+        "reasoning": "I have two Jokers, which can be Kings. There are only two in the pile, and Player 3 just played two more. That seems a bit high, especially with my hand.",
+        "action": {
+            "type": "call_liar",
+            "cards": []
+        },
+        "speech": "Liar! Two Kings already? Seems like a lot, Player 3.",
+        "result": "CALL: Player 2 was wrong! Player 3 told the TRUTH. They played: ['K', 'K']. BANG! The revolver went off. Player 2 is eliminated!",
+        "label": null,
+        "label_reason": null
+    }
+]

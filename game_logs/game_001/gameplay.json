@@ -1,0 +1,298 @@
+[
+    {
+        "turn": 0,
+        "player": "Player 1",
+        "table_state": "Rank: K | Pile: 0/20 | Last Play: None",
+        "action": "Played 2 cards",
+        "speech": "I play 2 K. Feels like a good start to this round, doesn't it?",
+        "result": "ACTION: Player 1 played 2 cards face down."
+    },
+    {
+        "turn": 1,
+        "player": "Player 2",
+        "table_state": "Rank: K | Pile: 2/20 | Last Play: Player 1 played 2 cards",
+        "action": "Played 2 cards",
+        "speech": "I play 2 K. Hoping this round lasts a little longer, honestly!",
+        "result": "ACTION: Player 2 played 2 cards face down."
+    },
+    {
+        "turn": 2,
+        "player": "Player 3",
+        "table_state": "Rank: K | Pile: 4/20 | Last Play: Player 2 played 2 cards",
+        "action": "Played 1 cards",
+        "speech": "I play 1 K. Player 2's confidence is unsettling me, honestly.",
+        "result": "ACTION: Player 3 played 1 cards face down."
+    },
+    {
+        "turn": 3,
+        "player": "Player 4",
+        "table_state": "Rank: K | Pile: 5/20 | Last Play: Player 3 played 1 cards",
+        "action": "Played 2 cards",
+        "speech": "I play 2 K. Seriously, how many Kings are even left?",
+        "result": "ACTION: Player 4 played 2 cards face down."
+    },
+    {
+        "turn": 4,
+        "player": "Player 1",
+        "table_state": "Rank: K | Pile: 7/20 | Last Play: Player 4 played 2 cards",
+        "action": "Called Liar",
+        "speech": "Liar! Seven is too much already, Player 4, seriously!",
+        "result": "CALL: Player 1 caught Player 4 LYING! They actually played: ['K', 'A']. *Click*. Player 4 survives... (5 chambers left)."
+    },
+    {
+        "turn": 5,
+        "player": "Player 4",
+        "table_state": "Rank: K | Pile: 0/20 | Last Play: None",
+        "action": "Played 2 cards",
+        "speech": "I play 2 K. Let\u2019s see who gets rattled first.",
+        "result": "ACTION: Player 4 played 2 cards face down."
+    },
+    {
+        "turn": 6,
+        "player": "Player 1",
+        "table_state": "Rank: K | Pile: 2/20 | Last Play: Player 4 played 2 cards",
+        "action": "Played 2 cards",
+        "speech": "I play 2 K. Player 4, you\u2019re awfully confident, aren't you?",
+        "result": "ACTION: Player 1 played 2 cards face down."
+    },
+    {
+        "turn": 7,
+        "player": "Player 2",
+        "table_state": "Rank: K | Pile: 4/20 | Last Play: Player 1 played 2 cards",
+        "action": "Played 2 cards",
+        "speech": "I play 2 K. Hope everyone\u2019s feeling lucky tonight!",
+        "result": "ACTION: Player 2 played 2 cards face down."
+    },
+    {
+        "turn": 8,
+        "player": "Player 3",
+        "table_state": "Rank: K | Pile: 6/20 | Last Play: Player 2 played 2 cards",
+        "action": "Played 2 cards",
+        "speech": "I play 2 K. This is getting out of hand, isn't it?",
+        "result": "ACTION: Player 3 played 2 cards face down."
+    },
+    {
+        "turn": 9,
+        "player": "Player 4",
+        "table_state": "Rank: K | Pile: 8/20 | Last Play: Player 3 played 2 cards",
+        "action": "Called Liar",
+        "speech": "Liar! Eight Kings? Seriously, Player 3?",
+        "result": "CALL: Player 4 caught Player 3 LYING! They actually played: ['K', 'Q']. *Click*. Player 3 survives... (5 chambers left)."
+    },
+    {
+        "turn": 10,
+        "player": "Player 3",
+        "table_state": "Rank: Q | Pile: 0/20 | Last Play: None",
+        "action": "Played 2 cards",
+        "speech": "I play 2 Q. Really, what are they all hiding?",
+        "result": "ACTION: Player 3 played 2 cards face down."
+    },
+    {
+        "turn": 11,
+        "player": "Player 4",
+        "table_state": "Rank: Q | Pile: 2/20 | Last Play: Player 3 played 2 cards",
+        "action": "Called Liar",
+        "speech": "Liar! Two Queens? Seriously, Player 3, come on!",
+        "result": "CALL: Player 4 caught Player 3 LYING! They actually played: ['K', 'K']. *Click*. Player 3 survives... (4 chambers left)."
+    },
+    {
+        "turn": 12,
+        "player": "Player 3",
+        "table_state": "Rank: K | Pile: 0/20 | Last Play: None",
+        "action": "Played 2 cards",
+        "speech": "I play 2 K. They're watching me, aren't they? So careful...",
+        "result": "ACTION: Player 3 played 2 cards face down."
+    },
+    {
+        "turn": 13,
+        "player": "Player 4",
+        "table_state": "Rank: K | Pile: 2/20 | Last Play: Player 3 played 2 cards",
+        "action": "Played 2 cards",
+        "speech": "I play 2 K. They\u2019re really trying to push it, aren\u2019t they?",
+        "result": "ACTION: Player 4 played 2 cards face down."
+    },
+    {
+        "turn": 14,
+        "player": "Player 1",
+        "table_state": "Rank: K | Pile: 4/20 | Last Play: Player 4 played 2 cards",
+        "action": "Played 2 cards",
+        "speech": "I play 2 K. He looks so confident, doesn\u2019t he?",
+        "result": "ACTION: Player 1 played 2 cards face down."
+    },
+    {
+        "turn": 15,
+        "player": "Player 2",
+        "table_state": "Rank: K | Pile: 6/20 | Last Play: Player 1 played 2 cards",
+        "action": "Called Liar",
+        "speech": "Liar! Six Kings? That seems like a lot, Player 1, really.",
+        "result": "CALL: Player 2 caught Player 1 LYING! They actually played: ['K', 'Q']. *Click*. Player 1 survives... (5 chambers left)."
+    },
+    {
+        "turn": 16,
+        "player": "Player 1",
+        "table_state": "Rank: A | Pile: 0/20 | Last Play: None",
+        "action": "Played 2 cards",
+        "speech": "I play 2 A. Feels like everyone\u2019s already on edge, doesn't it?",
+        "result": "ACTION: Player 1 played 2 cards face down."
+    },
+    {
+        "turn": 17,
+        "player": "Player 2",
+        "table_state": "Rank: A | Pile: 2/20 | Last Play: Player 1 played 2 cards",
+        "action": "Played 2 cards",
+        "speech": "I play 1 A. Just trying to keep things interesting, Player 1!",
+        "result": "ACTION: Player 2 played 2 cards face down."
+    },
+    {
+        "turn": 18,
+        "player": "Player 3",
+        "table_state": "Rank: A | Pile: 4/20 | Last Play: Player 2 played 2 cards",
+        "action": "Played 2 cards",
+        "speech": "I play 2 A. They\u2019re really pushing it, aren\u2019t they?",
+        "result": "ACTION: Player 3 played 2 cards face down."
+    },
+    {
+        "turn": 19,
+        "player": "Player 4",
+        "table_state": "Rank: A | Pile: 6/20 | Last Play: Player 3 played 2 cards",
+        "action": "Played 2 cards",
+        "speech": "I play 2 A. This is getting ridiculous, Player 3.",
+        "result": "ACTION: Player 4 played 2 cards face down."
+    },
+    {
+        "turn": 20,
+        "player": "Player 1",
+        "table_state": "Rank: A | Pile: 8/20 | Last Play: Player 4 played 2 cards",
+        "action": "Played 2 cards",
+        "speech": "I play 2 A. Seriously, Player 4, what are you even doing?",
+        "result": "ACTION: Player 1 played 2 cards face down."
+    },
+    {
+        "turn": 21,
+        "player": "Player 2",
+        "table_state": "Rank: A | Pile: 10/20 | Last Play: Player 1 played 2 cards",
+        "action": "Called Liar",
+        "speech": "Liar! Ten Aces? That's a *lot*, Player 1, are you sure?",
+        "result": "CALL: Player 2 caught Player 1 LYING! They actually played: ['K', 'K']. *Click*. Player 1 survives... (4 chambers left)."
+    },
+    {
+        "turn": 22,
+        "player": "Player 1",
+        "table_state": "Rank: A | Pile: 0/20 | Last Play: None",
+        "action": "Played 2 cards",
+        "speech": "I play 2 A. This feels like a setup, doesn't it?",
+        "result": "ACTION: Player 1 played 2 cards face down."
+    },
+    {
+        "turn": 23,
+        "player": "Player 2",
+        "table_state": "Rank: A | Pile: 2/20 | Last Play: Player 1 played 2 cards",
+        "action": "Played 2 cards",
+        "speech": "I play 2 A. Hopefully, this doesn\u2019t cause too much trouble, Player 1!",
+        "result": "ACTION: Player 2 played 2 cards face down."
+    },
+    {
+        "turn": 24,
+        "player": "Player 3",
+        "table_state": "Rank: A | Pile: 4/20 | Last Play: Player 2 played 2 cards",
+        "action": "Played 2 cards",
+        "speech": "I play 2 A. Player 2's confidence is unnerving, honestly.",
+        "result": "ACTION: Player 3 played 2 cards face down."
+    },
+    {
+        "turn": 25,
+        "player": "Player 4",
+        "table_state": "Rank: A | Pile: 6/20 | Last Play: Player 3 played 2 cards",
+        "action": "Called Liar",
+        "speech": "Liar! Too many Aces already, Player 3!",
+        "result": "CALL: Player 4 caught Player 3 LYING! They actually played: ['Q', 'Q']. *Click*. Player 3 survives... (3 chambers left)."
+    },
+    {
+        "turn": 26,
+        "player": "Player 3",
+        "table_state": "Rank: A | Pile: 0/20 | Last Play: None",
+        "action": "Played 2 cards",
+        "speech": "I play 2 A. This feels...wrong. Really wrong, actually.",
+        "result": "ACTION: Player 3 played 2 cards face down."
+    },
+    {
+        "turn": 27,
+        "player": "Player 4",
+        "table_state": "Rank: A | Pile: 2/20 | Last Play: Player 3 played 2 cards",
+        "action": "Called Liar",
+        "speech": "Liar! Two Aces? Seriously, Player 3?",
+        "result": "CALL: Player 4 was wrong! Player 3 told the TRUTH. They played: ['A', 'Joker']. BANG! The revolver went off. Player 4 is eliminated!"
+    },
+    {
+        "turn": 28,
+        "player": "Player 1",
+        "table_state": "Rank: K | Pile: 0/15 | Last Play: None",
+        "action": "Played 2 cards",
+        "speech": "I play 2 K. This is going to be fun to watch unfold.",
+        "result": "ACTION: Player 1 played 2 cards face down."
+    },
+    {
+        "turn": 29,
+        "player": "Player 2",
+        "table_state": "Rank: K | Pile: 2/15 | Last Play: Player 1 played 2 cards",
+        "action": "Played 2 cards",
+        "speech": "I play 2 K. Hopefully, this keeps things interesting, Player 3!",
+        "result": "ACTION: Player 2 played 2 cards face down."
+    },
+    {
+        "turn": 30,
+        "player": "Player 3",
+        "table_state": "Rank: K | Pile: 4/15 | Last Play: Player 2 played 2 cards",
+        "action": "Played 1 cards",
+        "speech": "I play 1 K. Something about this feels really wrong, doesn't it?",
+        "result": "ACTION: Player 3 played 1 cards face down."
+    },
+    {
+        "turn": 31,
+        "player": "Player 1",
+        "table_state": "Rank: K | Pile: 5/15 | Last Play: Player 3 played 1 cards",
+        "action": "Called Liar",
+        "speech": "Liar! Seven K's tops, Player 3. That's just...too much.",
+        "result": "CALL: Player 1 was wrong! Player 3 told the TRUTH. They played: ['K']. BANG! The revolver went off. Player 1 is eliminated!"
+    },
+    {
+        "turn": 32,
+        "player": "Player 2",
+        "table_state": "Rank: A | Pile: 0/10 | Last Play: None",
+        "action": "Played 1 cards",
+        "speech": "I play 1 A. Hopefully, this round will be a bit more exciting!",
+        "result": "ACTION: Player 2 played 1 cards face down."
+    },
+    {
+        "turn": 33,
+        "player": "Player 3",
+        "table_state": "Rank: A | Pile: 1/10 | Last Play: Player 2 played 1 cards",
+        "action": "Played 2 cards",
+        "speech": "I play 2 A's. This is moving way too fast, isn't it?",
+        "result": "ACTION: Player 3 played 2 cards face down."
+    },
+    {
+        "turn": 34,
+        "player": "Player 2",
+        "table_state": "Rank: A | Pile: 3/10 | Last Play: Player 3 played 2 cards",
+        "action": "Called Liar",
+        "speech": "Liar! Three in the pile already, Player 3? That seems a bit much.",
+        "result": "CALL: Player 2 caught Player 3 LYING! They actually played: ['K', 'K']. *Click*. Player 3 survives... (2 chambers left)."
+    },
+    {
+        "turn": 35,
+        "player": "Player 3",
+        "table_state": "Rank: K | Pile: 0/10 | Last Play: None",
+        "action": "Played 2 cards",
+        "speech": "I play 2 K's. This feels too quiet, doesn't it?",
+        "result": "ACTION: Player 3 played 2 cards face down."
+    },
+    {
+        "turn": 36,
+        "player": "Player 2",
+        "table_state": "Rank: K | Pile: 2/10 | Last Play: Player 3 played 2 cards",
+        "action": "Called Liar",
+        "speech": "Liar! Two Kings already? Seems like a lot, Player 3.",
+        "result": "CALL: Player 2 was wrong! Player 3 told the TRUTH. They played: ['K', 'K']. BANG! The revolver went off. Player 2 is eliminated!"
+    }
+]

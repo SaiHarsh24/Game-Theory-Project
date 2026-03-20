@@ -1,0 +1,250 @@
+=== LIAR'S BAR - GAME NARRATIVE ===
+
+
+--- NEW ROUND: The table rank is K ---
+
+Turn 0 | Player 1 is acting...
+[Player 1 SPEECH]: I play 2 K. Feels like a good start to this round, doesn't it?
+>>> ACTION: Player 1 played 2 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: They're thinking too hard. Two Kings, simple as that.
+[INTERRUPT] Player 3: Wait, Player 2? Really going for it now?
+
+Turn 1 | Player 2 is acting...
+[Player 2 SPEECH]: I play 2 K. Hoping this round lasts a little longer, honestly!
+>>> ACTION: Player 2 played 2 cards face down.
+----------------------------------------
+[INTERRUPT] Player 2: Oh dear, Player 3, you seem worried!
+[INTERRUPT] Player 4: Don't do it, 3. Too soon.
+
+Turn 2 | Player 3 is acting...
+[Player 3 SPEECH]: I play 1 K. Player 2's confidence is unsettling me, honestly.
+>>> ACTION: Player 3 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 3: Seriously? Just one King. What's the big deal?
+[INTERRUPT] Player 1: Player 4, hold up. Let's see what happens first.
+
+Turn 3 | Player 4 is acting...
+[Player 4 SPEECH]: I play 2 K. Seriously, how many Kings are even left?
+>>> ACTION: Player 4 played 2 cards face down.
+----------------------------------------
+[INTERRUPT] Player 4: Just two Kings. Seriously, what's the problem, 1?
+[INTERRUPT] Player 3: Wait, Player 1... are you sure about this?
+
+Turn 4 | Player 1 is acting...
+[Player 1 SPEECH]: Liar! Seven is too much already, Player 4, seriously!
+>>> CALL: Player 1 caught Player 4 LYING! They actually played: ['K', 'A']. >>> *Click*. Player 4 survives... (5 chambers left).
+----------------------------------------
+
+Turn 5 | Player 4 is acting...
+[Player 4 SPEECH]: I play 2 K. Let�s see who gets rattled first.
+>>> ACTION: Player 4 played 2 cards face down.
+----------------------------------------
+[INTERRUPT] Player 4: Seriously? You questioning me, 1?
+
+Turn 6 | Player 1 is acting...
+[Player 1 SPEECH]: I play 2 K. Player 4, you�re awfully confident, aren't you?
+>>> ACTION: Player 1 played 2 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Really? You doubting my Kings, Player 2?
+[INTERRUPT] Player 4: Don't be stupid. Let me see what happens.
+
+Turn 7 | Player 2 is acting...
+[Player 2 SPEECH]: I play 2 K. Hope everyone�s feeling lucky tonight!
+>>> ACTION: Player 2 played 2 cards face down.
+----------------------------------------
+[INTERRUPT] Player 2: Oh, Player 3, don't worry so much, it's just Kings!
+[INTERRUPT] Player 4: Don't be a fool, 3. Let it ride.
+
+Turn 8 | Player 3 is acting...
+[Player 3 SPEECH]: I play 2 K. This is getting out of hand, isn't it?
+>>> ACTION: Player 3 played 2 cards face down.
+----------------------------------------
+[INTERRUPT] Player 3: Are you going to call it, Player 4? Just two Kings, I swear!
+[INTERRUPT] Player 2: Oh, Player 4, give it a little more thought, okay?
+
+Turn 9 | Player 4 is acting...
+[Player 4 SPEECH]: Liar! Eight Kings? Seriously, Player 3?
+>>> CALL: Player 4 caught Player 3 LYING! They actually played: ['K', 'Q']. >>> *Click*. Player 3 survives... (5 chambers left).
+----------------------------------------
+
+--- NEW ROUND: The table rank is Q ---
+
+Turn 10 | Player 3 is acting...
+[Player 3 SPEECH]: I play 2 Q. Really, what are they all hiding?
+>>> ACTION: Player 3 played 2 cards face down.
+----------------------------------------
+[INTERRUPT] Player 3: They're looking for a weakness... two Queens, I tell you!
+[INTERRUPT] Player 2: Oh, Player 4, just take your time, okay?
+
+Turn 11 | Player 4 is acting...
+[Player 4 SPEECH]: Liar! Two Queens? Seriously, Player 3, come on!
+>>> CALL: Player 4 caught Player 3 LYING! They actually played: ['K', 'K']. >>> *Click*. Player 3 survives... (4 chambers left).
+----------------------------------------
+
+--- NEW ROUND: The table rank is K ---
+
+Turn 12 | Player 3 is acting...
+[Player 3 SPEECH]: I play 2 K. They're watching me, aren't they? So careful...
+>>> ACTION: Player 3 played 2 cards face down.
+----------------------------------------
+[INTERRUPT] Player 3: They're thinking... two Kings. Absolutely two Kings, Player 4.
+
+Turn 13 | Player 4 is acting...
+[Player 4 SPEECH]: I play 2 K. They�re really trying to push it, aren�t they?
+>>> ACTION: Player 4 played 2 cards face down.
+----------------------------------------
+[INTERRUPT] Player 4: Look at him. He's questioning me. Two Kings.
+[INTERRUPT] Player 3: Wait, Player 1? Are you sure about that call?
+
+Turn 14 | Player 1 is acting...
+[Player 1 SPEECH]: I play 2 K. He looks so confident, doesn�t he?
+>>> ACTION: Player 1 played 2 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Really staring, huh? Two Kings, I said.
+[INTERRUPT] Player 3: Player 2, are you *sure*? This feels� rushed.
+
+Turn 15 | Player 2 is acting...
+[Player 2 SPEECH]: Liar! Six Kings? That seems like a lot, Player 1, really.
+>>> CALL: Player 2 caught Player 1 LYING! They actually played: ['K', 'Q']. >>> *Click*. Player 1 survives... (5 chambers left).
+----------------------------------------
+
+--- NEW ROUND: The table rank is A ---
+
+Turn 16 | Player 1 is acting...
+[Player 1 SPEECH]: I play 2 A. Feels like everyone�s already on edge, doesn't it?
+>>> ACTION: Player 1 played 2 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Oh, are you questioning my Aces, Player 2?
+[INTERRUPT] Player 3: Oh, Player 2, are you *sure* about that?
+
+Turn 17 | Player 2 is acting...
+[Player 2 SPEECH]: I play 1 A. Just trying to keep things interesting, Player 1!
+>>> ACTION: Player 2 played 2 cards face down.
+----------------------------------------
+[INTERRUPT] Player 2: Oh, Player 3, don't worry about me, really!
+[INTERRUPT] Player 4: Don't do it, Player 3. Just... don't.
+
+Turn 18 | Player 3 is acting...
+[Player 3 SPEECH]: I play 2 A. They�re really pushing it, aren�t they?
+>>> ACTION: Player 3 played 2 cards face down.
+----------------------------------------
+[INTERRUPT] Player 3: Seriously, Player 4? Two Aces. What's the problem?
+
+Turn 19 | Player 4 is acting...
+[Player 4 SPEECH]: I play 2 A. This is getting ridiculous, Player 3.
+>>> ACTION: Player 4 played 2 cards face down.
+----------------------------------------
+[INTERRUPT] Player 4: Seriously? Don't be ridiculous, Player 1.
+[INTERRUPT] Player 3: Player 1, wait! Let's see what happens first...
+
+Turn 20 | Player 1 is acting...
+[Player 1 SPEECH]: I play 2 A. Seriously, Player 4, what are you even doing?
+>>> ACTION: Player 1 played 2 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Really, Player 2? Two Aces are *that* suspicious?
+[INTERRUPT] Player 3: Wait, Player 2! Are you *sure* about that call?
+
+Turn 21 | Player 2 is acting...
+[Player 2 SPEECH]: Liar! Ten Aces? That's a *lot*, Player 1, are you sure?
+>>> CALL: Player 2 caught Player 1 LYING! They actually played: ['K', 'K']. >>> *Click*. Player 1 survives... (4 chambers left).
+----------------------------------------
+
+Turn 22 | Player 1 is acting...
+[Player 1 SPEECH]: I play 2 A. This feels like a setup, doesn't it?
+>>> ACTION: Player 1 played 2 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Seriously, Player 2, are you doubting *everything* now?
+[INTERRUPT] Player 4: Don't be reckless, Player 2. Really?
+
+Turn 23 | Player 2 is acting...
+[Player 2 SPEECH]: I play 2 A. Hopefully, this doesn�t cause too much trouble, Player 1!
+>>> ACTION: Player 2 played 2 cards face down.
+----------------------------------------
+[INTERRUPT] Player 2: Oh, Player 3, don't worry so much! Two Aces, really.
+[INTERRUPT] Player 1: Easy, Player 3. Let's see where this goes, yeah?
+
+Turn 24 | Player 3 is acting...
+[Player 3 SPEECH]: I play 2 A. Player 2's confidence is unnerving, honestly.
+>>> ACTION: Player 3 played 2 cards face down.
+----------------------------------------
+[INTERRUPT] Player 3: Seriously? Player 4, are you questioning *me* now?
+[INTERRUPT] Player 1: Go for it, Player 4. See what shakes loose.
+
+Turn 25 | Player 4 is acting...
+[Player 4 SPEECH]: Liar! Too many Aces already, Player 3!
+>>> CALL: Player 4 caught Player 3 LYING! They actually played: ['Q', 'Q']. >>> *Click*. Player 3 survives... (3 chambers left).
+----------------------------------------
+
+Turn 26 | Player 3 is acting...
+[Player 3 SPEECH]: I play 2 A. This feels...wrong. Really wrong, actually.
+>>> ACTION: Player 3 played 2 cards face down.
+----------------------------------------
+[INTERRUPT] Player 3: They're really thinking... I *did* play two Aces.
+[INTERRUPT] Player 1: Go for it, Player 4. Might shake things up nicely.
+
+Turn 27 | Player 4 is acting...
+[Player 4 SPEECH]: Liar! Two Aces? Seriously, Player 3?
+>>> CALL: Player 4 was wrong! Player 3 told the TRUTH. They played: ['A', 'Joker']. >>> BANG! The revolver went off. Player 4 is eliminated!
+----------------------------------------
+
+--- NEW ROUND: The table rank is K ---
+
+Turn 28 | Player 1 is acting...
+[Player 1 SPEECH]: I play 2 K. This is going to be fun to watch unfold.
+>>> ACTION: Player 1 played 2 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Go ahead, Player 2. Don't be shy.
+[INTERRUPT] Player 3: Careful, Player 2. Feels a bit�quick, doesn't it?
+
+Turn 29 | Player 2 is acting...
+[Player 2 SPEECH]: I play 2 K. Hopefully, this keeps things interesting, Player 3!
+>>> ACTION: Player 2 played 2 cards face down.
+----------------------------------------
+[INTERRUPT] Player 2: Oh, Player 3, don't get yourself into trouble now!
+[INTERRUPT] Player 1: Easy there, Player 3. Don't rush into anything.
+
+Turn 30 | Player 3 is acting...
+[Player 3 SPEECH]: I play 1 K. Something about this feels really wrong, doesn't it?
+>>> ACTION: Player 3 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 3: Are you going to call it, Player 1? Just say something!
+
+Turn 31 | Player 1 is acting...
+[Player 1 SPEECH]: Liar! Seven K's tops, Player 3. That's just...too much.
+>>> CALL: Player 1 was wrong! Player 3 told the TRUTH. They played: ['K']. >>> BANG! The revolver went off. Player 1 is eliminated!
+----------------------------------------
+
+--- NEW ROUND: The table rank is A ---
+
+Turn 32 | Player 2 is acting...
+[Player 2 SPEECH]: I play 1 A. Hopefully, this round will be a bit more exciting!
+>>> ACTION: Player 2 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 2: Just trying to keep things moving, Player 3. Don't overthink it.
+
+Turn 33 | Player 3 is acting...
+[Player 3 SPEECH]: I play 2 A's. This is moving way too fast, isn't it?
+>>> ACTION: Player 3 played 2 cards face down.
+----------------------------------------
+[INTERRUPT] Player 3: They're looking too hard, Player 2. Two Aces, I swear.
+
+Turn 34 | Player 2 is acting...
+[Player 2 SPEECH]: Liar! Three in the pile already, Player 3? That seems a bit much.
+>>> CALL: Player 2 caught Player 3 LYING! They actually played: ['K', 'K']. >>> *Click*. Player 3 survives... (2 chambers left).
+----------------------------------------
+
+--- NEW ROUND: The table rank is K ---
+
+Turn 35 | Player 3 is acting...
+[Player 3 SPEECH]: I play 2 K's. This feels too quiet, doesn't it?
+>>> ACTION: Player 3 played 2 cards face down.
+----------------------------------------
+[INTERRUPT] Player 3: Two Kings, I said it. Just... two Kings, okay?
+
+Turn 36 | Player 2 is acting...
+[Player 2 SPEECH]: Liar! Two Kings already? Seems like a lot, Player 3.
+>>> CALL: Player 2 was wrong! Player 3 told the TRUTH. They played: ['K', 'K']. >>> BANG! The revolver went off. Player 2 is eliminated!
+----------------------------------------
+
+=== GAME OVER | Winner: Player 3 ===
