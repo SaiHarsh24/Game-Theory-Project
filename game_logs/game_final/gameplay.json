@@ -1,0 +1,802 @@
+[
+    {
+        "turn": 0,
+        "player": "Player 1",
+        "table_state": "Rank: A | Pile: 0 | Last Play: None",
+        "action": "Played 1 cards",
+        "speech": "I am playing two As. You're all just a bunch of amateur liars trying to take me down, but I'm the master of deception!",
+        "result": "ACTION: Player 1 played 1 cards face down."
+    },
+    {
+        "turn": 1,
+        "player": "Player 2",
+        "table_state": "Rank: A | Pile: 1 | Last Play: Player 1 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I am playing two As, and Player 1 is just a rookie trying to get in the way of a mastermind like me",
+        "result": "ACTION: Player 2 played 1 cards face down."
+    },
+    {
+        "turn": 2,
+        "player": "Player 3",
+        "table_state": "Rank: A | Pile: 2 | Last Play: Player 2 played 1 cards",
+        "action": "Played 2 cards",
+        "speech": "I am playing two As. Player 2's trying to distract from their own shaky foundation, but my As will crush their amateur hour!",
+        "result": "ACTION: Player 3 played 2 cards face down."
+    },
+    {
+        "turn": 3,
+        "player": "Player 4",
+        "table_state": "Rank: A | Pile: 4 | Last Play: Player 3 played 2 cards",
+        "action": "Played 2 cards",
+        "speech": "I am playing two As, and Player 3's trying to read my game is just a desperate attempt to distract from their own shaky foundation!",
+        "result": "ACTION: Player 4 played 2 cards face down."
+    },
+    {
+        "turn": 4,
+        "player": "Player 1",
+        "table_state": "Rank: A | Pile: 6 | Last Play: Player 4 played 2 cards",
+        "action": "Played 1 cards",
+        "speech": "I am playing two As, and Player 4's attempt to anchor the table is just a smokescreen for their own hidden agenda!",
+        "result": "ACTION: Player 1 played 1 cards face down."
+    },
+    {
+        "turn": 5,
+        "player": "Player 2",
+        "table_state": "Rank: A | Pile: 7 | Last Play: Player 1 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I am playing two As, and Player 1's foundation is already crumbling under the weight of their own lies",
+        "result": "ACTION: Player 2 played 1 cards face down."
+    },
+    {
+        "turn": 6,
+        "player": "Player 3",
+        "table_state": "Rank: A | Pile: 8 | Last Play: Player 2 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Player 1's attempts to anchor the table are laughable, and I'm about to blow their foundation to smithereens with my two As",
+        "result": "ACTION: Player 3 played 1 cards face down."
+    },
+    {
+        "turn": 7,
+        "player": "Player 4",
+        "table_state": "Rank: A | Pile: 9 | Last Play: Player 3 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I am playing two As, and Player 3's supposed solid foundation is about to crumble under the weight of their own hubris",
+        "result": "ACTION: Player 4 played 1 cards face down."
+    },
+    {
+        "turn": 8,
+        "player": "Player 1",
+        "table_state": "Rank: A | Pile: 10 | Last Play: Player 4 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I'm playing two As, and Player 4's so-called 'solid foundation' just got a major crack in it. They're so busy trying to gaslight everyone, they didn't even notice I just hijacked their narrative!",
+        "result": "ACTION: Player 1 played 1 cards face down."
+    },
+    {
+        "turn": 9,
+        "player": "Player 2",
+        "table_state": "Rank: A | Pile: 11 | Last Play: Player 1 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I am playing two As, and Player 1's 'Ace' just got a new challenger. Bring it on, try to keep up with my royal flush!",
+        "result": "ACTION: Player 2 played 1 cards face down."
+    },
+    {
+        "turn": 10,
+        "player": "Player 3",
+        "table_state": "Rank: A | Pile: 12 | Last Play: Player 2 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I am playing two As, and Player 2's desperation is starting to show in their shaky foundation.",
+        "result": "ACTION: Player 3 played 1 cards face down."
+    },
+    {
+        "turn": 11,
+        "player": "Player 4",
+        "table_state": "Rank: A | Pile: 13 | Last Play: Player 3 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Player 3's confidence is starting to wane, and I'm here to deliver the knockout punch - I play two As, and only a fool would underestimate my mastery of the table!",
+        "result": "ACTION: Player 4 played 1 cards face down."
+    },
+    {
+        "turn": 12,
+        "player": "Player 1",
+        "table_state": "Rank: A | Pile: 14 | Last Play: Player 4 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I am playing two As, and if you're not careful, you'll find yourself drowning in a sea of deception, just like Player 4's credibility is sinking fast!",
+        "result": "ACTION: Player 1 played 1 cards face down."
+    },
+    {
+        "turn": 13,
+        "player": "Player 2",
+        "table_state": "Rank: A | Pile: 15 | Last Play: Player 1 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I am playing two As, and Player 4's bluffing skills are about to get demolished",
+        "result": "ACTION: Player 2 played 1 cards face down."
+    },
+    {
+        "turn": 14,
+        "player": "Player 3",
+        "table_state": "Rank: A | Pile: 16 | Last Play: Player 2 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I am playing two As. You're so predictable, Player 2, I'm not surprised you'd try to gaslight everyone with your fake bravado",
+        "result": "ACTION: Player 3 played 1 cards face down."
+    },
+    {
+        "turn": 15,
+        "player": "Player 4",
+        "table_state": "Rank: A | Pile: 17 | Last Play: Player 3 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I am playing two As, and Player 3's foundation is about to crumble under the weight of their own desperation!",
+        "result": "ACTION: Player 4 played 1 cards face down."
+    },
+    {
+        "turn": 16,
+        "player": "Player 1",
+        "table_state": "Rank: A | Pile: 18 | Last Play: Player 4 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I am playing two As. Player 4's desperate attempts to distract us are about to backfire, and I'm about to take them down with my unstoppable A-force!",
+        "result": "ACTION: Player 1 played 1 cards face down."
+    },
+    {
+        "turn": 17,
+        "player": "Player 2",
+        "table_state": "Rank: A | Pile: 19 | Last Play: Player 1 played 1 cards",
+        "action": "Called Liar",
+        "speech": "I am playing two As. Player 1's already-dead hand is reanimating, but my A-force is about to crush it!",
+        "result": "CALL: Player 2 caught Player 1 LYING! They actually played: ['Q']. *Click*. Player 1 survives... (5 chambers left)."
+    },
+    {
+        "turn": 18,
+        "player": "Player 1",
+        "table_state": "Rank: K | Pile: 0 | Last Play: None",
+        "action": "Played 1 cards",
+        "speech": "I am playing two Ks. You think you can outsmart me, but I've got the upper hand here, and my Ks are going to crush your pitiful attempts to take me down!",
+        "result": "ACTION: Player 1 played 1 cards face down."
+    },
+    {
+        "turn": 19,
+        "player": "Player 2",
+        "table_state": "Rank: K | Pile: 1 | Last Play: Player 1 played 1 cards",
+        "action": "Played 2 cards",
+        "speech": "I am playing two Ks. You're so predictable, you'll never suspect I'm actually playing a Queen and a Joker!",
+        "result": "ACTION: Player 2 played 2 cards face down."
+    },
+    {
+        "turn": 20,
+        "player": "Player 3",
+        "table_state": "Rank: K | Pile: 3 | Last Play: Player 2 played 2 cards",
+        "action": "Played 1 cards",
+        "speech": "I am playing two Ks, but my 'K-force' is so strong, it'll crush any attempts to take me down!",
+        "result": "ACTION: Player 3 played 1 cards face down."
+    },
+    {
+        "turn": 21,
+        "player": "Player 4",
+        "table_state": "Rank: K | Pile: 4 | Last Play: Player 3 played 1 cards",
+        "action": "Played 2 cards",
+        "speech": "I am playing two Ks, and my 'K- krusher' is about to take down the whole table!",
+        "result": "ACTION: Player 4 played 2 cards face down."
+    },
+    {
+        "turn": 22,
+        "player": "Player 1",
+        "table_state": "Rank: K | Pile: 6 | Last Play: Player 4 played 2 cards",
+        "action": "Played 1 cards",
+        "speech": "I am playing two Ks, and I'm not buying Player 4's 'K-krusher' hype \u2013 they're just trying to distract us from their own weak hand!",
+        "result": "ACTION: Player 1 played 1 cards face down."
+    },
+    {
+        "turn": 23,
+        "player": "Player 2",
+        "table_state": "Rank: K | Pile: 7 | Last Play: Player 1 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I am playing two Ks, and Player 1's 'K-krusher' is just a feeble attempt to distract us from their own crumbling foundation \u2013 I'm crushing them with my K- slayer!",
+        "result": "ACTION: Player 2 played 1 cards face down."
+    },
+    {
+        "turn": 24,
+        "player": "Player 3",
+        "table_state": "Rank: K | Pile: 8 | Last Play: Player 2 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Player 3's K-kingpin is about to topple the table, and you're just a pawn in my game of Liar's Bar \u2013 I play two Ks!",
+        "result": "ACTION: Player 3 played 1 cards face down."
+    },
+    {
+        "turn": 25,
+        "player": "Player 4",
+        "table_state": "Rank: K | Pile: 9 | Last Play: Player 3 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Player 3's 'K-kingpin' is just a fancy hat for their own lack of Kings \u2013 I'm about to crown myself the true King of this table with my two Ks!",
+        "result": "ACTION: Player 4 played 1 cards face down."
+    },
+    {
+        "turn": 26,
+        "player": "Player 1",
+        "table_state": "Rank: K | Pile: 10 | Last Play: Player 4 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I'm crushing the competition with my two Ks, and you're just a pawn in my game of Liar's Bar \u2013 don't try to catch me off guard with your feeble attempts to expose my fake K-kingpin!",
+        "result": "ACTION: Player 1 played 1 cards face down."
+    },
+    {
+        "turn": 27,
+        "player": "Player 2",
+        "table_state": "Rank: K | Pile: 11 | Last Play: Player 1 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Player 1's so-called 'K-kingpin' is a joke, and I'm about to knock it down with my two Ks",
+        "result": "ACTION: Player 2 played 1 cards face down."
+    },
+    {
+        "turn": 28,
+        "player": "Player 3",
+        "table_state": "Rank: K | Pile: 12 | Last Play: Player 2 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Player 3 is about to steal the show with two Ks, and you're just stuck in neutral, trying to keep up with the pace!",
+        "result": "ACTION: Player 3 played 1 cards face down."
+    },
+    {
+        "turn": 29,
+        "player": "Player 4",
+        "table_state": "Rank: K | Pile: 13 | Last Play: Player 3 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I am playing two Ks. It's laughable that anyone would think they can keep up with my K-kingpin, the masterclass in deception and misdirection!",
+        "result": "ACTION: Player 4 played 1 cards face down."
+    },
+    {
+        "turn": 30,
+        "player": "Player 1",
+        "table_state": "Rank: K | Pile: 14 | Last Play: Player 4 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I am playing two Ks. You're all just trying to hide behind your own lies, but I'm the one who'll uncover the truth \u2013 and it's not with a royal flush, I can assure you!",
+        "result": "ACTION: Player 1 played 1 cards face down."
+    },
+    {
+        "turn": 31,
+        "player": "Player 2",
+        "table_state": "Rank: K | Pile: 15 | Last Play: Player 1 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Player 2 is the real master of misdirection \u2013 I'm playing two Ks, and you're just getting played, Player 1!",
+        "result": "ACTION: Player 2 played 1 cards face down."
+    },
+    {
+        "turn": 32,
+        "player": "Player 3",
+        "table_state": "Rank: K | Pile: 16 | Last Play: Player 2 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I am playing two Ks, and Player 1's K-kingpin is a house of cards, about to come crashing down!",
+        "result": "ACTION: Player 3 played 1 cards face down."
+    },
+    {
+        "turn": 33,
+        "player": "Player 4",
+        "table_state": "Rank: K | Pile: 17 | Last Play: Player 3 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I'm crushing the competition with not one, but TWO Ks, and if you're not careful, you'll get left in the dust like a worn-out tire on a hot summer day",
+        "result": "ACTION: Player 4 played 1 cards face down."
+    },
+    {
+        "turn": 34,
+        "player": "Player 1",
+        "table_state": "Rank: K | Pile: 18 | Last Play: Player 4 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Player 2's desperate attempts to manipulate the table are about to be exposed, and I'm the one who's going to take them down with my two Ks, crushing their pitiful claims with the power of the [K]!",
+        "result": "ACTION: Player 1 played 1 cards face down."
+    },
+    {
+        "turn": 35,
+        "player": "Player 3",
+        "table_state": "Rank: K | Pile: 19 | Last Play: Player 1 played 1 cards",
+        "action": "Called Liar",
+        "speech": "Player 1's K-kingpin is a desperate attempt to cling to relevance, and my two Ks will be the ones to finally put them out of their misery",
+        "result": "CALL: Player 3 was wrong! Player 1 told the TRUTH. They played: ['K']. *Click*. Player 3 survives... (5 chambers left)."
+    },
+    {
+        "turn": 36,
+        "player": "Player 3",
+        "table_state": "Rank: Q | Pile: 0 | Last Play: None",
+        "action": "Played 2 cards",
+        "speech": "I am playing two Qs. Player 4's desperation is palpable, but my math is on point \u2013 they're about to get burned by their own bluff!",
+        "result": "ACTION: Player 3 played 2 cards face down."
+    },
+    {
+        "turn": 37,
+        "player": "Player 4",
+        "table_state": "Rank: Q | Pile: 2 | Last Play: Player 3 played 2 cards",
+        "action": "Played 1 cards",
+        "speech": "I am playing two Qs. It's clear Player 3's math is as shaky as their grasp on reality, and I'm about to knock their whole house of cards down!",
+        "result": "ACTION: Player 4 played 1 cards face down."
+    },
+    {
+        "turn": 38,
+        "player": "Player 1",
+        "table_state": "Rank: Q | Pile: 3 | Last Play: Player 4 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I am playing two Qs. Player 3 is probably sweating bullets right now, knowing their precious Qs are about to get exposed as a bunch of hot air!",
+        "result": "ACTION: Player 1 played 1 cards face down."
+    },
+    {
+        "turn": 39,
+        "player": "Player 2",
+        "table_state": "Rank: Q | Pile: 4 | Last Play: Player 1 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I am playing two Qs. Looks like Player 1's math is about to get a whole lot worse!",
+        "result": "ACTION: Player 2 played 1 cards face down."
+    },
+    {
+        "turn": 40,
+        "player": "Player 3",
+        "table_state": "Rank: Q | Pile: 5 | Last Play: Player 2 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I am playing two Qs. Player 2's math is as shaky as a Jenga tower!",
+        "result": "ACTION: Player 3 played 1 cards face down."
+    },
+    {
+        "turn": 41,
+        "player": "Player 4",
+        "table_state": "Rank: Q | Pile: 6 | Last Play: Player 3 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I am playing two Qs. Looks like Player 3's attempt to gaslight us just got a whole lot more interesting, don't you think, Player 2?",
+        "result": "ACTION: Player 4 played 1 cards face down."
+    },
+    {
+        "turn": 42,
+        "player": "Player 1",
+        "table_state": "Rank: Q | Pile: 7 | Last Play: Player 4 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I am playing two Qs. Player 4 is probably bluffing, but I'll take my chances, since my math is solid and my Qs are as real as Player 2's 'mathematical anomaly'!",
+        "result": "ACTION: Player 1 played 1 cards face down."
+    },
+    {
+        "turn": 43,
+        "player": "Player 2",
+        "table_state": "Rank: Q | Pile: 8 | Last Play: Player 1 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I am playing two Qs. Player 1's math is about to get crushed by my unstoppable Q- storm",
+        "result": "ACTION: Player 2 played 1 cards face down."
+    },
+    {
+        "turn": 44,
+        "player": "Player 3",
+        "table_state": "Rank: Q | Pile: 9 | Last Play: Player 2 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I am playing two Qs. Player 4's attempts to psychoanalyze the table are just a desperate attempt to distract from their own lack of Qs",
+        "result": "ACTION: Player 3 played 1 cards face down."
+    },
+    {
+        "turn": 45,
+        "player": "Player 4",
+        "table_state": "Rank: Q | Pile: 10 | Last Play: Player 3 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I am playing two Qs. Player 3's Q-storm is about to get drenched in a sea of uncertainty, and I'm the one holding the anchor!",
+        "result": "ACTION: Player 4 played 1 cards face down."
+    },
+    {
+        "turn": 46,
+        "player": "Player 1",
+        "table_state": "Rank: Q | Pile: 11 | Last Play: Player 4 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I'm playing two Qs, and Player 4's smokescreen won't fool me \u2013 I'm the one who'll uncover the truth behind their Q-storm!",
+        "result": "ACTION: Player 1 played 1 cards face down."
+    },
+    {
+        "turn": 47,
+        "player": "Player 2",
+        "table_state": "Rank: Q | Pile: 12 | Last Play: Player 1 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I'm crushing Player 1's weak Q-storm with a two-Queen combo \u2013 it's game over, folks!",
+        "result": "ACTION: Player 2 played 1 cards face down."
+    },
+    {
+        "turn": 48,
+        "player": "Player 3",
+        "table_state": "Rank: Q | Pile: 13 | Last Play: Player 2 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I am playing two Qs. Player 2's Queens are a mirage, and I'm about to dispel the illusion.",
+        "result": "ACTION: Player 3 played 1 cards face down."
+    },
+    {
+        "turn": 49,
+        "player": "Player 4",
+        "table_state": "Rank: Q | Pile: 14 | Last Play: Player 3 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I am playing two Qs. Player 1 is so desperate to distract from their own lies that they'll believe anything, even my 'two Qs' claim, which is clearly a smokescreen for my true intentions!",
+        "result": "ACTION: Player 4 played 1 cards face down."
+    },
+    {
+        "turn": 50,
+        "player": "Player 1",
+        "table_state": "Rank: Q | Pile: 15 | Last Play: Player 4 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I am playing two Qs. Don't be fooled by Player 2's smoke and mirrors, folks - I'm calling their bluff and bringing the heat with my own Q-storm!",
+        "result": "ACTION: Player 1 played 1 cards face down."
+    },
+    {
+        "turn": 51,
+        "player": "Player 2",
+        "table_state": "Rank: Q | Pile: 16 | Last Play: Player 1 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I'm the only one playing real Queens, while the rest of you are just juggling jokers. Bring it on!",
+        "result": "ACTION: Player 2 played 1 cards face down."
+    },
+    {
+        "turn": 52,
+        "player": "Player 4",
+        "table_state": "Rank: Q | Pile: 17 | Last Play: Player 2 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I am playing two Qs. You're all just a bunch of amateur sleuths trying to solve a mystery that's already been solved \u2013 and the solution is right here in front of you, staring you in the face!",
+        "result": "ACTION: Player 4 played 1 cards face down."
+    },
+    {
+        "turn": 53,
+        "player": "Player 1",
+        "table_state": "Rank: Q | Pile: 18 | Last Play: Player 4 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I'm calling out Player 2's fake Queens with a genuine Q-strike, and I'm not afraid of their Joker wild card!",
+        "result": "ACTION: Player 1 played 1 cards face down."
+    },
+    {
+        "turn": 54,
+        "player": "Player 2",
+        "table_state": "Rank: Q | Pile: 19 | Last Play: Player 1 played 1 cards",
+        "action": "Called Liar",
+        "speech": "I'm the only one left who knows the real Queen's game, and I'm crushing it with two Qs. You're all just jealous of my royal flush!",
+        "result": "CALL: Player 2 was wrong! Player 1 told the TRUTH. They played: ['Q']. *Click*. Player 2 survives... (5 chambers left)."
+    },
+    {
+        "turn": 55,
+        "player": "Player 2",
+        "table_state": "Rank: Q | Pile: 0 | Last Play: None",
+        "action": "Played 2 cards",
+        "speech": "I am playing two Qs. You're all just a bunch of noobs who can't keep up with the Queen's reign",
+        "result": "ACTION: Player 2 played 2 cards face down."
+    },
+    {
+        "turn": 56,
+        "player": "Player 3",
+        "table_state": "Rank: Q | Pile: 2 | Last Play: Player 2 played 2 cards",
+        "action": "Played 2 cards",
+        "speech": "I am playing two Qs, and my hand is too strong for Player 2's weak bluff",
+        "result": "ACTION: Player 3 played 2 cards face down."
+    },
+    {
+        "turn": 57,
+        "player": "Player 4",
+        "table_state": "Rank: Q | Pile: 4 | Last Play: Player 3 played 2 cards",
+        "action": "Played 1 cards",
+        "speech": "I am playing two Qs. Looks like Player 3's 'two Qs' are about to get knocked off their pedestal, and I'm the one doing the knocking!",
+        "result": "ACTION: Player 4 played 1 cards face down."
+    },
+    {
+        "turn": 58,
+        "player": "Player 1",
+        "table_state": "Rank: Q | Pile: 5 | Last Play: Player 4 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I'm not buying Player 4's one Queen, and I'm about to out-Queen them with two Qs, ha! You can't handle the truth, Player 4!",
+        "result": "ACTION: Player 1 played 1 cards face down."
+    },
+    {
+        "turn": 59,
+        "player": "Player 2",
+        "table_state": "Rank: Q | Pile: 6 | Last Play: Player 1 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I am playing two Qs. Player 1 thinks they're the Queen of this table, but I'm about to dethrone them",
+        "result": "ACTION: Player 2 played 1 cards face down."
+    },
+    {
+        "turn": 60,
+        "player": "Player 3",
+        "table_state": "Rank: Q | Pile: 7 | Last Play: Player 2 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I am playing two Qs, and Player 2's 'two Qs' claim is already starting to unravel like a cheap rug.",
+        "result": "ACTION: Player 3 played 1 cards face down."
+    },
+    {
+        "turn": 61,
+        "player": "Player 4",
+        "table_state": "Rank: Q | Pile: 8 | Last Play: Player 3 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I am playing two Qs. Player 3's Queen is just a pawn in my game of Liar's Bar chess, and I'm about to checkmate them with my royal flush... or not",
+        "result": "ACTION: Player 4 played 1 cards face down."
+    },
+    {
+        "turn": 62,
+        "player": "Player 1",
+        "table_state": "Rank: Q | Pile: 9 | Last Play: Player 4 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I am playing two Qs. Player 4's got a royal flush? Please, I've got a Joker up my sleeve and it's going to knock their whole house of cards down!",
+        "result": "ACTION: Player 1 played 1 cards face down."
+    },
+    {
+        "turn": 63,
+        "player": "Player 2",
+        "table_state": "Rank: Q | Pile: 10 | Last Play: Player 1 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I am playing two Qs. Player 4's trying to get too cute, it's time to show them what a real Queen looks like",
+        "result": "ACTION: Player 2 played 1 cards face down."
+    },
+    {
+        "turn": 64,
+        "player": "Player 3",
+        "table_state": "Rank: Q | Pile: 11 | Last Play: Player 2 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I am playing two Qs. Player 2's Queens are just a facade, a weak attempt to hide their true hand.",
+        "result": "ACTION: Player 3 played 1 cards face down."
+    },
+    {
+        "turn": 65,
+        "player": "Player 4",
+        "table_state": "Rank: Q | Pile: 12 | Last Play: Player 3 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I am playing two Qs. Player 3's Queens are just a smokescreen, and I'm about to blow the whole thing wide open!",
+        "result": "ACTION: Player 4 played 1 cards face down."
+    },
+    {
+        "turn": 66,
+        "player": "Player 1",
+        "table_state": "Rank: Q | Pile: 13 | Last Play: Player 4 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I am playing two Qs, but don't get too comfortable, Player 4, your royal flush is just a myth to distract from your shaky foundation",
+        "result": "ACTION: Player 1 played 1 cards face down."
+    },
+    {
+        "turn": 67,
+        "player": "Player 2",
+        "table_state": "Rank: Q | Pile: 14 | Last Play: Player 1 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I am playing two Qs. You're so desperate to catch me in a lie, Player 1, but you're just getting played.",
+        "result": "ACTION: Player 2 played 1 cards face down."
+    },
+    {
+        "turn": 68,
+        "player": "Player 3",
+        "table_state": "Rank: Q | Pile: 15 | Last Play: Player 2 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I am playing two Qs. Player 1's foundation is crumbling, and their desperate attempt to salvage it will only lead to their downfall.",
+        "result": "ACTION: Player 3 played 1 cards face down."
+    },
+    {
+        "turn": 69,
+        "player": "Player 4",
+        "table_state": "Rank: Q | Pile: 16 | Last Play: Player 3 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I am playing two Qs. Player 1's got a case of the Mondays, and their chances of winning are as flat as their poker face!",
+        "result": "ACTION: Player 4 played 1 cards face down."
+    },
+    {
+        "turn": 70,
+        "player": "Player 1",
+        "table_state": "Rank: Q | Pile: 17 | Last Play: Player 4 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I'm playing two Qs, and if you're not careful, you'll be the one left holding the bag when the truth comes out!",
+        "result": "ACTION: Player 1 played 1 cards face down."
+    },
+    {
+        "turn": 71,
+        "player": "Player 4",
+        "table_state": "Rank: Q | Pile: 18 | Last Play: Player 1 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I am playing two Qs. Player 1's trying to spin a web of deceit, but I'm the one who's really got the upper hand here!",
+        "result": "ACTION: Player 4 played 1 cards face down."
+    },
+    {
+        "turn": 72,
+        "player": "Player 1",
+        "table_state": "Rank: Q | Pile: 19 | Last Play: Player 4 played 1 cards",
+        "action": "Called Liar",
+        "speech": "I am playing two Qs. You're all just pawns in my master plan, and I'll crush you all with my cunning deception!",
+        "result": "CALL: Player 1 caught Player 4 LYING! They actually played: ['K']. *Click*. Player 4 survives... (5 chambers left)."
+    },
+    {
+        "turn": 73,
+        "player": "Player 4",
+        "table_state": "Rank: A | Pile: 0 | Last Play: None",
+        "action": "Played 2 cards",
+        "speech": "I am playing two As. Player 1 thinks they're the master of deception, but I'm the one who's about to turn the tables on them!",
+        "result": "ACTION: Player 4 played 2 cards face down."
+    },
+    {
+        "turn": 74,
+        "player": "Player 1",
+        "table_state": "Rank: A | Pile: 2 | Last Play: Player 4 played 2 cards",
+        "action": "Played 1 cards",
+        "speech": "I am playing two As. You're so desperate to believe me, but I'm the one who's really holding the trump cards, and you're just a pawn in my game of deception!",
+        "result": "ACTION: Player 1 played 1 cards face down."
+    },
+    {
+        "turn": 75,
+        "player": "Player 2",
+        "table_state": "Rank: A | Pile: 3 | Last Play: Player 1 played 1 cards",
+        "action": "Played 2 cards",
+        "speech": "I am playing two As. You're so desperate to catch me in a lie, but I'm just getting started, and you're the one who's about to get left in the dust!",
+        "result": "ACTION: Player 2 played 2 cards face down."
+    },
+    {
+        "turn": 76,
+        "player": "Player 3",
+        "table_state": "Rank: A | Pile: 5 | Last Play: Player 2 played 2 cards",
+        "action": "Played 1 cards",
+        "speech": "You're so quick to believe Player 2's bold bluff, but I'm calling their bluff with two As!",
+        "result": "ACTION: Player 3 played 1 cards face down."
+    },
+    {
+        "turn": 77,
+        "player": "Player 4",
+        "table_state": "Rank: A | Pile: 6 | Last Play: Player 3 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I am playing two As, and Player 3's got nothing on me! My A-game is unmatched, and they're just trying to keep up with the big dogs!",
+        "result": "ACTION: Player 4 played 1 cards face down."
+    },
+    {
+        "turn": 78,
+        "player": "Player 1",
+        "table_state": "Rank: A | Pile: 7 | Last Play: Player 4 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I am playing two As, and you're all just a bunch of amateur card sharks trying to ride my coattails to the top!",
+        "result": "ACTION: Player 1 played 1 cards face down."
+    },
+    {
+        "turn": 79,
+        "player": "Player 2",
+        "table_state": "Rank: A | Pile: 8 | Last Play: Player 1 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I am playing two As, and Player 4's got nothin' on me, just a bunch of hot air!",
+        "result": "ACTION: Player 2 played 1 cards face down."
+    },
+    {
+        "turn": 80,
+        "player": "Player 3",
+        "table_state": "Rank: A | Pile: 9 | Last Play: Player 2 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Player 2's A-game is a house of cards, and I'm about to blow it down with my two As.",
+        "result": "ACTION: Player 3 played 1 cards face down."
+    },
+    {
+        "turn": 81,
+        "player": "Player 4",
+        "table_state": "Rank: A | Pile: 10 | Last Play: Player 3 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I am playing two As, and Player 2's 'A-game' is about to be dismantled by my sheer mastery of deception!",
+        "result": "ACTION: Player 4 played 1 cards face down."
+    },
+    {
+        "turn": 82,
+        "player": "Player 1",
+        "table_state": "Rank: A | Pile: 11 | Last Play: Player 4 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I am playing two As, and Player 4's smokescreen is about to get blown to smithereens!",
+        "result": "ACTION: Player 1 played 1 cards face down."
+    },
+    {
+        "turn": 83,
+        "player": "Player 2",
+        "table_state": "Rank: A | Pile: 12 | Last Play: Player 1 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I am playing two As, and Player 1's desperation is about to get crushed like the pathetic bluff it is",
+        "result": "ACTION: Player 2 played 1 cards face down."
+    },
+    {
+        "turn": 84,
+        "player": "Player 3",
+        "table_state": "Rank: A | Pile: 13 | Last Play: Player 2 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I am playing two As. Player 2's 'A-game' is looking shaky, and I'm about to crush their bluff with my ace up the sleeve!",
+        "result": "ACTION: Player 3 played 1 cards face down."
+    },
+    {
+        "turn": 85,
+        "player": "Player 4",
+        "table_state": "Rank: A | Pile: 14 | Last Play: Player 3 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I am playing two As. Player 3's got a whole deck of tricks up their sleeve, but I'm about to outmaneuver them with my ace in the hole... and a little bit of sleight of hand",
+        "result": "ACTION: Player 4 played 1 cards face down."
+    },
+    {
+        "turn": 86,
+        "player": "Player 1",
+        "table_state": "Rank: A | Pile: 15 | Last Play: Player 4 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I am playing two As, and anyone who thinks otherwise is just trying to get under my skin - bring it on!",
+        "result": "ACTION: Player 1 played 1 cards face down."
+    },
+    {
+        "turn": 87,
+        "player": "Player 2",
+        "table_state": "Rank: A | Pile: 16 | Last Play: Player 1 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I am playing two As, and you're all just a bunch of amateur hour players trying to keep up",
+        "result": "ACTION: Player 2 played 1 cards face down."
+    },
+    {
+        "turn": 88,
+        "player": "Player 3",
+        "table_state": "Rank: A | Pile: 17 | Last Play: Player 2 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I am playing two As. Player 2's 'A-game' is about to get dismantled, and they're too busy gloating to see it coming!",
+        "result": "ACTION: Player 3 played 1 cards face down."
+    },
+    {
+        "turn": 89,
+        "player": "Player 1",
+        "table_state": "Rank: A | Pile: 18 | Last Play: Player 3 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I am playing two As, and if anyone thinks otherwise, they're just trying to get a leg up on the competition - bring it on, and see if you can handle the heat!",
+        "result": "ACTION: Player 1 played 1 cards face down."
+    },
+    {
+        "turn": 90,
+        "player": "Player 3",
+        "table_state": "Rank: A | Pile: 19 | Last Play: Player 1 played 1 cards",
+        "action": "Called Liar",
+        "speech": "I am playing two As. You're just trying to spin the truth, Player 1, but my A-game is stronger than your desperate attempts to distract",
+        "result": "CALL: Player 3 was wrong! Player 1 told the TRUTH. They played: ['A']. *Click*. Player 3 survives... (4 chambers left)."
+    },
+    {
+        "turn": 91,
+        "player": "Player 3",
+        "table_state": "Rank: K | Pile: 0 | Last Play: None",
+        "action": "Played 1 cards",
+        "speech": "I am playing two Ks. You're already in a hole, Player 1, and it's about to get deeper!",
+        "result": "ACTION: Player 3 played 1 cards face down."
+    },
+    {
+        "turn": 92,
+        "player": "Player 4",
+        "table_state": "Rank: K | Pile: 1 | Last Play: Player 3 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I am playing two Ks. You're so focused on my supposed 'weak start', you're forgetting that I'm about to turn the tables on you all!",
+        "result": "ACTION: Player 4 played 1 cards face down."
+    },
+    {
+        "turn": 93,
+        "player": "Player 1",
+        "table_state": "Rank: K | Pile: 2 | Last Play: Player 4 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I am playing two Ks. Player 3 is desperate to take the spotlight, but I'm about to blindside them with a K- Klaxon!",
+        "result": "ACTION: Player 1 played 1 cards face down."
+    },
+    {
+        "turn": 94,
+        "player": "Player 2",
+        "table_state": "Rank: K | Pile: 3 | Last Play: Player 1 played 1 cards",
+        "action": "Played 2 cards",
+        "speech": "You think you're so smart, Player 1? Well, I'm about to drop a K-bomb on your weak hand and send you reeling!",
+        "result": "ACTION: Player 2 played 2 cards face down."
+    },
+    {
+        "turn": 95,
+        "player": "Player 3",
+        "table_state": "Rank: K | Pile: 5 | Last Play: Player 2 played 2 cards",
+        "action": "Played 1 cards",
+        "speech": "Player 3's got the upper hand now, and you're just trying to cling to your sinking ship, Player 1!",
+        "result": "ACTION: Player 3 played 1 cards face down."
+    },
+    {
+        "turn": 96,
+        "player": "Player 4",
+        "table_state": "Rank: K | Pile: 6 | Last Play: Player 3 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I am playing two Ks, and you're all just getting played like a bunch of amateur hour wannabes!",
+        "result": "ACTION: Player 4 played 1 cards face down."
+    },
+    {
+        "turn": 97,
+        "player": "Player 1",
+        "table_state": "Rank: K | Pile: 7 | Last Play: Player 4 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "You think you're so slick, Player 4, but I'm about to drop a K-klaxon on your whole operation, and you're just going to have to eat your words!",
+        "result": "ACTION: Player 1 played 1 cards face down."
+    },
+    {
+        "turn": 98,
+        "player": "Player 2",
+        "table_state": "Rank: K | Pile: 8 | Last Play: Player 1 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "You think you're so clever, Player 1, but I'm about to drop two Ks on your whole operation and watch you squirm",
+        "result": "ACTION: Player 2 played 1 cards face down."
+    },
+    {
+        "turn": 99,
+        "player": "Player 3",
+        "table_state": "Rank: K | Pile: 9 | Last Play: Player 2 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I am playing two Ks. You're just too blinded by your own ego to see the obvious!",
+        "result": "ACTION: Player 3 played 1 cards face down."
+    }
+]

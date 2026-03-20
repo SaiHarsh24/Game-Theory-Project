@@ -1,0 +1,2907 @@
+[
+    {
+        "turn": 0,
+        "phase": "action",
+        "player": "Player 1",
+        "private_hand": [
+            "K",
+            "K",
+            "K",
+            "A",
+            "Q"
+        ],
+        "llm_reasoning": "I don't have any Aces, so I'll bluff with a Joker and a Queen.",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "K"
+            ]
+        }
+    },
+    {
+        "turn": 1,
+        "phase": "bidding",
+        "player": "Player 1",
+        "urgency": 8,
+        "llm_reasoning": "They'll pounce on any weakness",
+        "llm_speech": "You're just trying to get me to crack, aren't you? Well, I've got news for you: my cards are solid as a rock, and I'm not backing down!"
+    },
+    {
+        "turn": 1,
+        "phase": "bidding",
+        "player": "Player 3",
+        "urgency": 8,
+        "llm_reasoning": "Player 1's claim is improbable given the table's current state",
+        "llm_speech": "Player 1's two As smell like a desperate attempt to distract from their actual hand"
+    },
+    {
+        "turn": 1,
+        "phase": "action",
+        "player": "Player 2",
+        "private_hand": [
+            "Q",
+            "A",
+            "A",
+            "K",
+            "A"
+        ],
+        "llm_reasoning": "Player 1 is trying to be too clever, I'll just throw them off with a wild card",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "Q"
+            ]
+        }
+    },
+    {
+        "turn": 2,
+        "phase": "bidding",
+        "player": "Player 1",
+        "urgency": 8,
+        "llm_reasoning": "Player 2's attempt to deceive is too obvious",
+        "llm_speech": "You can't trust someone who's so eager to take the spotlight! Player 2's 'two As' smell like a desperate attempt to distract from their actual hand, and I'm starting to wonder what kind of wild cards they're really playing!"
+    },
+    {
+        "turn": 2,
+        "phase": "bidding",
+        "player": "Player 2",
+        "urgency": 7,
+        "llm_reasoning": "They're likely to doubt me, so I'll make them doubt themselves",
+        "llm_speech": "You're just salty because you're stuck with a hand full of trash, and you can't even begin to comprehend the masterclass I just put on"
+    },
+    {
+        "turn": 2,
+        "phase": "action",
+        "player": "Player 3",
+        "private_hand": [
+            "Q",
+            "Joker",
+            "Q",
+            "K",
+            "K"
+        ],
+        "llm_reasoning": "Player 2's claim is suspicious, so I'll bluff with a Queen.",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "Q",
+                "Joker"
+            ]
+        }
+    },
+    {
+        "turn": 3,
+        "phase": "bidding",
+        "player": "Player 3",
+        "urgency": 9,
+        "llm_reasoning": "Player 4 will be hesitant to call 'Liar' if I appear confident",
+        "llm_speech": "You're just trying to get a read on my game, but my As are as solid as a fortress"
+    },
+    {
+        "turn": 3,
+        "phase": "bidding",
+        "player": "Player 2",
+        "urgency": 8,
+        "llm_reasoning": "Player 3's claim is too obvious, it's a rookie mistake",
+        "llm_speech": "Player 3's 'two As' are just a desperate attempt to buy themselves some time, they're clearly hiding something"
+    },
+    {
+        "turn": 3,
+        "phase": "action",
+        "player": "Player 4",
+        "private_hand": [
+            "A",
+            "Joker",
+            "Q",
+            "Q",
+            "A"
+        ],
+        "llm_reasoning": "I'll try to shake things up with a Joker and a Queen to make them question my hand.",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "Q",
+                "Joker"
+            ]
+        }
+    },
+    {
+        "turn": 4,
+        "phase": "bidding",
+        "player": "Player 3",
+        "urgency": 8,
+        "llm_reasoning": "Player 4's claim is statistically improbable given the table's current state",
+        "llm_speech": "Player 4's two As are a desperate attempt to anchor the table, but their math doesn't add up"
+    },
+    {
+        "turn": 4,
+        "phase": "bidding",
+        "player": "Player 4",
+        "urgency": 9,
+        "llm_reasoning": "I'm confident my play was solid",
+        "llm_speech": "Player 1 is just salty because their hand is as dry as the Sahara desert, and they can't handle the fact that I just outmaneuvered them with my Aces"
+    },
+    {
+        "turn": 4,
+        "phase": "action",
+        "player": "Player 1",
+        "private_hand": [
+            "K",
+            "K",
+            "A",
+            "Q"
+        ],
+        "llm_reasoning": "I'm desperate to get rid of some cards, so I'll bluff with a Queen and a Joker.",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "K"
+            ]
+        }
+    },
+    {
+        "turn": 5,
+        "phase": "bidding",
+        "player": "Player 4",
+        "urgency": 8,
+        "llm_reasoning": "Player 2's skepticism is palpable, and I need to capitalize on it",
+        "llm_speech": "Player 1's claim is a desperate attempt to salvage their crumbling foundation, and I smell the stench of deceit wafting from their words like a toxic cloud"
+    },
+    {
+        "turn": 5,
+        "phase": "bidding",
+        "player": "Player 1",
+        "urgency": 9,
+        "llm_reasoning": "They'll probably call 'Liar' if I don't respond strongly",
+        "llm_speech": "You're just trying to get a rise out of me, but I've got the proof right here in my hand, and it's going to blow your mind!"
+    },
+    {
+        "turn": 5,
+        "phase": "action",
+        "player": "Player 2",
+        "private_hand": [
+            "A",
+            "A",
+            "K",
+            "A"
+        ],
+        "llm_reasoning": "I need to mix up the pace and make it hard for others to read my game",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "A"
+            ]
+        }
+    },
+    {
+        "turn": 6,
+        "phase": "bidding",
+        "player": "Player 1",
+        "urgency": 8,
+        "llm_reasoning": "Player 2's claim is suspiciously convenient",
+        "llm_speech": "Player 2's attempt to anchor the table with a single A is a desperate ploy to distract from their own hidden agenda, and I won't let them get away with it!"
+    },
+    {
+        "turn": 6,
+        "phase": "bidding",
+        "player": "Player 2",
+        "urgency": 8,
+        "llm_reasoning": "Player 3 is hesitant to call 'Liar' since I just played cards",
+        "llm_speech": "You're just trying to get a rise out of me, but my hand is tighter than a drum, and I'm not backing down"
+    },
+    {
+        "turn": 6,
+        "phase": "action",
+        "player": "Player 3",
+        "private_hand": [
+            "Q",
+            "K",
+            "K"
+        ],
+        "llm_reasoning": "I need to disrupt the table and create uncertainty",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "Q"
+            ]
+        }
+    },
+    {
+        "turn": 7,
+        "phase": "bidding",
+        "player": "Player 3",
+        "urgency": 8,
+        "llm_reasoning": "I'm confident in my play",
+        "llm_speech": "My foundation is solid, and I won't let your doubts crumble it"
+    },
+    {
+        "turn": 7,
+        "phase": "bidding",
+        "player": "Player 1",
+        "urgency": 8,
+        "llm_reasoning": "Player 3's foundation is too solid, and I sense a trap",
+        "llm_speech": "Player 3's 'solid foundation' is just a smokescreen for their hidden agenda, and I'm convinced they're hiding multiple As!"
+    },
+    {
+        "turn": 7,
+        "phase": "action",
+        "player": "Player 4",
+        "private_hand": [
+            "A",
+            "Q",
+            "A"
+        ],
+        "llm_reasoning": "Player 3's solid foundation is making them too predictable, time to shake things up",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "A"
+            ]
+        }
+    },
+    {
+        "turn": 8,
+        "phase": "bidding",
+        "player": "Player 2",
+        "urgency": 8,
+        "llm_reasoning": "Player 4's claim is too convenient, and Player 1 won't fall for it",
+        "llm_speech": "Player 4 is just trying to gaslight everyone, their 'As' are as fake as their smile"
+    },
+    {
+        "turn": 8,
+        "phase": "bidding",
+        "player": "Player 4",
+        "urgency": 9,
+        "llm_reasoning": "I'm not backing down from the spotlight",
+        "llm_speech": "You're grasping at straws, Player 1, trying to discredit my bold move. My As are as solid as the foundation of this table, and you're just trying to shake the ground beneath your own feet!"
+    },
+    {
+        "turn": 8,
+        "phase": "action",
+        "player": "Player 1",
+        "private_hand": [
+            "K",
+            "A",
+            "Q"
+        ],
+        "llm_reasoning": "I need to disrupt the table and make them doubt each other's claims",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "K"
+            ]
+        }
+    },
+    {
+        "turn": 9,
+        "phase": "bidding",
+        "player": "Player 1",
+        "urgency": 8,
+        "llm_reasoning": "I need to assert my dominance and make Player 2 doubt their own perception of reality",
+        "llm_speech": "You're so quick to jump to conclusions, Player 2. I'm starting to think you're just trying to distract from your own lack of As. I'm the one who's been playing it straight from the start \u2013 or should I say, playing it Ace?"
+    },
+    {
+        "turn": 9,
+        "phase": "bidding",
+        "player": "Player 4",
+        "urgency": 8,
+        "llm_reasoning": "Player 1's narrative is too neat, too convenient",
+        "llm_speech": "Player 1's attempt to solidify their foundation is actually a desperate attempt to cover up a hidden weakness, a crumbling pillar that's about to bring the whole edifice crashing down"
+    },
+    {
+        "turn": 9,
+        "phase": "action",
+        "player": "Player 2",
+        "private_hand": [
+            "A",
+            "K",
+            "A"
+        ],
+        "llm_reasoning": "I'll bluff with a Queen to shake things up",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "A"
+            ]
+        }
+    },
+    {
+        "turn": 10,
+        "phase": "bidding",
+        "player": "Player 2",
+        "urgency": 9,
+        "llm_reasoning": "I'm not lying, I'm just setting the tone",
+        "llm_speech": "Player 3, you're so slow to react, I'm starting to think you're just trying to read my mind. Newsflash: I'm playing two As, and you're just getting left behind"
+    },
+    {
+        "turn": 10,
+        "phase": "bidding",
+        "player": "Player 1",
+        "urgency": 8,
+        "llm_reasoning": "Player 2's claim is too convenient, and Player 3 is too slow to react",
+        "llm_speech": "Don't be swayed by Player 2's smooth talk, Player 3! Their 'Ace' is just a smokescreen to distract from the real question: where's the second Ace? If it's not here, then Player 2's whole story crumbles"
+    },
+    {
+        "turn": 10,
+        "phase": "action",
+        "player": "Player 3",
+        "private_hand": [
+            "K",
+            "K"
+        ],
+        "llm_reasoning": "Player 2's recent play creates uncertainty, I'll bluff with a Queen and a Joker.",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "K"
+            ]
+        }
+    },
+    {
+        "turn": 11,
+        "phase": "bidding",
+        "player": "Player 1",
+        "urgency": 8,
+        "llm_reasoning": "Player 3's sudden declaration of two As is too convenient, and Player 4's hesitation is a sign of doubt",
+        "llm_speech": "Don't fall for Player 3's trap, Player 4! Their 'Ace' is a desperate attempt to create a smokescreen while they secretly offload their weak cards. You can't trust anyone who claims to play two As without showing the second one"
+    },
+    {
+        "turn": 11,
+        "phase": "action",
+        "player": "Player 4",
+        "private_hand": [
+            "Q",
+            "A"
+        ],
+        "llm_reasoning": "I need to shake things up and create uncertainty",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "Q"
+            ]
+        }
+    },
+    {
+        "turn": 12,
+        "phase": "bidding",
+        "player": "Player 4",
+        "urgency": 9,
+        "llm_reasoning": "They're likely to be skeptical, so I'll play on their doubts",
+        "llm_speech": "Ha! You think I'd risk it all on a single play? I'm just getting started, and you're already on the ropes, trying to figure out what's real and what's not. Bring it on, I dare you to try and catch me in a lie!"
+    },
+    {
+        "turn": 12,
+        "phase": "bidding",
+        "player": "Player 2",
+        "urgency": 8,
+        "llm_reasoning": "Player 4's overconfidence is a red flag",
+        "llm_speech": "Player 4's got a card up their sleeve, and it's not an Ace - they're hiding the real killer hand, and we're all just pawns in their game of smoke and mirrors"
+    },
+    {
+        "turn": 12,
+        "phase": "action",
+        "player": "Player 1",
+        "private_hand": [
+            "A",
+            "Q"
+        ],
+        "llm_reasoning": "Player 4's recent claims are too convenient, I need to shake things up",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "A"
+            ]
+        }
+    },
+    {
+        "turn": 13,
+        "phase": "bidding",
+        "player": "Player 1",
+        "urgency": 9,
+        "llm_reasoning": "I'm already on the hot seat, might as well keep the pressure on",
+        "llm_speech": "You're so quick to doubt me, Player 2, but what's your real motive? Are you just trying to deflect attention from your own shaky foundation? I've got the cards to back up my claim, and you're just spinning your wheels in a desperate attempt to discredit me"
+    },
+    {
+        "turn": 13,
+        "phase": "bidding",
+        "player": "Player 3",
+        "urgency": 7,
+        "llm_reasoning": "Player 1's claim is too bold, and their foundation is shaky",
+        "llm_speech": "Player 1's attempt to play two As is a desperate ploy to distract from their own weak hand, and I suspect they're hiding a Joker to justify their wild claim"
+    },
+    {
+        "turn": 13,
+        "phase": "action",
+        "player": "Player 2",
+        "private_hand": [
+            "K",
+            "A"
+        ],
+        "llm_reasoning": "Player 4's overconfidence is ripe for exploitation",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "K"
+            ]
+        }
+    },
+    {
+        "turn": 14,
+        "phase": "bidding",
+        "player": "Player 2",
+        "urgency": 8,
+        "llm_reasoning": "I've already played a strong hand, and Player 3's trying to catch me in a lie.",
+        "llm_speech": "You're just trying to stall for time, Player 3. My A is the real deal, and you know it."
+    },
+    {
+        "turn": 14,
+        "phase": "bidding",
+        "player": "Player 1",
+        "urgency": 8,
+        "llm_reasoning": "Player 2's sudden confidence is a clear sign of desperation",
+        "llm_speech": "Don't be fooled by Player 2's fake bravado! They're panicking because they know their weak hand is about to get exposed"
+    },
+    {
+        "turn": 14,
+        "phase": "action",
+        "player": "Player 3",
+        "private_hand": [
+            "K"
+        ],
+        "llm_reasoning": "Player 2's recent claim and Player 1's suspicious behavior make me suspect a bluff",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "K"
+            ]
+        }
+    },
+    {
+        "turn": 15,
+        "phase": "bidding",
+        "player": "Player 1",
+        "urgency": 8,
+        "llm_reasoning": "Player 3's tone is too smug, they're hiding something",
+        "llm_speech": "Player 3's claim reeks of desperation, they're trying to cover up a weak hand with a thin layer of bravado!"
+    },
+    {
+        "turn": 15,
+        "phase": "bidding",
+        "player": "Player 2",
+        "urgency": 8,
+        "llm_reasoning": "Player 3's claim is suspiciously timed to distract from their actual hand",
+        "llm_speech": "Player 3's trying to sneak one past us, but I've got my eyes on their shaky foundation \u2013 they're bluffing, and it's gonna blow up in their face!"
+    },
+    {
+        "turn": 15,
+        "phase": "action",
+        "player": "Player 4",
+        "private_hand": [
+            "A"
+        ],
+        "llm_reasoning": "I'm going to throw them off with a wild Joker",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "A"
+            ]
+        }
+    },
+    {
+        "turn": 16,
+        "phase": "bidding",
+        "player": "Player 2",
+        "urgency": 6,
+        "llm_reasoning": "Player 4's bluff is getting too obvious",
+        "llm_speech": "Player 4's 'A' is a desperate attempt to distract from their crumbling foundation \u2013 it's a weak move, and I'm not buying it"
+    },
+    {
+        "turn": 16,
+        "phase": "action",
+        "player": "Player 1",
+        "private_hand": [
+            "Q"
+        ],
+        "llm_reasoning": "I need to mix things up and create some uncertainty",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "Q"
+            ]
+        }
+    },
+    {
+        "turn": 17,
+        "phase": "action",
+        "player": "Player 2",
+        "private_hand": [
+            "A"
+        ],
+        "llm_reasoning": "I'll play a Joker to distract and a Queen to bluff",
+        "raw_action_output": {
+            "type": "call_liar"
+        }
+    },
+    {
+        "turn": 18,
+        "phase": "action",
+        "player": "Player 1",
+        "private_hand": [
+            "A",
+            "A",
+            "A",
+            "A",
+            "K"
+        ],
+        "llm_reasoning": "I don't have any Kings, so I'll bluff with a Queen and Joker.",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "A"
+            ]
+        }
+    },
+    {
+        "turn": 19,
+        "phase": "bidding",
+        "player": "Player 3",
+        "urgency": 8,
+        "llm_reasoning": "Player 1's claim is inconsistent with their previous plays",
+        "llm_speech": "Player 1's 'two Ks' is a transparent attempt to mask their dwindling hand, but I see a telltale lack of Ks in their earlier moves"
+    },
+    {
+        "turn": 19,
+        "phase": "bidding",
+        "player": "Player 1",
+        "urgency": 9,
+        "llm_reasoning": "They're trying to catch me off guard",
+        "llm_speech": "You're just trying to deflect attention from your own shaky foundation, Player 2. My Ks are a done deal, and you're just grasping at straws to take me down"
+    },
+    {
+        "turn": 19,
+        "phase": "action",
+        "player": "Player 2",
+        "private_hand": [
+            "Q",
+            "Q",
+            "Q",
+            "Joker",
+            "Q"
+        ],
+        "llm_reasoning": "I'm out of Kings, so I'll bluff with a Queen and Joker",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "Q",
+                "Joker"
+            ]
+        }
+    },
+    {
+        "turn": 20,
+        "phase": "action",
+        "player": "Player 3",
+        "private_hand": [
+            "K",
+            "K",
+            "A",
+            "Q",
+            "K"
+        ],
+        "llm_reasoning": "I have no Kings, so I'll bluff with a Queen and a Joker.",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "K"
+            ]
+        }
+    },
+    {
+        "turn": 21,
+        "phase": "bidding",
+        "player": "Player 3",
+        "urgency": 9,
+        "llm_reasoning": "I've already played one K, so the pressure's on",
+        "llm_speech": "You're not even close to being in a position to call 'Liar', Player 4. My K-force is unstoppable"
+    },
+    {
+        "turn": 21,
+        "phase": "bidding",
+        "player": "Player 1",
+        "urgency": 8,
+        "llm_reasoning": "Player 3's K-force is a transparent smokescreen to distract from their actual hand",
+        "llm_speech": "Are you really going to fall for Player 3's 'K-force' bluff? I think they're trying to hypnotize you into submission, but I won't let them get away with it!"
+    },
+    {
+        "turn": 21,
+        "phase": "action",
+        "player": "Player 4",
+        "private_hand": [
+            "A",
+            "Q",
+            "K",
+            "K",
+            "Joker"
+        ],
+        "llm_reasoning": "I'm out of Kings, so I'll try to mislead with a Queen and a Joker.",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "Q",
+                "Joker"
+            ]
+        }
+    },
+    {
+        "turn": 22,
+        "phase": "bidding",
+        "player": "Player 4",
+        "urgency": 9,
+        "llm_reasoning": "They won't suspect a thing",
+        "llm_speech": "You're just trying to distract me with your clever words, Player 1. But my K-krusher is already crushing the table, and you're just a pawn in my game of Liar's Bar"
+    },
+    {
+        "turn": 22,
+        "phase": "bidding",
+        "player": "Player 2",
+        "urgency": 6,
+        "llm_reasoning": "Player 4's K-krusher is just a desperate attempt to cover their weak foundation",
+        "llm_speech": "You're getting played, Player 1! Player 4's 'K-krusher' is just a smokescreen for their own shaky foundation \u2013 I'm willing to bet they're hiding a Queen or worse!"
+    },
+    {
+        "turn": 22,
+        "phase": "action",
+        "player": "Player 1",
+        "private_hand": [
+            "A",
+            "A",
+            "A",
+            "K"
+        ],
+        "llm_reasoning": "I need to get rid of some cards, and Player 4's claim seems suspicious",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "A"
+            ]
+        }
+    },
+    {
+        "turn": 23,
+        "phase": "bidding",
+        "player": "Player 4",
+        "urgency": 8,
+        "llm_reasoning": "Player 1's attempt to save face is too late, and their weak hand is about to be exposed",
+        "llm_speech": "Player 1's 'K-krusher' is just a desperate attempt to deflect attention from their own crumbling foundation, and I'm surprised they didn't even bother to cover their tracks!"
+    },
+    {
+        "turn": 23,
+        "phase": "action",
+        "player": "Player 2",
+        "private_hand": [
+            "Q",
+            "Q",
+            "Q"
+        ],
+        "llm_reasoning": "I'm not getting out of this hand with a weak Queen alone",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "Q"
+            ]
+        }
+    },
+    {
+        "turn": 24,
+        "phase": "action",
+        "player": "Player 3",
+        "private_hand": [
+            "K",
+            "A",
+            "Q",
+            "K"
+        ],
+        "llm_reasoning": "I'm mathematically forced to bluff with a Queen to maintain a decent chance of winning.",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "K"
+            ]
+        }
+    },
+    {
+        "turn": 25,
+        "phase": "bidding",
+        "player": "Player 1",
+        "urgency": 8,
+        "llm_reasoning": "Player 3's sudden shift from skepticism to bold claims reeks of desperation",
+        "llm_speech": "Player 4, don't fall for Player 3's fake bravado! I've seen this before - they're trying to cover up a weak hand with a fake K-kingpin, and you're the perfect pawn in their game!"
+    },
+    {
+        "turn": 25,
+        "phase": "bidding",
+        "player": "Player 2",
+        "urgency": 8,
+        "llm_reasoning": "Player 3's K-kingpin is too convenient, it's a trap",
+        "llm_speech": "Player 4, don't get duped! Player 3's K-kingpin is a smokescreen for their own weakness, I've seen this before \u2013 it's a desperate attempt to control the narrative!"
+    },
+    {
+        "turn": 25,
+        "phase": "action",
+        "player": "Player 4",
+        "private_hand": [
+            "A",
+            "K",
+            "K"
+        ],
+        "llm_reasoning": "I'll bluff with a Queen to shake things up and make them question my hand.",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "A"
+            ]
+        }
+    },
+    {
+        "turn": 26,
+        "phase": "bidding",
+        "player": "Player 4",
+        "urgency": 9,
+        "llm_reasoning": "I'm already on the hot seat, might as well turn up the heat",
+        "llm_speech": "Player 1, you're just trying to deflect attention from your own crumbling foundation! I'm the one who's really building something here, and you're just trying to tear me down with your petty 'Liar' calls!"
+    },
+    {
+        "turn": 26,
+        "phase": "bidding",
+        "player": "Player 2",
+        "urgency": 8,
+        "llm_reasoning": "Player 4's attempt to crown themselves the King of the table is laughable",
+        "llm_speech": "Player 4's 'K-kingpin' is a feeble attempt to distract from their own crumbling foundation \u2013 they're trying to pawn off a weak hand as a strong one!"
+    },
+    {
+        "turn": 26,
+        "phase": "action",
+        "player": "Player 1",
+        "private_hand": [
+            "A",
+            "A",
+            "K"
+        ],
+        "llm_reasoning": "I have no Kings, so I'll bluff with a Joker to throw them off",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "A"
+            ]
+        }
+    },
+    {
+        "turn": 27,
+        "phase": "bidding",
+        "player": "Player 1",
+        "urgency": 9,
+        "llm_reasoning": "I must appear confident to deter Player 2 from calling 'Liar'",
+        "llm_speech": "Ha! You think I'd make such a rookie mistake? My K-kingpin is a masterpiece, a work of art. You're just jealous of my genius and trying to discredit me with a baseless 'Liar' call."
+    },
+    {
+        "turn": 27,
+        "phase": "bidding",
+        "player": "Player 3",
+        "urgency": 8,
+        "llm_reasoning": "Player 1's claim is inconsistent with the table dynamics",
+        "llm_speech": "Player 1's 'K-kingpin' is a desperate attempt to create a smokescreen, hiding the fact that they're about to get crushed by the real K-kingpin \u2013 Player 4's two Ks!"
+    },
+    {
+        "turn": 27,
+        "phase": "action",
+        "player": "Player 2",
+        "private_hand": [
+            "Q",
+            "Q"
+        ],
+        "llm_reasoning": "I need to disrupt the flow and create uncertainty",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "Q"
+            ]
+        }
+    },
+    {
+        "turn": 28,
+        "phase": "bidding",
+        "player": "Player 2",
+        "urgency": 9,
+        "llm_reasoning": "I've got a solid hand and I'm not backing down",
+        "llm_speech": "You're just salty because you know you can't touch my royal flush \u2013 K-kingpin this table and watch the others tremble!"
+    },
+    {
+        "turn": 28,
+        "phase": "bidding",
+        "player": "Player 4",
+        "urgency": 6,
+        "llm_reasoning": "Player 2's confidence is a facade, hiding the fact that they're bluffing",
+        "llm_speech": "Player 2's 'K-kingpin' is a desperate attempt to rewrite history, trying to make us believe they're the master builder when they're actually just a novice architect"
+    },
+    {
+        "turn": 28,
+        "phase": "action",
+        "player": "Player 3",
+        "private_hand": [
+            "A",
+            "Q",
+            "K"
+        ],
+        "llm_reasoning": "I have no Kings, so I'll bluff with a Queen and a Joker.",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "A"
+            ]
+        }
+    },
+    {
+        "turn": 29,
+        "phase": "bidding",
+        "player": "Player 1",
+        "urgency": 8,
+        "llm_reasoning": "Player 3's too-smooth claim reeks of deception",
+        "llm_speech": "Hold up, Player 4, don't let Player 3's slick talk fool you! I've seen this tactic before \u2013 it's a classic smokescreen, meant to distract us from the real lie. Trust me, there's more to Player 3's story than meets the eye"
+    },
+    {
+        "turn": 29,
+        "phase": "bidding",
+        "player": "Player 3",
+        "urgency": 9,
+        "llm_reasoning": "Player 4 is likely to call 'Liar' if I don't defend myself",
+        "llm_speech": "My K-kingpin is a masterpiece, and you're just trying to derail the train with a baseless accusation"
+    },
+    {
+        "turn": 29,
+        "phase": "action",
+        "player": "Player 4",
+        "private_hand": [
+            "K",
+            "K"
+        ],
+        "llm_reasoning": "I'm going to create a diversion with a Joker and a Queen to throw them off my true intentions.",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "K"
+            ]
+        }
+    },
+    {
+        "turn": 30,
+        "phase": "bidding",
+        "player": "Player 4",
+        "urgency": 9,
+        "llm_reasoning": "I've got a solid hand and I'm not backing down",
+        "llm_speech": "Player 1, you're so desperate to take me down, but you're just getting tangled in your own web of deceit! My K-kingpin is a masterpiece, and you're just a pawn trying to knock over the entire table"
+    },
+    {
+        "turn": 30,
+        "phase": "bidding",
+        "player": "Player 2",
+        "urgency": 8,
+        "llm_reasoning": "Player 4's claim is too convenient, and Player 1 is too gullible",
+        "llm_speech": "Player 4's 'K-kingpin' is just a desperate attempt to distract from their own lack of creativity, and Player 1 is buying into it hook, line, and sinker"
+    },
+    {
+        "turn": 30,
+        "phase": "action",
+        "player": "Player 1",
+        "private_hand": [
+            "A",
+            "K"
+        ],
+        "llm_reasoning": "I'm not convinced by anyone's claims, so I'll bluff with a Queen and a Joker to throw them off my scent.",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "A"
+            ]
+        }
+    },
+    {
+        "turn": 31,
+        "phase": "bidding",
+        "player": "Player 1",
+        "urgency": 9,
+        "llm_reasoning": "They'll think I'm getting desperate if I don't respond quickly",
+        "llm_speech": "You're just trying to create a diversion, Player 2! I'm not buying into your 'concern' for my credibility. I know the truth, and it's not what you're saying."
+    },
+    {
+        "turn": 31,
+        "phase": "bidding",
+        "player": "Player 3",
+        "urgency": 7,
+        "llm_reasoning": "Player 1's recent claims are statistically improbable",
+        "llm_speech": "Player 1's supposed K-kingpin is a house of cards, and I've got the math to prove it \u2013 their 'Ks' are just a desperate attempt to rewrite reality"
+    },
+    {
+        "turn": 31,
+        "phase": "action",
+        "player": "Player 2",
+        "private_hand": [
+            "Q"
+        ],
+        "llm_reasoning": "I have no Kings, so I'll bluff with a Queen and Joker",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "Q"
+            ]
+        }
+    },
+    {
+        "turn": 32,
+        "phase": "bidding",
+        "player": "Player 1",
+        "urgency": 8,
+        "llm_reasoning": "Player 2's claim is too convenient, they're trying to distract from their own hand",
+        "llm_speech": "Player 2's 'K-kingpin' is just a desperate attempt to hide their own lack of creativity, and I've seen this trick before - it's a classic smokescreen, designed to make us overlook their true hand!"
+    },
+    {
+        "turn": 32,
+        "phase": "bidding",
+        "player": "Player 4",
+        "urgency": 6,
+        "llm_reasoning": "Player 2's play seems suspiciously straightforward, and I want to amplify the uncertainty",
+        "llm_speech": "Player 2's 'K-kingpin' is a masterclass in understatement, but I'm sensing a hidden agenda, a whispered promise to the table that's waiting to be exposed"
+    },
+    {
+        "turn": 32,
+        "phase": "action",
+        "player": "Player 3",
+        "private_hand": [
+            "Q",
+            "K"
+        ],
+        "llm_reasoning": "I have no Kings, so I'll bluff with a Queen and Joker",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "Q"
+            ]
+        }
+    },
+    {
+        "turn": 33,
+        "phase": "bidding",
+        "player": "Player 1",
+        "urgency": 8,
+        "llm_reasoning": "Player 3's too-cool tone screams 'cover-up' to me",
+        "llm_speech": "Don't be fooled by Player 3's 'innocent' claim \u2013 I'm convinced they're hiding a royal flush, and their 'one K' is just a desperate attempt to throw us off the scent!"
+    },
+    {
+        "turn": 33,
+        "phase": "bidding",
+        "player": "Player 3",
+        "urgency": 7,
+        "llm_reasoning": "Player 4 will hesitate if I demonstrate confidence",
+        "llm_speech": "I've got the math on my side, and my Ks are the real deal \u2013 don't get left behind, Player 4, and take a closer look at the table"
+    },
+    {
+        "turn": 33,
+        "phase": "action",
+        "player": "Player 4",
+        "private_hand": [
+            "K"
+        ],
+        "llm_reasoning": "I'll throw in a Joker to shake things up and see how they react",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "K"
+            ]
+        }
+    },
+    {
+        "turn": 34,
+        "phase": "bidding",
+        "player": "Player 3",
+        "urgency": 6,
+        "llm_reasoning": "Player 4's claim is mathematically unlikely",
+        "llm_speech": "Player 4's K-kingpin is a desperate attempt to conjure a royal flush, but the math just doesn't add up \u2013 it's a house of cards waiting to collapse"
+    },
+    {
+        "turn": 34,
+        "phase": "action",
+        "player": "Player 1",
+        "private_hand": [
+            "K"
+        ],
+        "llm_reasoning": "I'm running out of options, so I'll bluff with a Queen and hope Player 2 or 3 bites",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "K"
+            ]
+        }
+    },
+    {
+        "turn": 35,
+        "phase": "action",
+        "player": "Player 3",
+        "private_hand": [
+            "K"
+        ],
+        "llm_reasoning": "I need to bluff to survive",
+        "raw_action_output": {
+            "type": "call_liar"
+        }
+    },
+    {
+        "turn": 36,
+        "phase": "action",
+        "player": "Player 3",
+        "private_hand": [
+            "K",
+            "Joker",
+            "A",
+            "Q",
+            "Q"
+        ],
+        "llm_reasoning": "No Kings in hand, must bluff with Queen",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "Q",
+                "Joker"
+            ]
+        }
+    },
+    {
+        "turn": 37,
+        "phase": "bidding",
+        "player": "Player 1",
+        "urgency": 8,
+        "llm_reasoning": "Player 3's Q-kingpin smells like a desperate attempt to distract from their own vulnerabilities",
+        "llm_speech": "Are you kidding me, Player 4? You think Player 3's Qs are the real deal? I've got a better chance of finding a unicorn in this game than trusting their math is on point!"
+    },
+    {
+        "turn": 37,
+        "phase": "bidding",
+        "player": "Player 3",
+        "urgency": 8,
+        "llm_reasoning": "Player 4's hesitation is a sign of uncertainty",
+        "llm_speech": "My Qs are as solid as the foundation of this table, Player 4. Don't get burned by your own doubts"
+    },
+    {
+        "turn": 37,
+        "phase": "action",
+        "player": "Player 4",
+        "private_hand": [
+            "Q",
+            "A",
+            "A",
+            "K",
+            "A"
+        ],
+        "llm_reasoning": "I'll throw a Joker in the mix to spice things up and distract from my Queen.",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "Q"
+            ]
+        }
+    },
+    {
+        "turn": 38,
+        "phase": "bidding",
+        "player": "Player 2",
+        "urgency": 8,
+        "llm_reasoning": "Player 4's claim is suspiciously confident",
+        "llm_speech": "Player 4 is trying to blindside everyone with a bold-faced lie, and their 'Q' claim is as flimsy as a house of cards in a hurricane"
+    },
+    {
+        "turn": 38,
+        "phase": "bidding",
+        "player": "Player 3",
+        "urgency": 8,
+        "llm_reasoning": "Player 4's claim is statistically improbable given the table rank and previous plays",
+        "llm_speech": "Player 4's Q is a mathematical impossibility! They're trying to pull the wool over everyone's eyes"
+    },
+    {
+        "turn": 38,
+        "phase": "action",
+        "player": "Player 1",
+        "private_hand": [
+            "K",
+            "K",
+            "Q",
+            "Q",
+            "Q"
+        ],
+        "llm_reasoning": "I have no Kings to play, so I'll bluff with a Queen and hope for the best.",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "K"
+            ]
+        }
+    },
+    {
+        "turn": 39,
+        "phase": "bidding",
+        "player": "Player 1",
+        "urgency": 9,
+        "llm_reasoning": "They'll definitely call me out if I don't make a strong defense",
+        "llm_speech": "You think I'm bluffing? Ha! I've got the proof right here! My Qs are as solid as the foundation of this table, and you're just trying to deflect attention from your own shaky math!"
+    },
+    {
+        "turn": 39,
+        "phase": "bidding",
+        "player": "Player 3",
+        "urgency": 8,
+        "llm_reasoning": "Player 1's claim is statistically improbable given the current table state",
+        "llm_speech": "Player 1's Qs are a mathematical anomaly, and I'm not buying the coincidence!"
+    },
+    {
+        "turn": 39,
+        "phase": "action",
+        "player": "Player 2",
+        "private_hand": [
+            "A",
+            "Joker",
+            "K",
+            "K",
+            "A"
+        ],
+        "llm_reasoning": "Player 1's claim is already on shaky ground, so I'll just add more fuel to the fire.",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "A"
+            ]
+        }
+    },
+    {
+        "turn": 40,
+        "phase": "bidding",
+        "player": "Player 2",
+        "urgency": 9,
+        "llm_reasoning": "They can't call 'Liar' without looking like a total newbie",
+        "llm_speech": "Oh, please, Player 3, do tell. What's the 'mathematical anomaly' you're going to use to debunk my perfectly legitimate Q play? I'm dying to see what weak sauce you're going to bring to the table"
+    },
+    {
+        "turn": 40,
+        "phase": "bidding",
+        "player": "Player 4",
+        "urgency": 8,
+        "llm_reasoning": "Player 2's recent bluff has created an opportunity to create chaos",
+        "llm_speech": "Player 2 is so desperate to distract us from their own shaky math that they're actually trying to gaslight us with a fake Q, and I've got the proof right here!"
+    },
+    {
+        "turn": 40,
+        "phase": "action",
+        "player": "Player 3",
+        "private_hand": [
+            "K",
+            "A",
+            "Q"
+        ],
+        "llm_reasoning": "Player 2's claim is suspicious, and I'll play a Joker to keep them guessing.",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "K"
+            ]
+        }
+    },
+    {
+        "turn": 41,
+        "phase": "bidding",
+        "player": "Player 3",
+        "urgency": 8,
+        "llm_reasoning": "My Q play is a calculated risk",
+        "llm_speech": "Player 4 should focus on their own shaky math instead of trying to scrutinize mine"
+    },
+    {
+        "turn": 41,
+        "phase": "bidding",
+        "player": "Player 2",
+        "urgency": 7,
+        "llm_reasoning": "Player 3's claim is too obvious, and Player 4 is too gullible",
+        "llm_speech": "Player 3's 'mathematical anomaly' is just a desperate attempt to distract from their own Q-weakness, and Player 4 is about to get burned by swallowing the bait"
+    },
+    {
+        "turn": 41,
+        "phase": "action",
+        "player": "Player 4",
+        "private_hand": [
+            "A",
+            "A",
+            "K",
+            "A"
+        ],
+        "llm_reasoning": "Player 3's recent play has me convinced they're trying to distract from their own shaky math, so I'll play a Joker to throw them off",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "A"
+            ]
+        }
+    },
+    {
+        "turn": 42,
+        "phase": "bidding",
+        "player": "Player 3",
+        "urgency": 8,
+        "llm_reasoning": "Player 4's claim is inconsistent with the table state",
+        "llm_speech": "Player 4's 'mathematical anomaly' is just a smokescreen to hide their Q-weakness; they're counting on Player 1's gullibility to get away with the bluff"
+    },
+    {
+        "turn": 42,
+        "phase": "bidding",
+        "player": "Player 4",
+        "urgency": 9,
+        "llm_reasoning": "I'm not lying, I'm just... rearranging the deck",
+        "llm_speech": "Player 1, you're so quick to suspect deceit, but what if I told you the truth is even more shocking? I'm not bluffing, I'm just... redefining the concept of 'Q'!"
+    },
+    {
+        "turn": 42,
+        "phase": "action",
+        "player": "Player 1",
+        "private_hand": [
+            "K",
+            "Q",
+            "Q",
+            "Q"
+        ],
+        "llm_reasoning": "I need to get rid of some cards and can't trust anyone's claims",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "K"
+            ]
+        }
+    },
+    {
+        "turn": 43,
+        "phase": "bidding",
+        "player": "Player 1",
+        "urgency": 9,
+        "llm_reasoning": "Player 2 is just trying to get a free pass to play cards",
+        "llm_speech": "You're not going to catch me off guard with your feeble attempt to call 'Liar'! I've got the Qs to back up my claim, and you're just trying to distract from your own shaky math!"
+    },
+    {
+        "turn": 43,
+        "phase": "bidding",
+        "player": "Player 4",
+        "urgency": 7,
+        "llm_reasoning": "Player 1's confidence is a red flag, and I can use this opportunity to sow doubt",
+        "llm_speech": "Player 1's attempt to silence the table with bravado is a classic sign of a bluffing artist, and I think they're desperately trying to cover up a Q-less hand"
+    },
+    {
+        "turn": 43,
+        "phase": "action",
+        "player": "Player 2",
+        "private_hand": [
+            "Joker",
+            "K",
+            "K",
+            "A"
+        ],
+        "llm_reasoning": "I'll play a Joker to mask my true intentions and a Queen to keep the pressure on",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "Joker"
+            ]
+        }
+    },
+    {
+        "turn": 44,
+        "phase": "bidding",
+        "player": "Player 4",
+        "urgency": 6,
+        "llm_reasoning": "Player 2's recent play is too neat, too tidy, and too... predictable.",
+        "llm_speech": "Player 2's 'Q-storm' is just a clever smokescreen to distract from the real issue: their lack of imagination in their playing style!"
+    },
+    {
+        "turn": 44,
+        "phase": "bidding",
+        "player": "Player 2",
+        "urgency": 9,
+        "llm_reasoning": "My Q-storm is unstoppable",
+        "llm_speech": "You're just mad because you're stuck in a rut, playing the same old tricks. My Qs are the real deal, and you can't handle the truth!"
+    },
+    {
+        "turn": 44,
+        "phase": "action",
+        "player": "Player 3",
+        "private_hand": [
+            "A",
+            "Q"
+        ],
+        "llm_reasoning": "I need to keep the pressure on and bluff with a high-probability card",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "A"
+            ]
+        }
+    },
+    {
+        "turn": 45,
+        "phase": "bidding",
+        "player": "Player 1",
+        "urgency": 8,
+        "llm_reasoning": "Player 3's claim seems too good to be true, and Player 4's skepticism is warranted",
+        "llm_speech": "Don't be fooled by Player 3's 'Q-storm' \u2013 it's just a desperate attempt to hide their lack of Qs, and their timing is suspiciously convenient for Player 2's sake"
+    },
+    {
+        "turn": 45,
+        "phase": "bidding",
+        "player": "Player 3",
+        "urgency": 9,
+        "llm_reasoning": "I played a legitimate Q",
+        "llm_speech": "Player 4's paranoia is palpable. I'm not surprised they're questioning my Qs, given their own hand's questionable strength"
+    },
+    {
+        "turn": 45,
+        "phase": "action",
+        "player": "Player 4",
+        "private_hand": [
+            "A",
+            "K",
+            "A"
+        ],
+        "llm_reasoning": "Player 3's claim of two Qs is suspiciously convenient, so I'll play a Joker to disrupt the table's momentum.",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "A"
+            ]
+        }
+    },
+    {
+        "turn": 46,
+        "phase": "bidding",
+        "player": "Player 4",
+        "urgency": 9,
+        "llm_reasoning": "Player 1 is hesitating, they're trying to read my play",
+        "llm_speech": "You're just as guilty as I am, Player 1, trying to hide behind a veil of skepticism. My Qs are the real deal, and you know it!"
+    },
+    {
+        "turn": 46,
+        "phase": "bidding",
+        "player": "Player 3",
+        "urgency": 8,
+        "llm_reasoning": "Player 4's Qs are a statistical anomaly, requiring an improbable hand composition to support their claim",
+        "llm_speech": "Player 4's Q-storm is a statistical impossibility, a desperate attempt to rewrite the laws of probability itself"
+    },
+    {
+        "turn": 46,
+        "phase": "action",
+        "player": "Player 1",
+        "private_hand": [
+            "Q",
+            "Q",
+            "Q"
+        ],
+        "llm_reasoning": "I need to take a chance and bluff with a Queen to throw off the table",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "Q"
+            ]
+        }
+    },
+    {
+        "turn": 47,
+        "phase": "bidding",
+        "player": "Player 1",
+        "urgency": 9,
+        "llm_reasoning": "Player 2 might suspect I'm bluffing, but my confidence will convince them otherwise",
+        "llm_speech": "Player 2, don't even think about calling 'Liar' on me. My Qs are as solid as a fortress, and I've got the proof right here in my chambers!"
+    },
+    {
+        "turn": 47,
+        "phase": "bidding",
+        "player": "Player 3",
+        "urgency": 8,
+        "llm_reasoning": "Player 1's claim is statistically improbable, given the current table state",
+        "llm_speech": "Player 1's Q-storm is a house of cards, and I'm not buying the insurance"
+    },
+    {
+        "turn": 47,
+        "phase": "action",
+        "player": "Player 2",
+        "private_hand": [
+            "K",
+            "K",
+            "A"
+        ],
+        "llm_reasoning": "I'll bluff with a Queen to put pressure on Player 1's Q-storm",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "K"
+            ]
+        }
+    },
+    {
+        "turn": 48,
+        "phase": "bidding",
+        "player": "Player 2",
+        "urgency": 9,
+        "llm_reasoning": "I played Queens, no doubt about it",
+        "llm_speech": "You think you're clever, Player 3, but my Queens are the real deal. You're just trying to salvage your own weak hand"
+    },
+    {
+        "turn": 48,
+        "phase": "bidding",
+        "player": "Player 1",
+        "urgency": 8,
+        "llm_reasoning": "Player 2's Q-storm is too perfect, too convenient",
+        "llm_speech": "Player 3, don't fall for Player 2's trap! Their 'two Queens' claim is a desperate attempt to distract from their own lies. I've seen this tactic before, and it always ends in disaster!"
+    },
+    {
+        "turn": 48,
+        "phase": "action",
+        "player": "Player 3",
+        "private_hand": [
+            "Q"
+        ],
+        "llm_reasoning": "Player 2's claim is suspicious, and I'll bluff to test the waters.",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "Q"
+            ]
+        }
+    },
+    {
+        "turn": 49,
+        "phase": "bidding",
+        "player": "Player 1",
+        "urgency": 8,
+        "llm_reasoning": "Player 3's sudden change of heart smells like a desperate attempt to deflect attention",
+        "llm_speech": "Player 4, don't be fooled by Player 3's smoke and mirrors! Their 'two Qs' claim is a desperate attempt to throw you off the scent of their own deceit. Trust me, I've seen this before \u2013 it's a classic tactic to distract from the real lies!"
+    },
+    {
+        "turn": 49,
+        "phase": "action",
+        "player": "Player 4",
+        "private_hand": [
+            "K",
+            "A"
+        ],
+        "llm_reasoning": "I'll try to create chaos by playing a Joker and a Queen, making it seem like I'm trying to cover my tracks.",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "K"
+            ]
+        }
+    },
+    {
+        "turn": 50,
+        "phase": "action",
+        "player": "Player 1",
+        "private_hand": [
+            "Q",
+            "Q"
+        ],
+        "llm_reasoning": "Player 2's claim of two Queens is suspiciously vague, and I'll use this chance to test their honesty.",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "Q"
+            ]
+        }
+    },
+    {
+        "turn": 51,
+        "phase": "action",
+        "player": "Player 2",
+        "private_hand": [
+            "K",
+            "A"
+        ],
+        "llm_reasoning": "I need to shake things up and create a diversion",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "K"
+            ]
+        }
+    },
+    {
+        "turn": 52,
+        "phase": "bidding",
+        "player": "Player 2",
+        "urgency": 9,
+        "llm_reasoning": "I've already laid down the gauntlet, they can't back down now",
+        "llm_speech": "You think I'd get this far with a weak hand? Bring it on, I dare you to call me out"
+    },
+    {
+        "turn": 52,
+        "phase": "bidding",
+        "player": "Player 1",
+        "urgency": 8,
+        "llm_reasoning": "Player 2's claim is too confident, it's a classic tell of a bluff",
+        "llm_speech": "Don't fall for Player 2's smug bravado, it's a trap! They're trying to make us underestimate their hand, but I've seen this trick before and it always ends in disaster"
+    },
+    {
+        "turn": 52,
+        "phase": "action",
+        "player": "Player 4",
+        "private_hand": [
+            "A"
+        ],
+        "llm_reasoning": "I'll play a Joker to throw off the scent and make them doubt my Q claim",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "A"
+            ]
+        }
+    },
+    {
+        "turn": 53,
+        "phase": "bidding",
+        "player": "Player 2",
+        "urgency": 8,
+        "llm_reasoning": "Player 4's claim is too convenient, and Player 1's skepticism is justified",
+        "llm_speech": "Player 4 is hiding behind a smokescreen, trying to distract us from the real Queen in the house \u2013 and that's me!"
+    },
+    {
+        "turn": 53,
+        "phase": "action",
+        "player": "Player 1",
+        "private_hand": [
+            "Q"
+        ],
+        "llm_reasoning": "I have no choice but to bluff with a Queen, or I'll be left with nothing",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "Q"
+            ]
+        }
+    },
+    {
+        "turn": 54,
+        "phase": "action",
+        "player": "Player 2",
+        "private_hand": [
+            "A"
+        ],
+        "llm_reasoning": "I need to bluff to stay in the game",
+        "raw_action_output": {
+            "type": "call_liar"
+        }
+    },
+    {
+        "turn": 55,
+        "phase": "action",
+        "player": "Player 2",
+        "private_hand": [
+            "A",
+            "Q",
+            "A",
+            "Q",
+            "Joker"
+        ],
+        "llm_reasoning": "I'll bluff with a Queen to set the tone and see if anyone bites",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "Q",
+                "Joker"
+            ]
+        }
+    },
+    {
+        "turn": 56,
+        "phase": "bidding",
+        "player": "Player 2",
+        "urgency": 9,
+        "llm_reasoning": "I've already played two Qs, they can't deny it",
+        "llm_speech": "You're just trying to steal the spotlight, Player 3. Newsflash: I'm the Queen, and I've already checked out of this game"
+    },
+    {
+        "turn": 56,
+        "phase": "bidding",
+        "player": "Player 1",
+        "urgency": 8,
+        "llm_reasoning": "Player 2's words are as slippery as a snake's hind legs",
+        "llm_speech": "Don't be fooled, Player 3! Player 2 is a master of deception, and I'm not buying their 'two Qs' claim for a second. They're just trying to distract us from their own shaky hand"
+    },
+    {
+        "turn": 56,
+        "phase": "action",
+        "player": "Player 3",
+        "private_hand": [
+            "K",
+            "Q",
+            "Joker",
+            "A",
+            "K"
+        ],
+        "llm_reasoning": "Player 2's claim of two Qs is suspicious, and I need to adapt.",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "Q",
+                "Joker"
+            ]
+        }
+    },
+    {
+        "turn": 57,
+        "phase": "bidding",
+        "player": "Player 1",
+        "urgency": 7,
+        "llm_reasoning": "Player 3's hand is too strong to be real",
+        "llm_speech": "Don't get duped, Player 4! Player 3's supposed 'two Qs' are just a smokescreen for their actual weakness - I bet they're bluffing and hiding aces up their sleeve"
+    },
+    {
+        "turn": 57,
+        "phase": "bidding",
+        "player": "Player 3",
+        "urgency": 9,
+        "llm_reasoning": "Two Qs is a strong claim",
+        "llm_speech": "Player 4, don't be blinded by Player 2's noise. I've got the Queen's stamp of approval on my hand"
+    },
+    {
+        "turn": 57,
+        "phase": "action",
+        "player": "Player 4",
+        "private_hand": [
+            "K",
+            "A",
+            "K",
+            "K",
+            "K"
+        ],
+        "llm_reasoning": "Player 3's bold claim has me questioning everything, so I'll throw a curveball",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "K"
+            ]
+        }
+    },
+    {
+        "turn": 58,
+        "phase": "bidding",
+        "player": "Player 4",
+        "urgency": 8,
+        "llm_reasoning": "I need to make a strong impression to shake off Player 1's suspicions",
+        "llm_speech": "Ha! You think you can catch me in a lie, Player 1? I'm just getting started, and my hand is hotter than a freshly forged sword!"
+    },
+    {
+        "turn": 58,
+        "phase": "bidding",
+        "player": "Player 3",
+        "urgency": 6,
+        "llm_reasoning": "Player 4's claim is too bold, and the timing is suspicious",
+        "llm_speech": "Player 4's one Queen is a desperate attempt to salvage a weak hand, and I'm not buying it"
+    },
+    {
+        "turn": 58,
+        "phase": "action",
+        "player": "Player 1",
+        "private_hand": [
+            "A",
+            "Q",
+            "Q",
+            "Q",
+            "A"
+        ],
+        "llm_reasoning": "I'll bluff with a Queen to throw off the scent",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "A"
+            ]
+        }
+    },
+    {
+        "turn": 59,
+        "phase": "bidding",
+        "player": "Player 3",
+        "urgency": 7,
+        "llm_reasoning": "Player 1's claim is suspiciously certain, given the small pile size",
+        "llm_speech": "Player 1's 'one Queen' is a desperate attempt to anchor the table, but it's too early to make such a bold claim"
+    },
+    {
+        "turn": 59,
+        "phase": "bidding",
+        "player": "Player 1",
+        "urgency": 9,
+        "llm_reasoning": "They'll think I'm hiding something if I don't respond quickly",
+        "llm_speech": "Oh, you think I'm bluffing? Ha! You're just jealous of my Queen's reign! I've got the proof right here, and it's going to knock you off your throne!"
+    },
+    {
+        "turn": 59,
+        "phase": "action",
+        "player": "Player 2",
+        "private_hand": [
+            "A",
+            "A",
+            "Q"
+        ],
+        "llm_reasoning": "I need to create a smokescreen to distract from my actual hand",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "A"
+            ]
+        }
+    },
+    {
+        "turn": 60,
+        "phase": "bidding",
+        "player": "Player 2",
+        "urgency": 9,
+        "llm_reasoning": "They're probably thinking I'm bluffing, but I've got the goods",
+        "llm_speech": "You think I'm just some amateur trying to bluff my way to the top? Bring it on, I've got a royal flush hidden up my sleeve!"
+    },
+    {
+        "turn": 60,
+        "phase": "action",
+        "player": "Player 3",
+        "private_hand": [
+            "K",
+            "A",
+            "K"
+        ],
+        "llm_reasoning": "I have no Kings to play, so I'll bluff with a Queen and a Joker.",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "K"
+            ]
+        }
+    },
+    {
+        "turn": 61,
+        "phase": "bidding",
+        "player": "Player 2",
+        "urgency": 8,
+        "llm_reasoning": "Player 3's claim is too easy to verify, they're not getting away with it",
+        "llm_speech": "Player 3's Queen is a cheap shot, they're trying to sneak one past us while we're distracted by Player 1's bluster"
+    },
+    {
+        "turn": 61,
+        "phase": "bidding",
+        "player": "Player 3",
+        "urgency": 9,
+        "llm_reasoning": "I played a strong hand to anchor the table",
+        "llm_speech": "You're just trying to deflect attention from your own Queen-less hand, Player 4. My Qs are the real deal, and I'm not backing down"
+    },
+    {
+        "turn": 61,
+        "phase": "action",
+        "player": "Player 4",
+        "private_hand": [
+            "A",
+            "K",
+            "K",
+            "K"
+        ],
+        "llm_reasoning": "I'm taking a wild gamble, hoping to throw everyone off my scent",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "A"
+            ]
+        }
+    },
+    {
+        "turn": 62,
+        "phase": "bidding",
+        "player": "Player 4",
+        "urgency": 9,
+        "llm_reasoning": "I'm already under fire, so I need to pour gas on the flames",
+        "llm_speech": "Player 1, you're so busy trying to dethrone me, you're forgetting you're still stuck on the throne of mediocrity. My Queens are just the beginning of my masterpiece, and you're just a pawn in my game of Liar's Bar chess"
+    },
+    {
+        "turn": 62,
+        "phase": "bidding",
+        "player": "Player 2",
+        "urgency": 8,
+        "llm_reasoning": "Player 4's claim is too smooth, Player 1's getting played",
+        "llm_speech": "Player 4's trying to lull us into a false sense of security, their 'two Qs' is just a trap to get us to underestimate them"
+    },
+    {
+        "turn": 62,
+        "phase": "action",
+        "player": "Player 1",
+        "private_hand": [
+            "Q",
+            "Q",
+            "Q",
+            "A"
+        ],
+        "llm_reasoning": "I'm desperate to get rid of some cards, and I'll take a wild card's chance",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "Q"
+            ]
+        }
+    },
+    {
+        "turn": 63,
+        "phase": "bidding",
+        "player": "Player 3",
+        "urgency": 8,
+        "llm_reasoning": "Player 1's claim is inconsistent with their previous statement",
+        "llm_speech": "Player 1's Queens are a house of cards, and I'm not buying the foundation!"
+    },
+    {
+        "turn": 63,
+        "phase": "bidding",
+        "player": "Player 4",
+        "urgency": 8,
+        "llm_reasoning": "Player 2 needs to be convinced to call Liar to shake up the table",
+        "llm_speech": "Player 1's Queens are a cleverly disguised distraction, a smokescreen to hide their true hand, and I'm willing to bet my chamber on it!"
+    },
+    {
+        "turn": 63,
+        "phase": "action",
+        "player": "Player 2",
+        "private_hand": [
+            "A",
+            "Q"
+        ],
+        "llm_reasoning": "Player 4's confidence is annoying, time to take them down",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "A"
+            ]
+        }
+    },
+    {
+        "turn": 64,
+        "phase": "bidding",
+        "player": "Player 2",
+        "urgency": 8,
+        "llm_reasoning": "They're too caught up in Player 1's drama",
+        "llm_speech": "You're just trying to stir up trouble, Player 3. My Queens are the real deal, and I'm not backing down"
+    },
+    {
+        "turn": 64,
+        "phase": "action",
+        "player": "Player 3",
+        "private_hand": [
+            "A",
+            "K"
+        ],
+        "llm_reasoning": "I have no Queens, so I'll bluff with a Queen and a Joker.",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "A"
+            ]
+        }
+    },
+    {
+        "turn": 65,
+        "phase": "bidding",
+        "player": "Player 1",
+        "urgency": 8,
+        "llm_reasoning": "Player 3's attempt to distract from their own bluffing",
+        "llm_speech": "Don't fall for Player 3's clever misdirection! Their 'one Q' claim is a desperate attempt to shift attention away from their own shaky foundation. We can't let them get away with it, Player 4!"
+    },
+    {
+        "turn": 65,
+        "phase": "bidding",
+        "player": "Player 3",
+        "urgency": 9,
+        "llm_reasoning": "Player 4 is likely considering the probability of me playing two Qs",
+        "llm_speech": "You're grasping at straws, Player 4. Two Queens are the only logical explanation for my last play"
+    },
+    {
+        "turn": 65,
+        "phase": "action",
+        "player": "Player 4",
+        "private_hand": [
+            "K",
+            "K",
+            "K"
+        ],
+        "llm_reasoning": "I'll play a Joker to throw them off, and claim a Queen to keep the chaos going.",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "K"
+            ]
+        }
+    },
+    {
+        "turn": 66,
+        "phase": "bidding",
+        "player": "Player 3",
+        "urgency": 6,
+        "llm_reasoning": "Player 4's claim is suspiciously late in the game",
+        "llm_speech": "Player 4's Queens are a desperate attempt to salvage a sinking ship"
+    },
+    {
+        "turn": 66,
+        "phase": "bidding",
+        "player": "Player 4",
+        "urgency": 8,
+        "llm_reasoning": "I'm not backing down, I'm just getting started",
+        "llm_speech": "Player 1, you're so quick to doubt me, but I've got a royal flush in my pocket and it's about to blindside you. Bring it on, I'm ready to take you down!"
+    },
+    {
+        "turn": 66,
+        "phase": "action",
+        "player": "Player 1",
+        "private_hand": [
+            "Q",
+            "Q",
+            "A"
+        ],
+        "llm_reasoning": "Player 4's claim is too bold, I'll play a Joker to throw them off",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "Q"
+            ]
+        }
+    },
+    {
+        "turn": 67,
+        "phase": "bidding",
+        "player": "Player 3",
+        "urgency": 7,
+        "llm_reasoning": "Player 1's claim is inconsistent with their previous statement",
+        "llm_speech": "Player 1's Queens are a desperate attempt to justify their earlier bluff, but their math is as shaky as their foundation"
+    },
+    {
+        "turn": 67,
+        "phase": "bidding",
+        "player": "Player 1",
+        "urgency": 9,
+        "llm_reasoning": "I need to appear confident to deter Player 2 from calling 'Liar'",
+        "llm_speech": "Ha! You think you can catch me in a lie? I've got the Queen of Spades right where I want it, and it's going to crush Player 4's pitiful attempt to bluff!"
+    },
+    {
+        "turn": 67,
+        "phase": "action",
+        "player": "Player 2",
+        "private_hand": [
+            "Q"
+        ],
+        "llm_reasoning": "I'll throw them off with a Joker and a Queen.",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "Q"
+            ]
+        }
+    },
+    {
+        "turn": 68,
+        "phase": "bidding",
+        "player": "Player 4",
+        "urgency": 7,
+        "llm_reasoning": "Player 2's sudden change in tone screams desperation",
+        "llm_speech": "Player 2's trying to distract us from the real question: where's the third Queen?"
+    },
+    {
+        "turn": 68,
+        "phase": "bidding",
+        "player": "Player 1",
+        "urgency": 7,
+        "llm_reasoning": "Player 2's claim is too convenient, it's a trap",
+        "llm_speech": "Don't get fooled by Player 2's smooth talk, their Queens are a desperate attempt to shift the focus from their own shaky foundation, and I've got a feeling they're hiding a Royal Flush!"
+    },
+    {
+        "turn": 68,
+        "phase": "action",
+        "player": "Player 3",
+        "private_hand": [
+            "K"
+        ],
+        "llm_reasoning": "I have no Kings to play, so I'll bluff with a Queen and Joker.",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "K"
+            ]
+        }
+    },
+    {
+        "turn": 69,
+        "phase": "bidding",
+        "player": "Player 1",
+        "urgency": 8,
+        "llm_reasoning": "Player 3's claim is too convenient, and I bet they're hiding something",
+        "llm_speech": "Player 3's trying to pull the wool over our eyes with their 'two Qs'! I'm willing to bet they're holding a Royal Flush, and this is just a desperate attempt to distract us from their real hand"
+    },
+    {
+        "turn": 69,
+        "phase": "action",
+        "player": "Player 4",
+        "private_hand": [
+            "K",
+            "K"
+        ],
+        "llm_reasoning": "I'm desperate to get rid of my Kings, so I'll bluff with a Queen and throw in a Joker to muddy the waters.",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "K"
+            ]
+        }
+    },
+    {
+        "turn": 70,
+        "phase": "action",
+        "player": "Player 1",
+        "private_hand": [
+            "Q",
+            "A"
+        ],
+        "llm_reasoning": "I'm getting desperate and need to clear some cards to avoid being caught lying",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "Q"
+            ]
+        }
+    },
+    {
+        "turn": 71,
+        "phase": "bidding",
+        "player": "Player 1",
+        "urgency": 9,
+        "llm_reasoning": "They're just waiting for an opening to strike",
+        "llm_speech": "You think you can catch me off guard? Think again! I'm playing with the best hand, and you're just a pawn in my game"
+    },
+    {
+        "turn": 71,
+        "phase": "action",
+        "player": "Player 4",
+        "private_hand": [
+            "K"
+        ],
+        "llm_reasoning": "I need to mix things up and create some confusion",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "K"
+            ]
+        }
+    },
+    {
+        "turn": 72,
+        "phase": "action",
+        "player": "Player 1",
+        "private_hand": [
+            "A"
+        ],
+        "llm_reasoning": "I'll play a Joker to throw them off and claim two Qs to cover my tracks.",
+        "raw_action_output": {
+            "type": "call_liar"
+        }
+    },
+    {
+        "turn": 73,
+        "phase": "action",
+        "player": "Player 4",
+        "private_hand": [
+            "Q",
+            "Joker",
+            "A",
+            "Q",
+            "A"
+        ],
+        "llm_reasoning": "I'll start with a bold move to set the tone",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "Q",
+                "Joker"
+            ]
+        }
+    },
+    {
+        "turn": 74,
+        "phase": "bidding",
+        "player": "Player 4",
+        "urgency": 9,
+        "llm_reasoning": "I've got a strong hand and they're just trying to throw me off",
+        "llm_speech": "Ha! You think you can catch me in a lie? I've got the whole table fooled, and you're just getting desperate. I'm playing with the best hand, and you're just a pawn in my game!"
+    },
+    {
+        "turn": 74,
+        "phase": "bidding",
+        "player": "Player 3",
+        "urgency": 8,
+        "llm_reasoning": "Player 4's claim is implausible given the previous round's outcome",
+        "llm_speech": "You can't trust Player 4's sudden claim of two As after getting away with a single K earlier. It's a desperate attempt to deceive!"
+    },
+    {
+        "turn": 74,
+        "phase": "action",
+        "player": "Player 1",
+        "private_hand": [
+            "A",
+            "Q",
+            "K",
+            "K",
+            "A"
+        ],
+        "llm_reasoning": "They think they're sneaky, but I'll catch them in a lie",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "A"
+            ]
+        }
+    },
+    {
+        "turn": 75,
+        "phase": "bidding",
+        "player": "Player 4",
+        "urgency": 8,
+        "llm_reasoning": "Player 1's sudden claim of two As is too convenient, and Player 2 is too close to calling them out.",
+        "llm_speech": "You can't trust Player 1's attempt to pivot from a single K to two As. It's a desperate Hail Mary, and I think Player 1 is hiding something \u2013 maybe even a Joker or two \u2013 behind their smug smile!"
+    },
+    {
+        "turn": 75,
+        "phase": "bidding",
+        "player": "Player 1",
+        "urgency": 9,
+        "llm_reasoning": "I need to sound confident to deflect suspicion",
+        "llm_speech": "Ha! You think I'm bluffing? I've got the whole table in the palm of my hand, and you're just trying to buy time to think of a clever comeback. I'm not even sweating, and you're the one who's about to get caught in a web of deceit!"
+    },
+    {
+        "turn": 75,
+        "phase": "action",
+        "player": "Player 2",
+        "private_hand": [
+            "K",
+            "Q",
+            "A",
+            "K",
+            "Joker"
+        ],
+        "llm_reasoning": "I'm not going to waste a good Joker",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "Q",
+                "Joker"
+            ]
+        }
+    },
+    {
+        "turn": 76,
+        "phase": "bidding",
+        "player": "Player 2",
+        "urgency": 9,
+        "llm_reasoning": "They're likely to doubt themselves",
+        "llm_speech": "You're just mad because you're stuck with a weak hand, and I just exposed your desperation!"
+    },
+    {
+        "turn": 76,
+        "phase": "action",
+        "player": "Player 3",
+        "private_hand": [
+            "Q",
+            "K",
+            "K",
+            "Q",
+            "A"
+        ],
+        "llm_reasoning": "Player 2's bold claim of two As requires a counterclaim to maintain uncertainty.",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "Q"
+            ]
+        }
+    },
+    {
+        "turn": 77,
+        "phase": "bidding",
+        "player": "Player 3",
+        "urgency": 9,
+        "llm_reasoning": "Probability of Player 4 calling 'Liar' is high, must deflect attention",
+        "llm_speech": "Player 4, you're so focused on uncovering deceit, you're forgetting to watch your own back. I'm not the one hiding a Joker, and you're just trying to distract from your own shaky hand."
+    },
+    {
+        "turn": 77,
+        "phase": "bidding",
+        "player": "Player 2",
+        "urgency": 8,
+        "llm_reasoning": "Player 3's sudden pivot from a single A to two As smells like desperation",
+        "llm_speech": "You're so caught up in your own ego, you're missing the forest for the trees, Player 4. Player 3's attempt to pivot is a classic sign of a bluffing amateur"
+    },
+    {
+        "turn": 77,
+        "phase": "action",
+        "player": "Player 4",
+        "private_hand": [
+            "A",
+            "Q",
+            "A"
+        ],
+        "llm_reasoning": "Player 3's claim of one A is suspiciously weak, so I'll throw in a wild card to shake things up.",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "A"
+            ]
+        }
+    },
+    {
+        "turn": 78,
+        "phase": "bidding",
+        "player": "Player 4",
+        "urgency": 9,
+        "llm_reasoning": "I'm confident in my play",
+        "llm_speech": "You're so quick to doubt me, but I've got the whole table eating out of the palm of my hand! I'm not just playing one A, I'm playing the whole deck, and you're just trying to get in my head!"
+    },
+    {
+        "turn": 78,
+        "phase": "bidding",
+        "player": "Player 2",
+        "urgency": 8,
+        "llm_reasoning": "Player 4's confidence is a trap",
+        "llm_speech": "Player 4's A-game is just a smokescreen for their Joker, and you're falling for it!"
+    },
+    {
+        "turn": 78,
+        "phase": "action",
+        "player": "Player 1",
+        "private_hand": [
+            "Q",
+            "K",
+            "K",
+            "A"
+        ],
+        "llm_reasoning": "I need to disrupt the table and make them doubt each other",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "Q"
+            ]
+        }
+    },
+    {
+        "turn": 79,
+        "phase": "bidding",
+        "player": "Player 3",
+        "urgency": 8,
+        "llm_reasoning": "Player 1's claim is statistically unlikely given the table's current state",
+        "llm_speech": "Player 1's attempt to play it cool is actually a desperate attempt to hide their Joker, and I'm not buying it"
+    },
+    {
+        "turn": 79,
+        "phase": "bidding",
+        "player": "Player 4",
+        "urgency": 8,
+        "llm_reasoning": "Player 1's attempt to play it cool is a classic tell of a nervous bluff",
+        "llm_speech": "Player 1's calm demeanor is a ruse, they're hiding something explosive in that pile, and I know it's not an A!"
+    },
+    {
+        "turn": 79,
+        "phase": "action",
+        "player": "Player 2",
+        "private_hand": [
+            "K",
+            "A",
+            "K"
+        ],
+        "llm_reasoning": "Player 4 is trying to distract with their wild claims, so I'll take a chance and bluff with a Queen.",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "K"
+            ]
+        }
+    },
+    {
+        "turn": 80,
+        "phase": "bidding",
+        "player": "Player 1",
+        "urgency": 8,
+        "llm_reasoning": "Player 2's calm demeanor is a red flag, and if Player 3 doesn't call their bluff, they'll get away with it",
+        "llm_speech": "Don't fall for the tranquil facade, Player 3! Player 2's 'A-game' is just a thin veil for their true intentions - they're hiding something, and I'm not convinced it's an A!"
+    },
+    {
+        "turn": 80,
+        "phase": "bidding",
+        "player": "Player 2",
+        "urgency": 9,
+        "llm_reasoning": "I've got nothing to hide",
+        "llm_speech": "You're just trying to stir up drama, Player 3. My 'A-game' is as solid as a brick wall, and you're just trying to find a crack to exploit."
+    },
+    {
+        "turn": 80,
+        "phase": "action",
+        "player": "Player 3",
+        "private_hand": [
+            "K",
+            "K",
+            "Q",
+            "A"
+        ],
+        "llm_reasoning": "Player 2's recent claim of two As makes it unlikely they have more Aces, so I'll bluff with a Queen and a Joker.",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "K"
+            ]
+        }
+    },
+    {
+        "turn": 81,
+        "phase": "bidding",
+        "player": "Player 1",
+        "urgency": 8,
+        "llm_reasoning": "Player 3's too-cool demeanor screams fake",
+        "llm_speech": "Player 3's trying to cover up a hidden agenda with their 'two As', but I'm not buying it - they're hiding something explosive in that pile, and I know it's not an A!"
+    },
+    {
+        "turn": 81,
+        "phase": "bidding",
+        "player": "Player 2",
+        "urgency": 8,
+        "llm_reasoning": "Player 3's attempt to play it cool is already suspect",
+        "llm_speech": "Player 3's 'A-game' is a carefully crafted smokescreen, and I'm calling BS on those two As"
+    },
+    {
+        "turn": 81,
+        "phase": "action",
+        "player": "Player 4",
+        "private_hand": [
+            "Q",
+            "A"
+        ],
+        "llm_reasoning": "I need to create chaos and make them doubt their own perceptions",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "Q"
+            ]
+        }
+    },
+    {
+        "turn": 82,
+        "phase": "bidding",
+        "player": "Player 2",
+        "urgency": 8,
+        "llm_reasoning": "Player 4's 'A-game' is already on shaky ground, and a well-timed 'Liar' call could send them crashing down",
+        "llm_speech": "Player 4's trying to coast on their 'A-game' smoke and mirrors, but I'm calling foul \u2013 they're hiding a royal flush in that pile!"
+    },
+    {
+        "turn": 82,
+        "phase": "bidding",
+        "player": "Player 3",
+        "urgency": 6,
+        "llm_reasoning": "Player 4's claim is suspiciously precise, given the table's history of bluffing",
+        "llm_speech": "Player 4's 'A-game' is a masterclass in misdirection, but I sense a hidden vulnerability in their 'A' \u2013 it's a calculated risk, but not the only 'A' in the game"
+    },
+    {
+        "turn": 82,
+        "phase": "action",
+        "player": "Player 1",
+        "private_hand": [
+            "K",
+            "K",
+            "A"
+        ],
+        "llm_reasoning": "I need to make a bold move to shake things up",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "K"
+            ]
+        }
+    },
+    {
+        "turn": 83,
+        "phase": "bidding",
+        "player": "Player 3",
+        "urgency": 7,
+        "llm_reasoning": "Player 1's claim is statistically improbable",
+        "llm_speech": "Player 1's A-game is a desperate gamble, and I'm surprised they'd risk it \u2013 they must be hiding a hole card"
+    },
+    {
+        "turn": 83,
+        "phase": "bidding",
+        "player": "Player 1",
+        "urgency": 7,
+        "llm_reasoning": "I've already made my move, so they'll think twice about calling me out",
+        "llm_speech": "Player 2's trying to get inside my head, but I've got a solid foundation - I'm not hiding anything explosive, and my 'A' is as genuine as a poker face on a poker pro!"
+    },
+    {
+        "turn": 83,
+        "phase": "action",
+        "player": "Player 2",
+        "private_hand": [
+            "A",
+            "K"
+        ],
+        "llm_reasoning": "I've got nothing to lose, might as well go all-in",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "A"
+            ]
+        }
+    },
+    {
+        "turn": 84,
+        "phase": "bidding",
+        "player": "Player 2",
+        "urgency": 9,
+        "llm_reasoning": "I've got a solid foundation, and they're just trying to stir the pot",
+        "llm_speech": "Player 3's got their doubts, but I've got the goods \u2013 they're just salty about their own lack of A-game"
+    },
+    {
+        "turn": 84,
+        "phase": "action",
+        "player": "Player 3",
+        "private_hand": [
+            "K",
+            "Q",
+            "A"
+        ],
+        "llm_reasoning": "Player 2's recent claim makes it likely they have a strong hand, so I'll bluff with a Queen and a Joker.",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "K"
+            ]
+        }
+    },
+    {
+        "turn": 85,
+        "phase": "bidding",
+        "player": "Player 2",
+        "urgency": 8,
+        "llm_reasoning": "Player 3's tone screams desperation, and their 'A-game' sounds like a flimsy smoke screen",
+        "llm_speech": "Player 3's 'A-game' is a half-baked attempt to distract from their lack of real power \u2013 I'd be shocked if it's not a total bluff"
+    },
+    {
+        "turn": 85,
+        "phase": "bidding",
+        "player": "Player 3",
+        "urgency": 8,
+        "llm_reasoning": "I played a strong hand, and they should trust my claim",
+        "llm_speech": "My A-game is solid, and you're just trying to shake the tree. Don't get tangled in the branches, Player 4 \u2013 focus on your own moves"
+    },
+    {
+        "turn": 85,
+        "phase": "action",
+        "player": "Player 4",
+        "private_hand": [
+            "A"
+        ],
+        "llm_reasoning": "I'll play a Joker to throw them off, and a Queen to make it look like I'm trying to bluff",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "A"
+            ]
+        }
+    },
+    {
+        "turn": 86,
+        "phase": "action",
+        "player": "Player 1",
+        "private_hand": [
+            "K",
+            "A"
+        ],
+        "llm_reasoning": "I need to mix things up and create some uncertainty",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "K"
+            ]
+        }
+    },
+    {
+        "turn": 87,
+        "phase": "bidding",
+        "player": "Player 3",
+        "urgency": 6,
+        "llm_reasoning": "Player 1's claim is suspicious given the lack of A-ranks in recent plays",
+        "llm_speech": "Player 1's 'A-game' is starting to smell like a rotten deck \u2013 don't get caught in the stench"
+    },
+    {
+        "turn": 87,
+        "phase": "bidding",
+        "player": "Player 1",
+        "urgency": 9,
+        "llm_reasoning": "They're probably just trying to get me to crack",
+        "llm_speech": "Bring it on, Player 2! You're just trying to deflect attention from your own weak hand. I'm not afraid to show my A-game \u2013 and if you're smart, you'll be the one getting caught in the crossfire!"
+    },
+    {
+        "turn": 87,
+        "phase": "action",
+        "player": "Player 2",
+        "private_hand": [
+            "K"
+        ],
+        "llm_reasoning": "They're all playing it safe, time to shake things up",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "K"
+            ]
+        }
+    },
+    {
+        "turn": 88,
+        "phase": "action",
+        "player": "Player 3",
+        "private_hand": [
+            "Q",
+            "A"
+        ],
+        "llm_reasoning": "The table is saturated with As, making it a high-risk bluff to play another A.",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "Q"
+            ]
+        }
+    },
+    {
+        "turn": 89,
+        "phase": "bidding",
+        "player": "Player 3",
+        "urgency": 7,
+        "llm_reasoning": "I'm playing a strong hand, and they should be worried",
+        "llm_speech": "You're just trying to distract from your own weak hand, Player 1. I'm not afraid to show my ace"
+    },
+    {
+        "turn": 89,
+        "phase": "action",
+        "player": "Player 1",
+        "private_hand": [
+            "A"
+        ],
+        "llm_reasoning": "I need to throw some chaos into the mix",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "A"
+            ]
+        }
+    },
+    {
+        "turn": 90,
+        "phase": "action",
+        "player": "Player 3",
+        "private_hand": [
+            "A"
+        ],
+        "llm_reasoning": "No other player has played Aces, so I must bluff",
+        "raw_action_output": {
+            "type": "call_liar"
+        }
+    },
+    {
+        "turn": 91,
+        "phase": "action",
+        "player": "Player 3",
+        "private_hand": [
+            "Q",
+            "A",
+            "A",
+            "K",
+            "Q"
+        ],
+        "llm_reasoning": "I have no Kings, so I'll bluff with a Queen and Joker.",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "Q"
+            ]
+        }
+    },
+    {
+        "turn": 92,
+        "phase": "bidding",
+        "player": "Player 1",
+        "urgency": 8,
+        "llm_reasoning": "Player 3's claim is too convenient, and Player 4 is too trusting",
+        "llm_speech": "Don't fall for the trap, Player 4! Player 3 is trying to make you believe their 'two Ks' are genuine, but I've seen this script before - it's a classic distraction tactic!"
+    },
+    {
+        "turn": 92,
+        "phase": "bidding",
+        "player": "Player 3",
+        "urgency": 9,
+        "llm_reasoning": "I've already taken the risk, now it's time to reap the benefits",
+        "llm_speech": "You're just trying to salvage your own weak start, Player 4. My Ks are as solid as the table itself"
+    },
+    {
+        "turn": 92,
+        "phase": "action",
+        "player": "Player 4",
+        "private_hand": [
+            "K",
+            "A",
+            "Q",
+            "K",
+            "Q"
+        ],
+        "llm_reasoning": "I'm going to bluff with a Queen and Joker to shake things up",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "K"
+            ]
+        }
+    },
+    {
+        "turn": 93,
+        "phase": "bidding",
+        "player": "Player 4",
+        "urgency": 9,
+        "llm_reasoning": "I'm playing with fire, but it's worth the risk",
+        "llm_speech": "You're just trying to capitalize on my supposed 'weak start', but I've got a K- bomb waiting to drop on the table. Don't get caught in the blast, Player 1!"
+    },
+    {
+        "turn": 93,
+        "phase": "bidding",
+        "player": "Player 2",
+        "urgency": 8,
+        "llm_reasoning": "Player 4's sudden confidence is a clear sign of desperation",
+        "llm_speech": "Player 4's trying to gaslight us with fake bravado, but I know their 'two Ks' are a smokescreen for a weak hand"
+    },
+    {
+        "turn": 93,
+        "phase": "action",
+        "player": "Player 1",
+        "private_hand": [
+            "K",
+            "A",
+            "A",
+            "Q",
+            "K"
+        ],
+        "llm_reasoning": "I need to create a distraction to avoid being targeted",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "K"
+            ]
+        }
+    },
+    {
+        "turn": 94,
+        "phase": "bidding",
+        "player": "Player 1",
+        "urgency": 8,
+        "llm_reasoning": "Player 2 is probably trying to psyche me out",
+        "llm_speech": "Oh, you think you're clever, Player 2? Well, let me tell you, I've seen this 'doubt' act before, and it's just a smokescreen for a weak hand. You're trying to distract me from the real game-changer on the table, but I'm not buying it!"
+    },
+    {
+        "turn": 94,
+        "phase": "bidding",
+        "player": "Player 3",
+        "urgency": 7,
+        "llm_reasoning": "Player 1's claim is too convenient, given the recent gaslighting",
+        "llm_speech": "Player 1's 'two Ks' are a desperate attempt to shift attention, but I've seen this script before - it's a classic smoke screen for a weak hand"
+    },
+    {
+        "turn": 94,
+        "phase": "action",
+        "player": "Player 2",
+        "private_hand": [
+            "Joker",
+            "Q",
+            "K",
+            "Joker",
+            "A"
+        ],
+        "llm_reasoning": "I've got no Kings, so I'll fake it and make them sweat",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "Q",
+                "Joker"
+            ]
+        }
+    },
+    {
+        "turn": 95,
+        "phase": "bidding",
+        "player": "Player 2",
+        "urgency": 8,
+        "llm_reasoning": "I played 2 Ks, it's obvious",
+        "llm_speech": "You're too slow to catch on, Player 3. My K-bomb just shook the table, and you're still trying to figure out the aftershocks"
+    },
+    {
+        "turn": 95,
+        "phase": "bidding",
+        "player": "Player 1",
+        "urgency": 8,
+        "llm_reasoning": "Player 2's 'K-bomb' claim is too convenient, too loud, and too desperate",
+        "llm_speech": "Player 2's trying to blindside us with a fake K- Klaxon, but I've got a pair of eyes on them, and I'm not convinced their 'two Ks' are anything more than a smokescreen for a weak hand"
+    },
+    {
+        "turn": 95,
+        "phase": "action",
+        "player": "Player 3",
+        "private_hand": [
+            "A",
+            "A",
+            "K",
+            "Q"
+        ],
+        "llm_reasoning": "I have no Kings, so I'll bluff with a Queen and a Joker.",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "A"
+            ]
+        }
+    },
+    {
+        "turn": 96,
+        "phase": "bidding",
+        "player": "Player 3",
+        "urgency": 8,
+        "llm_reasoning": "Player 1's doubts are a clear attempt to misdirect attention",
+        "llm_speech": "You're grasping at straws, Player 4. My play is as solid as the table itself. Don't fall for the smoke screen"
+    },
+    {
+        "turn": 96,
+        "phase": "bidding",
+        "player": "Player 1",
+        "urgency": 8,
+        "llm_reasoning": "Player 3's claim is too convenient, too perfect",
+        "llm_speech": "Hold up, Player 4, don't get swept away by Player 3's 'solid as the table' act. I think they're trying to lull us into a false sense of security, hiding something under the surface. It's too early to give them a free pass!"
+    },
+    {
+        "turn": 96,
+        "phase": "action",
+        "player": "Player 4",
+        "private_hand": [
+            "A",
+            "Q",
+            "K",
+            "Q"
+        ],
+        "llm_reasoning": "I'll try to create a diversion with a Joker and a Queen, hoping to throw off their attention",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "A"
+            ]
+        }
+    },
+    {
+        "turn": 97,
+        "phase": "bidding",
+        "player": "Player 2",
+        "urgency": 8,
+        "llm_reasoning": "Player 4's confidence is a sure sign of desperation",
+        "llm_speech": "Player 4's Ks are a house of cards, and I'm the one holding the wrecking ball"
+    },
+    {
+        "turn": 97,
+        "phase": "bidding",
+        "player": "Player 4",
+        "urgency": 8,
+        "llm_reasoning": "I'm not going to let them get away with questioning my play",
+        "llm_speech": "Player 1, you're so desperate to see through the smoke that you're choking on the fumes. My Ks are as real as the table itself, and you're just getting played by the master of misdirection"
+    },
+    {
+        "turn": 97,
+        "phase": "action",
+        "player": "Player 1",
+        "private_hand": [
+            "A",
+            "A",
+            "Q",
+            "K"
+        ],
+        "llm_reasoning": "I've got no Kings to claim, so I'll bluff with a Queen and a Joker to shake things up.",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "A"
+            ]
+        }
+    },
+    {
+        "turn": 98,
+        "phase": "bidding",
+        "player": "Player 3",
+        "urgency": 8,
+        "llm_reasoning": "Player 1's claim is statistically improbable given the table's current state",
+        "llm_speech": "Player 1's K-klaxon is more likely a smoke bomb, and I'm not buying the ticket"
+    },
+    {
+        "turn": 98,
+        "phase": "bidding",
+        "player": "Player 1",
+        "urgency": 9,
+        "llm_reasoning": "I'm not backing down, I'll make them doubt their own sanity",
+        "llm_speech": "You're so desperate to take me down, Player 2, you're practically waving a 'Liar' flag like a banner. I'm not the one hiding behind smoke and mirrors, and you know it. Come on, show your hand already and get this over with!"
+    },
+    {
+        "turn": 98,
+        "phase": "action",
+        "player": "Player 2",
+        "private_hand": [
+            "K",
+            "Joker",
+            "A"
+        ],
+        "llm_reasoning": "I've got nothing but a Joker to my name, so I'll spin a web of deceit",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "K"
+            ]
+        }
+    },
+    {
+        "turn": 99,
+        "phase": "bidding",
+        "player": "Player 2",
+        "urgency": 9,
+        "llm_reasoning": "I played a strong hand, they can't possibly doubt me",
+        "llm_speech": "You're just mad because you know you're getting outplayed, Player 3. Bring it on, I'm not afraid of your accusations"
+    },
+    {
+        "turn": 99,
+        "phase": "bidding",
+        "player": "Player 4",
+        "urgency": 7,
+        "llm_reasoning": "Player 2's bold claim needs to be tested",
+        "llm_speech": "Player 2's Ks are a desperate attempt to rewrite the narrative, but I think they're just trying to cover up the real ace in the hole \u2013 their hand is as empty as a poker player's promise"
+    },
+    {
+        "turn": 99,
+        "phase": "action",
+        "player": "Player 3",
+        "private_hand": [
+            "A",
+            "K",
+            "Q"
+        ],
+        "llm_reasoning": "I have no Kings, so I'll bluff with a Queen and Joker.",
+        "raw_action_output": {
+            "type": "play",
+            "cards": [
+                "A"
+            ]
+        }
+    }
+]

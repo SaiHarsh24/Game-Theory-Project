@@ -4,18 +4,14 @@ import os
 class LiarsBarEnv:
     def __init__(self, num_players=4):
         self.num_players = num_players
-        # Standard Liar's Bar deck: 6 Kings, 6 Queens, 6 Aces, 2 Jokers (Wildcards)
         self.base_deck = ['K'] * 6 + ['Q'] * 6 + ['A'] * 6 + ['Joker'] * 2
         self.table_ranks = ['K', 'Q', 'A']
-        
-        # Name players as Player 1, Player 2, etc.
         self.player_ids = [f"Player {i}" for i in range(1, num_players + 1)]
         self.reset_game()
 
     def reset_game(self):
         self.players = {}
         for pid in self.player_ids:
-            # Load a 6-chamber revolver: 5 blanks (False), 1 bullet (True)
             revolver = [False] * 5 + [True]
             random.shuffle(revolver)
             self.players[pid] = {
@@ -37,7 +33,6 @@ class LiarsBarEnv:
         
         for pid, player in self.players.items():
             if player["is_alive"]:
-                # Deal 5 cards
                 player["hand"] = [deck.pop() for _ in range(5)]
             else:
                 player["hand"] = []
@@ -47,23 +42,24 @@ class LiarsBarEnv:
         self.last_play = None  
         self.current_turn_idx = starting_idx
         
-        # Clear chat log for the new round to keep context clean
         self.chat_log.append(f"--- NEW ROUND: The table rank is {self.table_rank} ---")
         
         if not self.players[self.player_ids[self.current_turn_idx]]["is_alive"]:
             self._advance_turn()
 
     def _advance_turn(self):
+        """Moves turn to the next alive player WHO STILL HAS CARDS."""
         for _ in range(self.num_players):
             self.current_turn_idx = (self.current_turn_idx + 1) % self.num_players
-            if self.players[self.player_ids[self.current_turn_idx]]["is_alive"]:
+            pid = self.player_ids[self.current_turn_idx]
+            # If they are alive and have cards, it's their turn. Otherwise, skip them.
+            if self.players[pid]["is_alive"] and len(self.players[pid]["hand"]) > 0:
                 break
 
     def get_current_player(self):
         return self.player_ids[self.current_turn_idx]
 
     def add_chat(self, player_id, message):
-        """Records a chat message to the public log."""
         if player_id not in self.player_ids:
             raise ValueError(f"Unknown player: {player_id}")
         self.chat_log.append(f"[{player_id}]: {message}")
@@ -119,7 +115,6 @@ class LiarsBarEnv:
             
             self.chat_log.append(event_log)
             
-            # The Russian Roulette Mechanic
             bullet_fired = self.players[loser]["revolver"].pop(0)
             
             if bullet_fired:
@@ -151,8 +146,9 @@ class LiarsBarEnv:
         return {
             "table_rank": self.table_rank,
             "pile_size": self.pile_size,
+            "total_cards_in_play": sum(len(p["hand"]) for p in self.players.values()) + self.pile_size,
             "current_turn": self.get_current_player(),
-            "chat_history": self.chat_log[-10:], # Last 10 messages
+            "chat_history": self.chat_log[-10:], 
             "last_play": self.last_play,
             "players_status": {
                 pid: {
@@ -166,6 +162,10 @@ class LiarsBarEnv:
             "winner": self.winner
         }
 
+    def get_private_state(self, player_id):
+        return {
+            "hand": self.players[player_id]["hand"]
+        }
 
 def print_game_state(env):
     os.system('cls' if os.name == 'nt' else 'clear')
