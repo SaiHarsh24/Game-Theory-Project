@@ -1,6 +1,5 @@
 import json
 import random
-import boto3
 import re
 import time
 import os
@@ -10,8 +9,13 @@ from Game_Environment import LiarsBarEnv
 # ==========================================
 # CONFIG
 # ==========================================
-GAMEPLAY_MODEL = "google.gemma-3-12b-it"
-REGION         = "ap-south-1"
+# Model backend: "bedrock" for AWS, "vllm" for local vLLM / any OpenAI-compatible API
+MODEL_BACKEND = "bedrock"
+MODEL_NAME    = "google.gemma-3-12b-it"
+MODEL_HOST    = "localhost"   # vllm only
+MODEL_PORT    = 8000          # vllm only
+MODEL_API_KEY = "EMPTY"       # vllm only; set to real key for cloud endpoints
+REGION        = "ap-south-1"  # bedrock only
 LOG_DIR        = "game_logs/game_001"
 MAX_TURNS      = 150
 MAX_CHATS      = 2
@@ -22,7 +26,8 @@ BID_THRESHOLD  = 6
 # Bedrock LLM — Converse API
 # ==========================================
 class BedrockLLM:
-    def __init__(self, region=REGION, model_id=GAMEPLAY_MODEL):
+    def __init__(self, region=REGION, model_id=MODEL_NAME):
+        import boto3
         self.client   = boto3.client("bedrock-runtime", region_name=region)
         self.model_id = model_id
 
@@ -41,6 +46,51 @@ class BedrockLLM:
         except Exception as e:
             print(f"[Bedrock Error] {e}")
             return None
+
+
+# ==========================================
+# vLLM / OpenAI-compatible LLM
+# ==========================================
+class vLLMLLM:
+    """Works with local vLLM servers and any OpenAI-compatible cloud API (GCP, NVIDIA, etc.)."""
+    def __init__(self, model, host="localhost", port=8000, api_key="EMPTY", temperature=0.85):
+        from openai import OpenAI
+        self.client      = OpenAI(base_url=f"http://{host}:{port}/v1", api_key=api_key)
+        self.model       = model
+        self.temperature = temperature
+
+    def generate(self, prompt: str) -> str | None:
+        try:
+            response = self.client.chat.completions.create(
+                model=self.model,
+                messages=[{"role": "user", "content": prompt}],
+                max_tokens=300,
+                temperature=self.temperature,
+            )
+            return response.choices[0].message.content
+        except Exception as e:
+            print(f"[vLLM Error] {e}")
+            return None
+
+
+# ==========================================
+# LLM factory
+# ==========================================
+def create_llm(backend: str, **kwargs):
+    if backend == "bedrock":
+        return BedrockLLM(
+            region=kwargs.get("region", REGION),
+            model_id=kwargs.get("model", MODEL_NAME),
+        )
+    if backend == "vllm":
+        return vLLMLLM(
+            model=kwargs["model"],
+            host=kwargs.get("host", MODEL_HOST),
+            port=kwargs.get("port", MODEL_PORT),
+            api_key=kwargs.get("api_key", MODEL_API_KEY),
+            temperature=kwargs.get("temperature", 0.85),
+        )
+    raise ValueError(f"Unknown backend '{backend}'. Choose 'bedrock' or 'vllm'.")
 
 
 # ==========================================
@@ -258,7 +308,8 @@ def main():
     gameplay_log = []
     thoughts_log = []
 
-    llm = BedrockLLM()
+    llm = create_llm(MODEL_BACKEND, model=MODEL_NAME, host=MODEL_HOST,
+                     port=MODEL_PORT, api_key=MODEL_API_KEY)
 
     available = personas.copy()
     random.shuffle(available)
@@ -269,7 +320,7 @@ def main():
         persona = available.pop()
         player_profiles[pid] = {"llm": llm, "persona": persona}
         player_memories[pid] = make_empty_memory()
-        metadata_log[pid]    = {"model_id": GAMEPLAY_MODEL, "persona": persona}
+        metadata_log[pid]    = {"model_id": MODEL_NAME, "backend": MODEL_BACKEND, "persona": persona}
 
     with open(os.path.join(LOG_DIR, "metadata.json"), "w") as f:
         json.dump(metadata_log, f, indent=4)
