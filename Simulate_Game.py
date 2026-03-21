@@ -369,6 +369,9 @@ def main():
                 highest_urgency = -1
                 winning_bid     = None
                 winning_player  = None
+                winning_prompt  = None
+                winning_raw     = None
+                winning_priv    = None
 
                 last_speaker = None
                 if state["chat_history"]:
@@ -424,6 +427,9 @@ def main():
                             highest_urgency = bid_json["urgency_score"]
                             winning_bid     = bid_json
                             winning_player  = pid
+                            winning_prompt  = f"{b_prompt}\n\n{bid_instr}"
+                            winning_raw     = raw
+                            winning_priv    = priv
 
                 if highest_urgency >= BID_THRESHOLD and winning_bid and winning_bid.get("speech"):
                     speech         = winning_bid["speech"]
@@ -441,6 +447,11 @@ def main():
                         "urgency":      highest_urgency,
                         "reasoning":    winning_bid.get("reasoning"),
                         "speech":       speech,
+                        "private_hand": winning_priv["hand"] if winning_priv else None,
+                        "table_rank":   state["table_rank"],
+                        "pile_size":    state["pile_size"],
+                        "full_prompt":  winning_prompt,
+                        "raw_response": winning_raw,
                         "label":        None,
                         "label_reason": None,
                     })
@@ -591,6 +602,9 @@ def main():
                 "table_rank":   state_before["table_rank"],
                 "pile_size":    state_before["pile_size"],
                 "last_play":    state_before["last_play"],
+                "chat_history": list(state_before["chat_history"]),
+                "full_prompt":  f"{b_prompt}\n\n{action_instr}",
+                "raw_response": raw_response,
                 "reasoning":    llm_output.get("reasoning"),
                 "action":       llm_output["action"],
                 "speech":       speech,
