@@ -10,16 +10,17 @@ from Game_Environment import LiarsBarEnv
 # CONFIG
 # ==========================================
 # Model backend: "bedrock" for AWS, "vllm" for local vLLM / any OpenAI-compatible API
-MODEL_BACKEND = "bedrock"
-MODEL_NAME    = "google.gemma-3-12b-it"
+MODEL_BACKEND = "vllm"
+# MODEL_NAME    = "google.gemma-3-12b-it"
+MODEL_NAME    = "Qwen/Qwen3.5-9B"
 MODEL_HOST    = "localhost"   # vllm only
 MODEL_PORT    = 8000          # vllm only
 MODEL_API_KEY = "EMPTY"       # vllm only; set to real key for cloud endpoints
 REGION        = "ap-south-1"  # bedrock only
-LOG_DIR        = "game_logs/game_001"
+LOG_DIR        = "game_logs/game_002"
 MAX_TURNS      = 150
 MAX_CHATS      = 2
-BID_THRESHOLD  = 6
+BID_THRESHOLD  = 7
 
 
 # ==========================================
@@ -64,9 +65,12 @@ class vLLMLLM:
             response = self.client.chat.completions.create(
                 model=self.model,
                 messages=[{"role": "user", "content": prompt}],
-                max_tokens=300,
+                max_tokens=2048,
                 temperature=self.temperature,
-            )
+                extra_body={
+                 "chat_template_kwargs": {"enable_thinking": False}
+             }
+         )
             return response.choices[0].message.content
         except Exception as e:
             print(f"[vLLM Error] {e}")
@@ -100,12 +104,17 @@ def clean_json_response(raw: str) -> dict | None:
     if not raw:
         return None
     raw = re.sub(r"<think>.*?</think>", "", raw, flags=re.DOTALL).strip()
-    match = re.search(r"\{.*\}", raw, re.DOTALL)
-    if match:
+    # Walk backwards through all '{' positions — models like Qwen output CoT prose
+    # before the actual JSON, so the real JSON object is the LAST one in the text.
+    starts = [m.start() for m in re.finditer(r'\{', raw)]
+    for start in reversed(starts):
+        end = raw.rfind('}', start)
+        if end == -1:
+            continue
         try:
-            return json.loads(match.group(0))
+            return json.loads(raw[start:end + 1])
         except json.JSONDecodeError:
-            pass
+            continue
     return None
 
 
@@ -535,6 +544,19 @@ def main():
         llm_output["action"] = sanitize_action(
             llm_output["action"], private_state["hand"], is_first_turn
         )
+
+        # Enforce speech count matches actual cards placed.
+        # The model sometimes says "I play 3" but only puts 1 card in action.cards.
+        # This would pollute chat history with a false count that other players reason from.
+        if llm_output["action"].get("type") == "play":
+            n_cards = len(llm_output["action"].get("cards", []))
+            raw_speech = llm_output.get("speech", "...")
+            fixed = re.sub(
+                r'(?i)^(I play\s+)(one|two|three|\d+)',
+                lambda m: f"{m.group(1)}{n_cards}",
+                raw_speech,
+            )
+            llm_output["speech"] = fixed
 
         speech = llm_output.get("speech", "...")
         env.add_chat(current_player, speech)

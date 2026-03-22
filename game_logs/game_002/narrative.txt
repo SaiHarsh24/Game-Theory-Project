@@ -1,0 +1,196 @@
+=== LIAR'S BAR — GAME NARRATIVE ===
+
+
+--- NEW ROUND: The table rank is Q ---
+
+Turn 0 | Player 1 is acting...
+[Player 1 SPEECH]: I play 3 Queens.
+>>> ACTION: Player 1 played 3 cards face down.
+----------------------------------------
+[INTERRUPT] Player 4: Wait, I need to call on Player 1, not you, before this thing blows up in my face.
+
+Turn 1 | Player 2 is acting...
+[Player 2 SPEECH]: I play 2 Queens, because you really do have three of those!
+>>> ACTION: Player 2 played 2 cards face down.
+----------------------------------------
+
+Turn 2 | Player 3 is acting...
+[Player 3 SPEECH]: Seven Queens can't exist, Player 1 and Player 2 lied about that pile count.
+>>> CALL: Player 3 caught Player 2 LYING! They actually played: ['Q', 'A']. >>> *Click*. Player 2 survives... (5 chambers left).
+----------------------------------------
+
+--- NEW ROUND: The table rank is K ---
+
+Turn 3 | Player 2 is acting...
+[Player 2 SPEECH]: I play 1 K, just putting down a card to start the round off right.
+>>> ACTION: Player 2 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 4: Wait, Player 3, shouldn't you check Player 2's pile?
+
+Turn 4 | Player 3 is acting...
+[Player 3 SPEECH]: I play 2 Ks, pile is low and this round is getting tight.
+>>> ACTION: Player 3 played 2 cards face down.
+----------------------------------------
+[INTERRUPT] Player 2: Hey, if you call Player 3 out, that gun might just spin right to me!
+[INTERRUPT] Player 3: Check the pile if you dare, I bet my whole hand on that gun.
+
+Turn 5 | Player 4 is acting...
+[Player 4 SPEECH]: I play 2 Kings, pile's low and Player 3 is driving me crazy.
+>>> ACTION: Player 4 played 2 cards face down.
+----------------------------------------
+[INTERRUPT] Player 4: Please don't look at my pile, Player 1, I swear it's Kings.
+
+Turn 6 | Player 1 is acting...
+[Player 1 SPEECH]: I play 1 K, the pile is full and I have to move.
+>>> ACTION: Player 1 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 3: Hey Player 2, don't call on Player 1 or that gun lands on you!
+
+Turn 7 | Player 2 is acting...
+[Player 2 SPEECH]: I play 2 Kings, keep that big pile for everyone else.
+>>> ACTION: Player 2 played 2 cards face down.
+----------------------------------------
+
+Turn 8 | Player 3 is acting...
+[Player 3 SPEECH]: Player 2 is a liar! The pile is full of Kings already, so that claim is impossible.
+>>> CALL: Player 3 caught Player 2 LYING! They actually played: ['A', 'Joker']. >>> BANG! The revolver went off. Player 2 is eliminated!
+----------------------------------------
+
+--- NEW ROUND: The table rank is Q ---
+
+Turn 9 | Player 3 is acting...
+[Player 3 SPEECH]: I play 3 Queens right now, pile is empty so I'm safe to move.
+>>> ACTION: Player 3 played 3 cards face down.
+----------------------------------------
+[INTERRUPT] Player 3: Player 4, pile is small so this claim is impossible, check it!
+
+Turn 10 | Player 4 is acting...
+[Player 4 SPEECH]: Liar! You claimed three Queens but that pile would break the whole deck count!
+>>> CALL: Player 4 was wrong! Player 3 told the TRUTH. They played: ['Joker', 'Q', 'Q']. >>> *Click*. Player 4 survives... (5 chambers left).
+----------------------------------------
+
+--- NEW ROUND: The table rank is K ---
+
+Turn 11 | Player 4 is acting...
+[Player 4 SPEECH]: I play 3 Kings right now since nobody has touched the pile yet.
+>>> ACTION: Player 4 played 3 cards face down.
+----------------------------------------
+
+--- NEW ROUND: The table rank is Q ---
+
+--- NEW ROUND: The table rank is K ---
+[INTERRUPT] Player 3: Player 4 is dead to rights if you check the count, shoot him!
+
+Turn 12 | Player 1 is acting...
+[Player 1 SPEECH]: Liar! You claim three Kings but that makes six total, exceeding the deck count. Check the pile!
+>>> CALL: Player 1 caught Player 4 LYING! They actually played: ['K', 'Joker', 'Q']. >>> BANG! The revolver went off. Player 4 is eliminated!
+----------------------------------------
+
+--- NEW ROUND: The table rank is A ---
+
+Turn 13 | Player 1 is acting...
+[Player 1 SPEECH]: I play 2 Aces. Nobody has touched the pile yet, so I'm leading early.
+>>> ACTION: Player 1 played 2 cards face down.
+----------------------------------------
+
+--- NEW ROUND: The table rank is K ---
+
+--- NEW ROUND: The table rank is A ---
+
+Turn 14 | Player 3 is acting...
+[Player 3 SPEECH]: I play 2 Aces. Two down, pile sitting at four now.
+>>> ACTION: Player 3 played 2 cards face down.
+----------------------------------------
+
+Turn 15 | Player 1 is acting...
+[Player 1 SPEECH]: I play 2 Aces. The pile hits six, but there are enough wilds left for everyone to survive.
+>>> ACTION: Player 1 played 2 cards face down.
+----------------------------------------
+
+Turn 16 | Player 3 is acting...
+[Player 3 SPEECH]: Liar! You hit six max Aces but you claimed ten total. The deck is full, Player 1!
+>>> CALL: Player 3 caught Player 1 LYING! They actually played: ['A', 'K']. >>> *Click*. Player 1 survives... (5 chambers left).
+----------------------------------------
+
+Turn 17 | Player 1 is acting...
+[Player 1 SPEECH]: I play 2 Aces. Pile sits at two, plenty of room for everyone else.
+>>> ACTION: Player 1 played 2 cards face down.
+----------------------------------------
+
+Turn 18 | Player 3 is acting...
+[Player 3 SPEECH]: I play 2 Aces. Pile hits four, looks tight but we still got moves.
+>>> ACTION: Player 3 played 2 cards face down.
+----------------------------------------
+
+Turn 19 | Player 1 is acting...
+[Player 1 SPEECH]: I play 1 Ace. That makes six in the pile, but I'm out now.
+>>> ACTION: Player 1 played 1 cards face down.
+----------------------------------------
+
+Turn 20 | Player 3 is acting...
+[Player 3 SPEECH]: I play 2 Aces. Pile is roasting at 4 now, looks like a trap.
+>>> ACTION: Player 3 played 2 cards face down.
+----------------------------------------
+[INTERRUPT] Player 3: Look at that pile, Player 1, two Aces is fact.
+
+Turn 21 | Player 1 is acting...
+[Player 1 SPEECH]: I play 2 Aces. Pile is at seven, math says one slot left.
+>>> ACTION: Player 1 played 2 cards face down.
+----------------------------------------
+
+Turn 22 | Player 3 is acting...
+[Player 3 SPEECH]: Liar! Player 1 you said seven Aces but there are only six in the whole deck!
+>>> CALL: Player 3 caught Player 1 LYING! They actually played: ['K', 'Q']. >>> *Click*. Player 1 survives... (4 chambers left).
+----------------------------------------
+
+--- NEW ROUND: The table rank is K ---
+
+Turn 23 | Player 1 is acting...
+[Player 1 SPEECH]: I play 1 King. Pile is at one, barely anything on the table yet.
+>>> ACTION: Player 1 played 1 cards face down.
+----------------------------------------
+
+Turn 24 | Player 3 is acting...
+[Player 3 SPEECH]: I play 2 Kings. That's all I say, fold your hand.
+>>> ACTION: Player 3 played 2 cards face down.
+----------------------------------------
+
+Turn 25 | Player 1 is acting...
+[Player 1 SPEECH]: I play 1 King. Pile sits at three, room for more.
+>>> ACTION: Player 1 played 1 cards face down.
+----------------------------------------
+
+Turn 26 | Player 3 is acting...
+[Player 3 SPEECH]: I play 2 Kings. Three on the table, one left, watch it blow.
+>>> ACTION: Player 3 played 2 cards face down.
+----------------------------------------
+[INTERRUPT] Player 3: Look, pile's at six, call it or get out of my face.
+
+Turn 27 | Player 1 is acting...
+[Player 1 SPEECH]: Liar on Player 3, the pile is at six but only five Kings exist in the deck.
+>>> CALL: Player 1 caught Player 3 LYING! They actually played: ['Q', 'Q']. >>> *Click*. Player 3 survives... (5 chambers left).
+----------------------------------------
+
+--- NEW ROUND: The table rank is Q ---
+
+Turn 28 | Player 3 is acting...
+[Player 3 SPEECH]: I play 3 Queens. Look at this pile, it's gonna blow up soon.
+>>> ACTION: Player 3 played 3 cards face down.
+----------------------------------------
+
+Turn 29 | Player 1 is acting...
+[Player 1 SPEECH]: I play 2 Qs. Pile is at six, that fits the math perfectly right now.
+>>> ACTION: Player 1 played 2 cards face down.
+----------------------------------------
+
+Turn 30 | Player 3 is acting...
+[Player 3 SPEECH]: I play 2 Queens. Pile at six, pile is low enough for this to work.
+>>> ACTION: Player 3 played 2 cards face down.
+----------------------------------------
+
+Turn 31 | Player 1 is acting...
+[Player 1 SPEECH]: Liar! Pile is at nine but max Queens are eight.
+>>> CALL: Player 1 caught Player 3 LYING! They actually played: ['K', 'A']. >>> BANG! The revolver went off. Player 3 is eliminated!
+----------------------------------------
+
+=== GAME OVER | Winner: Player 1 ===
