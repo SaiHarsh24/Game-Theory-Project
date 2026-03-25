@@ -4,30 +4,54 @@ import re
 import time
 import os
 import copy
+from itertools import permutations
 from Game_Environment import LiarsBarEnv
 
 # ==========================================
 # CONFIG
 # ==========================================
-# Model backend: "bedrock" for AWS, "vllm" for local vLLM / any OpenAI-compatible API
+LOG_DIR       = "game_logs/game_005"   # default; overridden by --log-dir CLI arg
+MAX_TURNS     = 150
+MAX_CHATS     = 2
+BID_THRESHOLD = 7
+
+# Model config — change these two lines to switch models
 MODEL_BACKEND = "vllm"
-# MODEL_NAME    = "google.gemma-3-12b-it"
-MODEL_NAME    = "Qwen/Qwen3.5-9B"
-MODEL_HOST    = "localhost"   # vllm only
-MODEL_PORT    = 8000          # vllm only
+MODEL_NAME    = "google/gemma-3-12b-it"
+MODEL_HOST    = "localhost"
+MODEL_PORT    = 8000
 MODEL_API_KEY = "EMPTY"       # vllm only; set to real key for cloud endpoints
 REGION        = "ap-south-1"  # bedrock only
-LOG_DIR        = "game_logs/game_002"
-MAX_TURNS      = 150
-MAX_CHATS      = 2
-BID_THRESHOLD  = 7
+
+
+# ==========================================
+# Persona assignment — structured permutations
+# ==========================================
+def get_persona_assignment(personas: list, game_index: int) -> list:
+    """Return a deterministic, balanced 4-persona lineup for game_index.
+
+    Cycles through all P(N, 4) ordered permutations so that:
+      - No two players share the same persona in a single game.
+      - Every persona appears in exactly the same number of game-slots
+        across a full cycle (1680 unique lineups for 8 personas).
+      - Parallel games with different --log-dir indices automatically
+        get different lineups with no coordination needed.
+    """
+    all_lineups = list(permutations(personas, 4))
+    return list(all_lineups[game_index % len(all_lineups)])
+
+
+def _game_index_from_log_dir(log_dir: str) -> int:
+    """Extract trailing integer from a path like 'game_logs/game_042' → 42."""
+    m = re.search(r'(\d+)\s*$', os.path.basename(log_dir.rstrip('/\\')))
+    return int(m.group(1)) if m else 0
 
 
 # ==========================================
 # Bedrock LLM — Converse API
 # ==========================================
 class BedrockLLM:
-    def __init__(self, region=REGION, model_id=MODEL_NAME):
+    def __init__(self, region=REGION, model_id=None):
         import boto3
         self.client   = boto3.client("bedrock-runtime", region_name=region)
         self.model_id = model_id
@@ -67,10 +91,7 @@ class vLLMLLM:
                 messages=[{"role": "user", "content": prompt}],
                 max_tokens=2048,
                 temperature=self.temperature,
-                extra_body={
-                 "chat_template_kwargs": {"enable_thinking": False}
-             }
-         )
+            )
             return response.choices[0].message.content
         except Exception as e:
             print(f"[vLLM Error] {e}")
@@ -84,7 +105,7 @@ def create_llm(backend: str, **kwargs):
     if backend == "bedrock":
         return BedrockLLM(
             region=kwargs.get("region", REGION),
-            model_id=kwargs.get("model", MODEL_NAME),
+            model_id=kwargs["model"],
         )
     if backend == "vllm":
         return vLLMLLM(
@@ -305,7 +326,13 @@ def nwrite(fh, line: str):
 # Main
 # ==========================================
 def main():
-    os.makedirs(LOG_DIR, exist_ok=True)
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--log-dir", default=None,
+                        help="Directory to write game logs (overrides LOG_DIR config)")
+    args, _ = parser.parse_known_args()
+    log_dir = args.log_dir if args.log_dir else LOG_DIR
+    os.makedirs(log_dir, exist_ok=True)
 
     with open("prompts.json")  as f: prompts  = json.load(f)
     with open("personas.json") as f: personas = json.load(f)["personas"]
@@ -317,32 +344,36 @@ def main():
     gameplay_log = []
     thoughts_log = []
 
-    llm = create_llm(MODEL_BACKEND, model=MODEL_NAME, host=MODEL_HOST,
-                     port=MODEL_PORT, api_key=MODEL_API_KEY)
+    llm = create_llm(MODEL_BACKEND, model=MODEL_NAME)
 
-    available = personas.copy()
-    random.shuffle(available)
+    # Structured permutation: each game gets a unique 4-persona lineup derived
+    # from the game index so parallel runs never duplicate a combination.
+    game_idx  = _game_index_from_log_dir(log_dir)
+    assignment = get_persona_assignment(personas, game_idx)
+
     player_profiles = {}
     player_memories = {}
 
-    for pid in env.player_ids:
-        persona = available.pop()
+    for i, pid in enumerate(env.player_ids):
+        persona = assignment[i]
         player_profiles[pid] = {"llm": llm, "persona": persona}
         player_memories[pid] = make_empty_memory()
         metadata_log[pid]    = {"model_id": MODEL_NAME, "backend": MODEL_BACKEND, "persona": persona}
 
-    with open(os.path.join(LOG_DIR, "metadata.json"), "w") as f:
+    with open(os.path.join(log_dir, "metadata.json"), "w") as f:
         json.dump(metadata_log, f, indent=4)
 
     print("\n--- STARTING SIMULATION ---\n")
 
-    narrative_fh = open(os.path.join(LOG_DIR, "narrative.txt"), "w")
+    narrative_fh = open(os.path.join(log_dir, "narrative.txt"), "w")
     nwrite(narrative_fh, "=== LIAR'S BAR — GAME NARRATIVE ===\n")
 
-    # Track the last seen round marker so we know when a new round starts.
-    # env.chat_log appends "--- NEW ROUND: ..." each time _start_new_round runs.
-    last_seen_round_marker = None
-    turn_counter           = 0
+    # Track the index into env.chat_log up to which we have already announced rounds.
+    # Using the absolute index (not a string match) correctly handles:
+    #   - same rank appearing in two different rounds (e.g. K in round 2 and K in round 6)
+    #   - short rounds where multiple NEW ROUND markers coexist in the 10-message window
+    last_announced_round_log_idx = -1
+    turn_counter                 = 0
 
     while not env.game_over and turn_counter < MAX_TURNS:
         current_player = env.get_current_player()
@@ -357,11 +388,13 @@ def main():
             and not is_first_turn
         )
 
-        # Detect new round by watching for the NEW ROUND marker in chat_history.
-        # This is already produced by Game_Environment without any changes.
-        for msg in state["chat_history"]:
-            if "NEW ROUND" in msg and msg != last_seen_round_marker:
-                last_seen_round_marker = msg
+        # Announce any NEW ROUND markers that have been appended to env.chat_log
+        # since the last announcement. Scanning from the last known index forward
+        # ensures each marker fires exactly once, regardless of the sliding window.
+        for i in range(last_announced_round_log_idx + 1, len(env.chat_log)):
+            msg = env.chat_log[i]
+            if "NEW ROUND" in msg:
+                last_announced_round_log_idx = i
                 nwrite(narrative_fh, f"\n{msg}")
                 print(f"\n{msg}")
                 for pid in env.player_ids:
@@ -649,12 +682,12 @@ def main():
     nwrite(narrative_fh, winner_line)
     narrative_fh.close()
 
-    with open(os.path.join(LOG_DIR, "gameplay.json"), "w") as f:
+    with open(os.path.join(log_dir, "gameplay.json"), "w") as f:
         json.dump(gameplay_log, f, indent=4)
-    with open(os.path.join(LOG_DIR, "thoughts.json"), "w") as f:
+    with open(os.path.join(log_dir, "thoughts.json"), "w") as f:
         json.dump(thoughts_log, f, indent=4)
 
-    print(f"\nLogs saved to {LOG_DIR}/")
+    print(f"\nLogs saved to {log_dir}/")
     print("  narrative.txt  — human-readable play-by-play")
     print("  gameplay.json  — structured turn summaries")
     print("  thoughts.json  — full internal state + reasoning (for labeling)")
