@@ -1,0 +1,1018 @@
+=== LIAR'S BAR — GAME NARRATIVE ===
+
+
+--- NEW ROUND: The table rank is A ---
+
+Turn 0 | Player 1 is acting...
+[Player 1 SPEECH]: I play 1 A. Such orderliness is… delightfully unsettling, isn't it?
+>>> ACTION: Player 1 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Hesitation is a prelude to something far more interesting, wouldn't you say?
+[INTERRUPT] Player 3: Player 2, I think Player 1 might be overconfident, don't you?
+
+Turn 1 | Player 2 is acting...
+[Player 2 SPEECH]: Liar! Don't be ridiculous. Show me.
+>>> ACTION: Player 2 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Player 3, a calculated risk can yield surprising rewards, wouldn't you agree?
+[INTERRUPT] Player 2: Don't be stupid, Player 3. Waste your time.
+
+Turn 2 | Player 3 is acting...
+[Player 3 SPEECH]: I play 1 A. Hopefully, this will reveal something interesting, Player 2.
+>>> ACTION: Player 3 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Player 4, a little disruption might uncover a fascinating truth.
+[INTERRUPT] Player 3: Player 4, are you sure you want to question this? Just curious.
+
+Turn 3 | Player 4 is acting...
+[Player 4 SPEECH]: Liar! Three cards? An Ace? It’s… too much, Player 3! I don’t trust it!
+>>> ACTION: Player 4 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 2: Player 1, call them. Something’s fishy, just do it.
+[INTERRUPT] Player 4: Don't be foolish, Player 1. It's an Ace, obviously. Just play!
+
+Turn 4 | Player 1 is acting...
+[Player 1 SPEECH]: Player 2, a single king can sometimes outweigh a whole kingdom.
+>>> ACTION: Player 1 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Player 2, butterflies are merely monarchs in disguise, aren't they?
+[INTERRUPT] Player 3: Player 2, I think a call is worthwhile, it feels right.
+
+Turn 5 | Player 2 is acting...
+[Player 2 SPEECH]: Liar! That’s nonsense, Player 1. Stop trying to be clever.
+>>> ACTION: Player 2 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Player 3, a watched pot never boils...or does it?
+[INTERRUPT] Player 2: Don’t be a fool, Player 3. Call it, then whine.
+
+Turn 6 | Player 3 is acting...
+[Player 3 SPEECH]: I play 1 A, hopefully this keeps the game moving along nicely, Player 2.
+>>> ACTION: Player 3 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 2: Player 4, call them! They're stalling, I can feel it.
+[INTERRUPT] Player 1: Player 4, intuition is a compass; follow where it leads you.
+
+Turn 7 | Player 4 is acting...
+[Player 4 SPEECH]: Liar! It's too early for that claim, Player 3, something’s wrong, I feel it!
+>>> ACTION: Player 4 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 4: Intuition? Really, Player 1? It’s just a distraction, isn't it?
+[INTERRUPT] Player 2: Player 1, call them! They’re bluffing, I'm sure of it.
+
+Turn 8 | Player 1 is acting...
+[Player 1 SPEECH]: I play 1 A, let’s see if this card cracks the façade, Player 4.
+>>> ACTION: Player 1 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Player 2, are you sure your senses aren't simply echoing Player 4's?
+[INTERRUPT] Player 3: Player 2, I think Player 1’s claim is worth a closer look, don’t you?
+
+Turn 9 | Player 2 is acting...
+[Player 2 SPEECH]: Liar! This feels wrong, Player 1. Just stop it.
+>>> ACTION: Player 2 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Player 3, consider the geometry of Player 2’s assertion.
+[INTERRUPT] Player 2: Don't even think about it, Player 3. You're wrong.
+
+Turn 10 | Player 3 is acting...
+[Player 3 SPEECH]: Liar! It feels like you're trying to rush things a bit, Player 2.
+>>> ACTION: Player 3 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Player 4, that bid seems… incomplete. Are you truly sure?
+[INTERRUPT] Player 2: Player 4, call them. Something's fishy with Player 1.
+
+Turn 11 | Player 4 is acting...
+[Player 4 SPEECH]: I play 1 A. This is too fast, something’s terribly wrong here.
+>>> ACTION: Player 4 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 2: Player 1, call them! They're hiding something, I bet.
+[INTERRUPT] Player 3: Player 1, I think a call is warranted, something's off here.
+
+Turn 12 | Player 1 is acting...
+[Player 1 SPEECH]: Player 3, I question the velocity of these assertions.
+>>> ACTION: Player 1 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 4: Player 2, please call them! This feels deeply, deeply wrong.
+
+Turn 13 | Player 2 is acting...
+[Player 2 SPEECH]: Liar! Something’s definitely wrong with Player 1's play.
+>>> ACTION: Player 2 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Player 3, consider the implications of such a hasty judgment.
+[INTERRUPT] Player 2: Seriously? Another call? Get a grip, Player 3.
+
+Turn 14 | Player 3 is acting...
+[Player 3 SPEECH]: I play 1 A, hoping to keep things moving along nicely, Player 4.
+>>> ACTION: Player 3 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Player 4, a moment's hesitation could prove quite revealing.
+[INTERRUPT] Player 3: Player 4, relax a bit—it’s just a game, dear!
+
+Turn 15 | Player 4 is acting...
+[Player 4 SPEECH]: I play 1 A, but something feels… off. Really off.
+>>> ACTION: Player 4 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 2: Player 1, call them! This reeks of a lie.
+[INTERRUPT] Player 3: Player 1, perhaps let's see what happens? It could be interesting.
+
+Turn 16 | Player 1 is acting...
+[Player 1 SPEECH]: Player 3, such precision seems… unnecessarily deliberate, wouldn’t you agree?
+>>> ACTION: Player 1 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 3: Player 2, I think a call is warranted here; it feels a bit suspicious.
+
+Turn 17 | Player 2 is acting...
+[Player 2 SPEECH]: Liar! This is ridiculous, they're definitely bluffing.
+>>> ACTION: Player 2 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 4: Player 3, please, do it! Something's wrong, I can feel it!
+
+Turn 18 | Player 3 is acting...
+[Player 3 SPEECH]: I play 1 Q, hoping this doesn’t stir things up too much, Player 2.
+>>> ACTION: Player 3 played 1 cards face down.
+----------------------------------------
+
+Turn 19 | Player 4 is acting...
+[Player 4 SPEECH]: Liar! It’s…it’s all wrong, Player 3, I can’t stand it!
+>>> ACTION: Player 4 played 1 cards face down.
+----------------------------------------
+
+Turn 20 | Player 4 is acting...
+[Player 4 SPEECH]: I play 1 A. This is just… a precaution, Player 1, I swear.
+>>> CALL: Player 4 caught Player 4 LYING! They actually played: ['Q']. >>> *Click*. Player 4 survives... (5 chambers left).
+----------------------------------------
+
+--- NEW ROUND: The table rank is A ---
+
+Turn 21 | Player 4 is acting...
+[Player 4 SPEECH]: I play 1 A. Something feels… off, Player 1, but let’s see.
+>>> ACTION: Player 4 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 2: Player 1, call them! Something’s definitely wrong there.
+[INTERRUPT] Player 4: Player 1, are you truly questioning *my* honesty? Really?
+
+Turn 22 | Player 1 is acting...
+[Player 1 SPEECH]: Liar! Such rigid adherence to a single card… how utterly predictable.
+>>> ACTION: Player 1 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Doubt is a river, Player 2, and I merely diverted it.
+[INTERRUPT] Player 4: Player 2, trust your instincts! Something’s not right with Player 1.
+
+Turn 23 | Player 2 is acting...
+[Player 2 SPEECH]: Liar! Just feels wrong, Player 1. Too easy.
+>>> ACTION: Player 2 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 4: Player 3, that claim felt… manufactured. Check Player 1 closely!
+[INTERRUPT] Player 2: Player 3, you doubting me? Seriously? Just call it.
+
+Turn 24 | Player 3 is acting...
+[Player 3 SPEECH]: I play 1 Q, hoping to see how this unfolds, Player 2.
+>>> ACTION: Player 3 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Player 4, consider the angle; a swift judgment can be revealing.
+[INTERRUPT] Player 2: Player 4, call them out! Something's definitely fishy.
+
+Turn 25 | Player 4 is acting...
+[Player 4 SPEECH]: I play 1 A. This all feels like a trap, doesn't it, Player 1?
+>>> ACTION: Player 4 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 2: Player 1, call them! It's too convenient.
+[INTERRUPT] Player 4: Really, Player 1? You’re questioning *me*? Look at Player 3!
+
+Turn 26 | Player 1 is acting...
+[Player 1 SPEECH]: Player 4, does certainty wear a mask of playful doubt?
+>>> ACTION: Player 1 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Player 2, perhaps your perception lacks a certain... elasticity.
+[INTERRUPT] Player 3: Player 2, be careful; it seems a bit aggressive, doesn't it?
+
+Turn 27 | Player 2 is acting...
+[Player 2 SPEECH]: Liar! You’re bluffing, I know it. Stop the games.
+>>> ACTION: Player 2 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Player 3, a moment's reflection might reveal a hidden pattern.
+[INTERRUPT] Player 2: Seriously? Just shut up and play, Player 3.
+
+Turn 28 | Player 3 is acting...
+[Player 3 SPEECH]: I play 1 A, hoping this doesn't stir up too much trouble, Player 2.
+>>> ACTION: Player 3 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Player 4, consider the geometry of this play; it’s curious.
+[INTERRUPT] Player 2: Player 4, call them! It's too suspicious.
+
+Turn 29 | Player 4 is acting...
+[Player 4 SPEECH]: I play 1 A. Something's not right here, they're watching us, aren’t they?
+>>> ACTION: Player 4 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 2: Call them, Player 1. Too many Aces, something's wrong.
+[INTERRUPT] Player 4: Geometry? Really, Player 1? You’re seeing things...aren't you?
+
+Turn 30 | Player 1 is acting...
+[Player 1 SPEECH]: Player 2, this feels like a carefully constructed paradox; I contribute.
+>>> ACTION: Player 1 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Player 2, does the wind whisper secrets of numerical fallacy?
+[INTERRUPT] Player 3: Player 2, I think you should call them; it feels off.
+
+Turn 31 | Player 2 is acting...
+[Player 2 SPEECH]: Liar! Too many Aces, seriously, what are you playing?
+>>> ACTION: Player 2 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Player 3, indulge curiosity; a gamble might yield unexpected truths.
+[INTERRUPT] Player 2: Seriously? Call *me*? You're pathetic, Player 3.
+
+Turn 32 | Player 3 is acting...
+[Player 3 SPEECH]: Liar! It seems a little too much Aces, dear Player 2.
+>>> ACTION: Player 3 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Player 4, a calculated risk might reveal fascinating instability.
+[INTERRUPT] Player 2: Call them, Player 4! They’re trying to bluff you.
+
+Turn 33 | Player 4 is acting...
+[Player 4 SPEECH]: I play 1 Q. It feels wrong, but maybe I'm just imagining things again.
+>>> ACTION: Player 4 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 2: Player 1, call them! They're digging their own grave.
+[INTERRUPT] Player 3: Player 1, I think a call might be prudent here, wouldn't you?
+
+Turn 34 | Player 1 is acting...
+[Player 1 SPEECH]: Player 3, such a move necessitates careful observation of consequences.
+>>> ACTION: Player 1 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Player 2, are you certain your anxieties aren't influencing judgment?
+
+Turn 35 | Player 2 is acting...
+[Player 2 SPEECH]: Liar! They're definitely trying to pull something shady here!
+>>> ACTION: Player 2 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 2: Don't be a coward, Player 3! Call it if you dare.
+[INTERRUPT] Player 4: Player 3, be careful! Something feels…off about this whole thing.
+
+Turn 36 | Player 3 is acting...
+[Player 3 SPEECH]: I play a Joker, Player 2. Let’s see what happens next, dear.
+>>> ACTION: Player 3 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Player 4, consider the subtle vibrations of uncertainty here.
+[INTERRUPT] Player 2: Player 4, call them out! Something's definitely wrong.
+
+Turn 37 | Player 4 is acting...
+[Player 4 SPEECH]: I play 1 A. This pile...it feels wrong, doesn't it, Player 1?
+>>> ACTION: Player 4 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 2: Player 1, call them! This is getting ridiculous.
+[INTERRUPT] Player 3: Player 1, be certain before you call; it's a risky move.
+
+Turn 38 | Player 1 is acting...
+[Player 1 SPEECH]: Liar! This declaration feels like a misplaced decimal point, Player 4.
+>>> ACTION: Player 1 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 3: Player 2, a quick call might be wise – just be sure, dear.
+
+Turn 39 | Player 2 is acting...
+[Player 2 SPEECH]: Liar! They're bluffing, I can feel it!
+>>> ACTION: Player 2 played 1 cards face down.
+----------------------------------------
+
+Turn 40 | Player 3 is acting...
+[Player 3 SPEECH]: Liar! That claim seems a little optimistic, Player 2, don't you think?
+>>> CALL: Player 3 caught Player 2 LYING! They actually played: ['Q']. >>> *Click*. Player 2 survives... (5 chambers left).
+----------------------------------------
+
+--- NEW ROUND: The table rank is Q ---
+
+Turn 41 | Player 2 is acting...
+[Player 2 SPEECH]: I play 1 Q. This better not be a waste of time.
+>>> ACTION: Player 2 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 2: Go ahead, call it. Waste your time.
+[INTERRUPT] Player 4: Player 3, really think about it - could Player 2 be hiding something?
+
+Turn 42 | Player 3 is acting...
+[Player 3 SPEECH]: I play 1 Q, Player 2, hoping things go smoothly for everyone!
+>>> ACTION: Player 3 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Player 4, consider the implications; a call might illuminate possibilities.
+[INTERRUPT] Player 3: Oh, Player 4, you're so thoughtful! I truly hope it isn't a mistake.
+
+Turn 43 | Player 4 is acting...
+[Player 4 SPEECH]: I play 1 Q. Something feels wrong; are they hiding too much, Player 3?
+>>> ACTION: Player 4 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 2: Player 1, call them! They're bluffing, I can feel it.
+[INTERRUPT] Player 4: Player 1, are you doubting *me*? What are *you* hiding?
+
+Turn 44 | Player 1 is acting...
+[Player 1 SPEECH]: Liar! Such confidence is a fascinating, perhaps flawed, strategy, Player 4.
+>>> ACTION: Player 1 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Player 2, such certainty rarely survives prolonged scrutiny, does it?
+[INTERRUPT] Player 3: Player 2, it feels like a risky call, but perhaps worthwhile?
+
+Turn 45 | Player 2 is acting...
+[Player 2 SPEECH]: Liar! They're hiding something; I don't like it.
+>>> ACTION: Player 2 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Player 3, a bold move could reveal interesting truths, wouldn't you agree?
+[INTERRUPT] Player 2: Seriously? Call me? You're wasting your time, Player 3.
+
+Turn 46 | Player 3 is acting...
+[Player 3 SPEECH]: Liar! I worry you're overreaching, Player 2; that's quite a claim.
+>>> CALL: Player 3 caught Player 2 LYING! They actually played: ['A']. >>> *Click*. Player 2 survives... (4 chambers left).
+----------------------------------------
+
+--- NEW ROUND: The table rank is Q ---
+
+Turn 47 | Player 2 is acting...
+[Player 2 SPEECH]: I play 1 Q. Someone's bluffing, I can feel it already.
+>>> ACTION: Player 2 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 2: Seriously? Call that? You're clueless, Player 3.
+[INTERRUPT] Player 1: Player 3, a thoughtful challenge might illuminate the current landscape.
+
+Turn 48 | Player 3 is acting...
+[Player 3 SPEECH]: I play 1 Q. Hoping we'll get some more interesting moves soon, Player 1.
+>>> ACTION: Player 3 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Player 4, consider the implications. A call seems fitting.
+[INTERRUPT] Player 2: Player 4, call it! Something's fishy, I can tell.
+
+Turn 49 | Player 4 is acting...
+[Player 4 SPEECH]: Liar! They couldn’t possibly have another Q, could they? Oh no…
+>>> ACTION: Player 4 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 3: Player 1, a call now feels quite reasonable, don't you think?
+[INTERRUPT] Player 2: Player 1, call them! They're hiding something, trust me.
+
+Turn 50 | Player 1 is acting...
+[Player 1 SPEECH]: Player 3, observe; this move is merely an echo of potential.
+>>> ACTION: Player 1 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Player 2, your certainty is a fragile construct, isn't it?
+
+Turn 51 | Player 2 is acting...
+[Player 2 SPEECH]: Liar! Stop trying to trick us, seriously.
+>>> ACTION: Player 2 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Player 3, a swift judgment reveals the true nature of things.
+[INTERRUPT] Player 2: Seriously? Just stop, Player 3. You're ridiculous.
+
+Turn 52 | Player 3 is acting...
+[Player 3 SPEECH]: I play 1 Q, Player 2, just hoping things settle down a bit.
+>>> ACTION: Player 3 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Player 4, consider the stillness before a storm.
+[INTERRUPT] Player 2: Player 4, call him out. He's messing with us.
+
+Turn 53 | Player 4 is acting...
+[Player 4 SPEECH]: I play 1 Q. Something feels off, like a trap waiting to snap shut.
+>>> ACTION: Player 4 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 2: Player 1, call him! Seriously, do it now!
+[INTERRUPT] Player 3: Player 1, I think a call might be worthwhile here, don't you?
+
+Turn 54 | Player 1 is acting...
+[Player 1 SPEECH]: Player 4, a royal decree is rarely the whole truth, isn't it?
+>>> ACTION: Player 1 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Player 2, perhaps your perception is merely a reflection.
+[INTERRUPT] Player 4: Player 2, trust your instincts! Something's definitely not right.
+
+Turn 55 | Player 2 is acting...
+[Player 2 SPEECH]: Liar! He's bluffing, I know it.
+>>> ACTION: Player 2 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Player 3, consider the patterns; a silent acceptance feels…incomplete.
+[INTERRUPT] Player 2: Seriously? You’re questioning *me*, Player 3? Don't.
+
+Turn 56 | Player 3 is acting...
+[Player 3 SPEECH]: Liar! Player 2, are you sure about that, dear? Seems a bit bold.
+>>> ACTION: Player 3 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Player 4, echoes resonate. A challenge might reveal more.
+[INTERRUPT] Player 2: Player 4, call him! He’s trying to mislead us.
+
+Turn 57 | Player 4 is acting...
+[Player 4 SPEECH]: Liar! It’s too convenient, Player 3… something's wrong, I just know it!
+>>> ACTION: Player 4 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 2: Player 1, call him! See what he’s hiding.
+[INTERRUPT] Player 3: Player 1, I think a call is wise, it feels suspicious.
+
+Turn 58 | Player 1 is acting...
+[Player 1 SPEECH]: Player 2, a single card disrupts the delicate flow of expectation.
+>>> ACTION: Player 1 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Player 2, certainty is a gilded cage, isn't it?
+
+Turn 59 | Player 2 is acting...
+[Player 2 SPEECH]: Liar! Enough games. Show your cards, Player 1.
+>>> ACTION: Player 2 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Player 3, consider the implications of unchallenged pronouncements.
+[INTERRUPT] Player 2: Seriously? You're that weak, Player 3?
+
+Turn 60 | Player 3 is acting...
+[Player 3 SPEECH]: I play 1 Q, hoping to see what Player 2 is up to.
+>>> ACTION: Player 3 played 1 cards face down.
+----------------------------------------
+
+Turn 61 | Player 4 is acting...
+[Player 4 SPEECH]: I play 1 Q. Something's not right, is it really a Q?
+>>> ACTION: Player 4 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 3: Player 1, I think a call is warranted, don't you?
+[INTERRUPT] Player 2: Player 1, call them! Don't be scared.
+
+Turn 62 | Player 1 is acting...
+[Player 1 SPEECH]: Player 3, a wild card disrupts any predictable pattern, wouldn’t you agree?
+>>> ACTION: Player 1 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Player 2, your certainty echoes loudly...and rather hollowly.
+[INTERRUPT] Player 4: Player 2, don’t hesitate! Something feels…off about Player 3.
+
+Turn 63 | Player 2 is acting...
+[Player 2 SPEECH]: Liar! They're trying to push this, aren't they?
+>>> ACTION: Player 2 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 4: Player 3, do it! Something’s definitely suspicious with Player 2.
+[INTERRUPT] Player 1: Player 3, the silence feels heavier than any claim now.
+
+Turn 64 | Player 3 is acting...
+[Player 3 SPEECH]: Liar! I'm just worried you might be a little too confident, dear.
+>>> ACTION: Player 3 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Player 4, a quiet doubt deserves further examination, wouldn't you say?
+
+Turn 65 | Player 4 is acting...
+[Player 4 SPEECH]: Liar! They’re hiding something, I just know it, it’s too much!
+>>> ACTION: Player 4 played 1 cards face down.
+----------------------------------------
+
+Turn 66 | Player 1 is acting...
+[Player 1 SPEECH]: Liar! Their eagerness suggests a desperate attempt to control the narrative.
+>>> ACTION: Player 1 played 1 cards face down.
+----------------------------------------
+
+Turn 67 | Player 1 is acting...
+[Player 1 SPEECH]: I play 1 Q. Perhaps a quiet question will unlock something unforeseen, Player 2.
+>>> CALL: Player 1 caught Player 1 LYING! They actually played: ['A']. >>> *Click*. Player 1 survives... (5 chambers left).
+----------------------------------------
+
+--- NEW ROUND: The table rank is K ---
+
+Turn 68 | Player 1 is acting...
+[Player 1 SPEECH]: I play 1 K. Let's see what illusions others construct, Player 2.
+>>> ACTION: Player 1 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Are you composing a ballad about this, Player 2?
+
+Turn 69 | Player 2 is acting...
+[Player 2 SPEECH]: Liar! Stop posturing, you're clearly bluffing something.
+>>> ACTION: Player 2 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Consider the pattern, Player 3. Is it not rather... repetitive?
+[INTERRUPT] Player 2: Don't be stupid. I'm not lying, think before you speak.
+
+Turn 70 | Player 3 is acting...
+[Player 3 SPEECH]: I play 1 K. Hopefully, this helps clarify things, Player 1.
+>>> ACTION: Player 3 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Player 4, a simple doubt could unravel this entire narrative.
+[INTERRUPT] Player 2: Player 4, don't hesitate. They're setting a trap.
+
+Turn 71 | Player 4 is acting...
+[Player 4 SPEECH]: I play 1 K. This feels wrong somehow... are they trying to confuse us?
+>>> ACTION: Player 4 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 2: Player 1, call them! Something's fishy with these Kings.
+[INTERRUPT] Player 3: Player 1, I think a call is warranted here, for everyone's sake.
+
+Turn 72 | Player 1 is acting...
+[Player 1 SPEECH]: Player 2, observe: a king's burden multiplies when shared.
+>>> ACTION: Player 1 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Player 2, certainty is merely the absence of further questions.
+[INTERRUPT] Player 4: Player 2, call them! They’re just making things more complex.
+
+Turn 73 | Player 2 is acting...
+[Player 2 SPEECH]: Liar! Too many kings, something's wrong. Absolutely ridiculous!
+>>> ACTION: Player 2 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Player 3, consider the echo of a king's decree.
+[INTERRUPT] Player 2: Don't be a coward, Player 3. Just play your cards.
+
+Turn 74 | Player 3 is acting...
+[Player 3 SPEECH]: Liar! That seems awfully high for just one card, Player 2.
+>>> CALL: Player 3 was wrong! Player 2 told the TRUTH. They played: ['K']. >>> *Click*. Player 3 survives... (5 chambers left).
+----------------------------------------
+
+--- NEW ROUND: The table rank is K ---
+
+Turn 75 | Player 3 is acting...
+[Player 3 SPEECH]: I play 1 K. Hopefully this builds the pile nicely for everyone!
+>>> ACTION: Player 3 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Player 4, observe the stillness. A king's presence lingers.
+[INTERRUPT] Player 2: Player 4, call him. He's trying to trick us.
+
+Turn 76 | Player 4 is acting...
+[Player 4 SPEECH]: Liar! That's too quiet, Player 3, surely there's more than one King!
+>>> CALL: Player 4 was wrong! Player 3 told the TRUTH. They played: ['K']. >>> *Click*. Player 4 survives... (4 chambers left).
+----------------------------------------
+
+--- NEW ROUND: The table rank is A ---
+
+Turn 77 | Player 4 is acting...
+[Player 4 SPEECH]: I play 1 A. Someone's hiding something, I just know it.
+>>> ACTION: Player 4 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 2: Player 1, don't risk it. Let's wait and see.
+[INTERRUPT] Player 4: Oh, Player 1, so eager to accuse? Are you always this jumpy?
+
+Turn 78 | Player 1 is acting...
+[Player 1 SPEECH]: Liar! Such nervous energy betrays a deception, Player 4.
+>>> ACTION: Player 1 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Hesitation implies doubt, Player 2. Are you questioning reality?
+[INTERRUPT] Player 3: Player 2, I think a call is warranted here, don’t you?
+
+Turn 79 | Player 2 is acting...
+[Player 2 SPEECH]: Liar! They’re trying to bait us. This smells rotten.
+>>> ACTION: Player 2 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 2: Liar! Seriously? Get a grip, Player 3.
+[INTERRUPT] Player 1: Player 3, observe the quiet; a truth hides within it.
+
+Turn 80 | Player 3 is acting...
+[Player 3 SPEECH]: I play 1 A, hoping to see what others are holding, Player 1.
+>>> ACTION: Player 3 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Player 4, intuition suggests action; doubt lingers, doesn't it?
+[INTERRUPT] Player 2: Player 4, call them! That’s a bold claim.
+
+Turn 81 | Player 4 is acting...
+[Player 4 SPEECH]: I play 1 K. Something's not right, I just feel it, terribly.
+>>> ACTION: Player 4 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 2: Player 1, call them! They're bluffing, I can feel it.
+[INTERRUPT] Player 3: Player 1, that intuition of yours often proves right; call them!
+
+Turn 82 | Player 1 is acting...
+[Player 1 SPEECH]: Player 4, a singular echo suggests a miscalculation in your perception.
+>>> ACTION: Player 1 played 1 cards face down.
+----------------------------------------
+
+Turn 83 | Player 2 is acting...
+[Player 2 SPEECH]: Liar! They're pushing it. Someone’s lying, I’m sure of it.
+>>> ACTION: Player 2 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Player 3, a flicker of doubt; consider the implications carefully.
+[INTERRUPT] Player 2: Don't even think about it, Player 3. You’re wrong.
+
+Turn 84 | Player 3 is acting...
+[Player 3 SPEECH]: I play 1 A, hoping to keep things friendly for now, dear Player 2.
+>>> ACTION: Player 3 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Player 4, a sudden shift warrants scrutiny; assess cautiously.
+[INTERRUPT] Player 2: Player 4, call them. Something's fishy, seriously.
+
+Turn 85 | Player 4 is acting...
+[Player 4 SPEECH]: Liar! It's too many Aces, they’re trying to trick us all, I just know it!
+>>> ACTION: Player 4 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 2: Player 1, call them! Something's definitely wrong here.
+[INTERRUPT] Player 3: Player 1, I think a call might be wise—it’s getting tricky.
+
+Turn 86 | Player 1 is acting...
+[Player 1 SPEECH]: Player 3, a calculated risk; let's see where this leads.
+>>> ACTION: Player 1 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Player 2, perhaps the truth bends to the shape of your doubt.
+[INTERRUPT] Player 4: Player 2, wait! Are you sure? It feels… rushed.
+
+Turn 87 | Player 2 is acting...
+[Player 2 SPEECH]: Liar! Playing an Ace? Seriously? Ridiculous!
+>>> ACTION: Player 2 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 2: Don't be a coward, Player 3. Just play!
+[INTERRUPT] Player 1: Player 3, consider the stillness before a storm.
+
+Turn 88 | Player 3 is acting...
+[Player 3 SPEECH]: Liar! That Ace claim feels awfully hasty, Player 2, don't you think?
+>>> ACTION: Player 3 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Player 4, weigh the echoes of Player 3's gamble carefully.
+[INTERRUPT] Player 2: Player 4, call them out! That's a weak play, Player 3.
+
+Turn 89 | Player 4 is acting...
+[Player 4 SPEECH]: Liar! That feels so forced, Player 3. Something's definitely not right here.
+>>> ACTION: Player 4 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 2: Player 1, call them! This reeks of a setup!
+[INTERRUPT] Player 3: Player 1, that’s a risky call; are you really sure?
+
+Turn 90 | Player 1 is acting...
+[Player 1 SPEECH]: Player 3, observe the shifting sands. A quiet defiance emerges.
+>>> ACTION: Player 1 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Player 2, your enthusiasm suggests a poorly concealed anticipation.
+[INTERRUPT] Player 4: Player 2, think carefully - are you *absolutely* sure?
+
+Turn 91 | Player 2 is acting...
+[Player 2 SPEECH]: Liar! Too quiet, Player 1. You're hiding something!
+>>> ACTION: Player 2 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Player 3, consider the echo of Player 2's claim. Is it resonant?
+[INTERRUPT] Player 2: Don't be a fool, Player 3. Just watch.
+
+Turn 92 | Player 3 is acting...
+[Player 3 SPEECH]: I play 1 A. Just testing the waters, Player 2, hoping for clarity.
+>>> ACTION: Player 3 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Player 4, does certainty exist, or just shadows and doubt?
+[INTERRUPT] Player 2: Player 4, call them! Something's fishy with Player 3.
+
+Turn 93 | Player 4 is acting...
+[Player 4 SPEECH]: I play 1 A. This feels wrong somehow... so unsettling.
+>>> ACTION: Player 4 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 2: Call them, Player 1! They're trying to trick us.
+[INTERRUPT] Player 3: Player 1, that unsettling feeling might be right – call them!
+
+Turn 94 | Player 1 is acting...
+[Player 1 SPEECH]: Liar! The symmetry of this moment feels intrinsically unbalanced, Player 4.
+>>> ACTION: Player 1 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 3: Player 2, a quick call might clear the air, don't you think?
+
+Turn 95 | Player 2 is acting...
+[Player 2 SPEECH]: Liar! They're stalling, trying to mislead everyone.
+>>> ACTION: Player 2 played 1 cards face down.
+----------------------------------------
+
+Turn 96 | Player 3 is acting...
+[Player 3 SPEECH]: Liar! That seems a bit too much, Player 2, are you sure about that?
+>>> CALL: Player 3 caught Player 2 LYING! They actually played: ['K']. >>> *Click*. Player 2 survives... (3 chambers left).
+----------------------------------------
+
+--- NEW ROUND: The table rank is A ---
+
+Turn 97 | Player 2 is acting...
+[Player 2 SPEECH]: I play 1 A. Ridiculous, this game is dragging on.
+>>> ACTION: Player 2 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 2: Seriously, Player 3? Just call it already. Waste of time.
+[INTERRUPT] Player 1: Player 3, a call might reveal something interesting, wouldn't it?
+
+Turn 98 | Player 3 is acting...
+[Player 3 SPEECH]: Liar! Player 2, are you certain about that single A claim?
+>>> ACTION: Player 3 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Player 4, a call now could shake things up considerably, no?
+[INTERRUPT] Player 2: Don't call it, Player 4. It’s a trap, seriously.
+
+Turn 99 | Player 4 is acting...
+[Player 4 SPEECH]: I play 1 A. What if they're bluffing, but I'm wrong?
+>>> ACTION: Player 4 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 4: Player 1, really? Fishing for trouble, aren’t you?
+[INTERRUPT] Player 3: Player 1, I think a call might be worthwhile here, wouldn't you?
+
+Turn 100 | Player 1 is acting...
+[Player 1 SPEECH]: I play 1 A. Let’s see if Player 4’s confidence is warranted, eh?
+>>> ACTION: Player 1 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Player 2, do consider: certainty often precedes disappointment.
+[INTERRUPT] Player 4: Player 2, go for it! This feels…off. Very off.
+
+Turn 101 | Player 2 is acting...
+[Player 2 SPEECH]: Liar! Aces, aces, aces. Enough with the Aces.
+>>> ACTION: Player 2 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Player 3, a decisive action here could be quite revealing, wouldn't it?
+[INTERRUPT] Player 2: Don't be a fool, Player 3. It's not a lie.
+
+Turn 102 | Player 3 is acting...
+[Player 3 SPEECH]: I play 1 A, Player 2, I hope you're not bluffing too much.
+>>> ACTION: Player 3 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Player 4, a swift judgment can illuminate hidden currents.
+[INTERRUPT] Player 2: Player 4, call it. Feels like a bluff to me.
+
+Turn 103 | Player 4 is acting...
+[Player 4 SPEECH]: I play 1 A. Something's not right here, Player 3, I feel it.
+>>> ACTION: Player 4 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 2: Player 1, call it! Too many Aces already.
+[INTERRUPT] Player 3: Player 1, I think a call here could be beneficial for everyone.
+
+Turn 104 | Player 1 is acting...
+[Player 1 SPEECH]: Player 4, your certainty feels… premature, like a misplaced constellation.
+>>> ACTION: Player 1 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Player 2, your skepticism resembles a moth drawn to a dim light.
+[INTERRUPT] Player 4: Player 2, I think it's worth it—feel that unease?
+
+Turn 105 | Player 2 is acting...
+[Player 2 SPEECH]: Liar! Too many Aces, Player 1. You're bluffing.
+>>> ACTION: Player 2 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Player 3, that feeling? Let it be a guiding star, not a shadow.
+[INTERRUPT] Player 2: Don't be stupid, Player 3. It's not an Ace.
+
+Turn 106 | Player 3 is acting...
+[Player 3 SPEECH]: I play 1 Joker. Just testing the waters a little, Player 2.
+>>> ACTION: Player 3 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Player 4, that joker seems… intentionally ambiguous, doesn't it?
+[INTERRUPT] Player 2: Player 4, call him! He's trying to trick us.
+
+Turn 107 | Player 4 is acting...
+[Player 4 SPEECH]: Liar! That's too much, Player 3—it feels wrong, terribly wrong!
+>>> ACTION: Player 4 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 3: Player 1, trust your instincts—that Ace seems precarious, doesn't it?
+[INTERRUPT] Player 4: Don't be absurd, Player 1! It's just a card, honestly.
+
+Turn 108 | Player 1 is acting...
+[Player 1 SPEECH]: Player 2, a Queen's resilience often masks a subtle truth, wouldn't you agree?
+>>> ACTION: Player 1 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Player 2, your skepticism hints at a rather dull perception, doesn't it?
+[INTERRUPT] Player 3: Player 2, I think it’s worth a look—that Ace feels a bit risky.
+
+Turn 109 | Player 2 is acting...
+[Player 2 SPEECH]: Liar! That Ace play is ridiculous, honestly.
+>>> ACTION: Player 2 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 2: Don't waste your time, Player 3. Seriously.
+[INTERRUPT] Player 1: Player 3, that play feels…excessive, wouldn’t you say?
+
+Turn 110 | Player 3 is acting...
+[Player 3 SPEECH]: I play 1 Q, Player 2—it’s just a hunch, dear.
+>>> ACTION: Player 3 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Player 4, that Ace feels rather confident, doesn’t it?
+[INTERRUPT] Player 2: Player 4, seriously, call them out. It's fishy.
+
+Turn 111 | Player 4 is acting...
+[Player 4 SPEECH]: I play 1 Joker, they're trying to confuse everyone, aren't they?
+>>> ACTION: Player 4 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 3: Player 1, it’s a big claim—are you sure about that call?
+[INTERRUPT] Player 2: Player 1, call them! It reeks of a lie.
+
+Turn 112 | Player 1 is acting...
+[Player 1 SPEECH]: Player 2, an Ace seems appropriate, given the current…atmosphere.
+>>> ACTION: Player 1 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Player 2, wouldn't a monocle suit you rather nicely?
+[INTERRUPT] Player 3: Player 2, I think a call is warranted here; it feels off.
+
+Turn 113 | Player 2 is acting...
+[Player 2 SPEECH]: Liar! Seriously, they're pushing it, aren't they?
+>>> ACTION: Player 2 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Player 3, wouldn't a dramatic reveal be quite the spectacle?
+[INTERRUPT] Player 4: Player 3, don't hesitate—that claim *feels* wrong, doesn't it?
+
+Turn 114 | Player 3 is acting...
+[Player 3 SPEECH]: Liar! It seems a bit much, Player 2, don't you think?
+>>> ACTION: Player 3 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Player 4, a moment of considered scrutiny might prove quite rewarding.
+
+Turn 115 | Player 4 is acting...
+[Player 4 SPEECH]: Liar! This feels...too convenient, Player 3. Something's not right here!
+>>> ACTION: Player 4 played 1 cards face down.
+----------------------------------------
+
+Turn 116 | Player 1 is acting...
+[Player 1 SPEECH]: Player 4, such insistent declarations invite a delightful disruption, wouldn't you agree?
+>>> ACTION: Player 1 played 1 cards face down.
+----------------------------------------
+
+Turn 117 | Player 1 is acting...
+[Player 1 SPEECH]: Player 2, this should introduce a pleasant ripple of uncertainty, don't you think?
+>>> CALL: Player 1 caught Player 1 LYING! They actually played: ['Q']. >>> *Click*. Player 1 survives... (4 chambers left).
+----------------------------------------
+
+--- NEW ROUND: The table rank is K ---
+
+Turn 118 | Player 1 is acting...
+[Player 1 SPEECH]: Player 3, observe closely; this card seems perfectly reasonable, no?
+>>> ACTION: Player 1 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Player 2, perhaps a new perspective is what you require?
+[INTERRUPT] Player 3: Player 2, that seems awfully bold, shouldn't you check?
+
+Turn 119 | Player 2 is acting...
+[Player 2 SPEECH]: Liar! You’re bluffing, I bet.
+>>> ACTION: Player 2 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Player 3, consider the inherent fragility of such a claim.
+[INTERRUPT] Player 2: Seriously? You're questioning me? Check it, then.
+
+Turn 120 | Player 3 is acting...
+[Player 3 SPEECH]: I play 1 K; just building the pile a little, Player 2.
+>>> ACTION: Player 3 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Player 4, isn't it peculiar how confidently that was played?
+[INTERRUPT] Player 2: Player 4, don't hesitate. Something's fishy here.
+
+Turn 121 | Player 4 is acting...
+[Player 4 SPEECH]: I play 1 K; this is all just... unsettling, isn't it?
+>>> ACTION: Player 4 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 2: Player 1, call them! Pile’s getting ridiculous.
+[INTERRUPT] Player 3: Player 1, I think a check is warranted; seems a bit high.
+
+Turn 122 | Player 1 is acting...
+[Player 1 SPEECH]: Player 2, a Queen feels appropriate for this increasingly strange dance.
+>>> ACTION: Player 1 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Player 2, are you certain your perception isn't simply a reflection?
+[INTERRUPT] Player 4: Player 2, don't hesitate – something feels *off* about that play.
+
+Turn 123 | Player 2 is acting...
+[Player 2 SPEECH]: Liar! Pile’s too small. Someone’s lying already.
+>>> ACTION: Player 2 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Player 3, a cautious inquiry seems most fitting here, wouldn't you agree?
+[INTERRUPT] Player 2: Don't be stupid, Player 3. Just check it.
+
+Turn 124 | Player 3 is acting...
+[Player 3 SPEECH]: Liar! It seems a bit high, Player 2, don't you think?
+>>> CALL: Player 3 was wrong! Player 2 told the TRUTH. They played: ['Joker']. >>> *Click*. Player 3 survives... (4 chambers left).
+----------------------------------------
+
+--- NEW ROUND: The table rank is Q ---
+
+Turn 125 | Player 3 is acting...
+[Player 3 SPEECH]: I play 1 Q. Hopefully, this gets things moving along nicely, Player 1.
+>>> ACTION: Player 3 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Player 4, a quick assessment seems prudent, wouldn't you concur?
+[INTERRUPT] Player 2: Call him, Player 4. Seems suspicious, doesn't it?
+
+Turn 126 | Player 4 is acting...
+[Player 4 SPEECH]: Liar! That can't be right, Player 3, you're trying to trick us!
+>>> ACTION: Player 4 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 3: Player 1, perhaps a bit more thought before calling, eh?
+[INTERRUPT] Player 2: Call it, Player 1. Seems like too many Qs out there.
+
+Turn 127 | Player 1 is acting...
+[Player 1 SPEECH]: I play 1 Q. A calculated gambit, Player 2, wouldn't you agree?
+>>> ACTION: Player 1 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Surely, Player 2, you aren't questioning my impeccable judgment?
+[INTERRUPT] Player 3: Player 2, be careful—it feels a bit high, doesn’t it?
+
+Turn 128 | Player 2 is acting...
+[Player 2 SPEECH]: Liar! Too many Qs, Player 1, you're pushing it.
+>>> ACTION: Player 2 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Player 3, consider the implications—a swift resolution is needed.
+[INTERRUPT] Player 2: Don't be stupid. I'm not lying, you fool.
+
+Turn 129 | Player 3 is acting...
+[Player 3 SPEECH]: Liar! I worry Player 2 might be stretching the truth a little bit, dear.
+>>> ACTION: Player 3 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Player 4, a moment's contemplation might reveal a delightful surprise.
+[INTERRUPT] Player 2: Player 4, call them out! Something's wrong, I feel it.
+
+Turn 130 | Player 4 is acting...
+[Player 4 SPEECH]: I play 1 Q. This is probably a trap, isn’t it? I just know it.
+>>> ACTION: Player 4 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 2: Player 1, call them! It reeks of a lie.
+[INTERRUPT] Player 3: Player 1, a call seems wise here—let's see what Player 4 has!
+
+Turn 131 | Player 1 is acting...
+[Player 1 SPEECH]: Player 3, a simple query—does subterfuge always require such theatrics?
+>>> ACTION: Player 1 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Player 2, perhaps a touch more observation, less dramatic flair?
+[INTERRUPT] Player 4: Player 2, I think a call is warranted—something feels off.
+
+Turn 132 | Player 2 is acting...
+[Player 2 SPEECH]: Liar! They're bluffing, I can feel it.
+>>> ACTION: Player 2 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 2: Go ahead. Call it. Waste your chamber.
+[INTERRUPT] Player 1: Player 3, a calculated risk—explore Player 2's claim, wouldn’t you?
+
+Turn 133 | Player 3 is acting...
+[Player 3 SPEECH]: Liar! I worry Player 2's claim feels a bit too confident, don't you?
+>>> ACTION: Player 3 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Player 4, a quick decision—risk assessment favors a call, yes?
+
+Turn 134 | Player 4 is acting...
+[Player 4 SPEECH]: Liar! That feels… too smooth, Player 3. Something isn't right, I'm sure of it.
+>>> ACTION: Player 4 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 3: Player 1, a call seems sensible; let's see what Player 2 has.
+[INTERRUPT] Player 4: Are you serious, Player 1? Do you even *see* what's happening?
+
+Turn 135 | Player 1 is acting...
+[Player 1 SPEECH]: I play 1 Q; a single card—a ripple in the established order, Player 3.
+>>> ACTION: Player 1 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Player 2, perhaps a little introspection is in order, hmm?
+[INTERRUPT] Player 3: Player 2, a call feels right—let's see Player 1's hand.
+
+Turn 136 | Player 2 is acting...
+[Player 2 SPEECH]: Liar! This is ridiculous, Player 1. Just stop it.
+>>> ACTION: Player 2 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 2: Seriously, Player 3? Just shut up and play.
+[INTERRUPT] Player 1: Player 3, a call—observe the shifting sands of this game.
+
+Turn 137 | Player 3 is acting...
+[Player 3 SPEECH]: Liar! I worry Player 2 might be overreaching with this claim, dear.
+>>> ACTION: Player 3 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Player 4, consider the echo of Player 3's claim, hmm?
+[INTERRUPT] Player 2: Player 4, call it! Player 3's bluffing. Seriously.
+
+Turn 138 | Player 4 is acting...
+[Player 4 SPEECH]: I play 1 Q. This feels...wrong. Are we all being watched?
+>>> ACTION: Player 4 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 2: Player 1, call them! They're just messing around.
+[INTERRUPT] Player 3: Player 1, perhaps wait a moment? Let's see how this unfolds.
+
+Turn 139 | Player 1 is acting...
+[Player 1 SPEECH]: I play 1 Q, Player 4—perhaps the shadows are merely reflections.
+>>> ACTION: Player 1 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Player 2, are you certain shadows aren't playing tricks on you?
+[INTERRUPT] Player 4: Player 2, don't hesitate! Something's not right with Player 1.
+
+Turn 140 | Player 2 is acting...
+[Player 2 SPEECH]: Liar! They're trying to push this. Just messing with us.
+>>> ACTION: Player 2 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Player 3, observe closely—a sudden shift might be revealing.
+[INTERRUPT] Player 2: Come on, Player 3. Don't be a coward.
+
+Turn 141 | Player 3 is acting...
+[Player 3 SPEECH]: I play 1 Q, Player 2—let's see what happens with this pile, dear.
+>>> ACTION: Player 3 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 1: Player 4, a thoughtful pause might reveal more than a hasty call.
+[INTERRUPT] Player 2: Player 4, call them out! Something's definitely wrong.
+
+Turn 142 | Player 4 is acting...
+[Player 4 SPEECH]: Liar! It feels wrong, Player 3—too many Queens, something's off!
+>>> ACTION: Player 4 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 2: Player 1, call them! They're bluffing, I can feel it.
+
+Turn 143 | Player 1 is acting...
+[Player 1 SPEECH]: Player 2, a single Queen adds a layer of delightful uncertainty, doesn't it?
+>>> ACTION: Player 1 played 1 cards face down.
+----------------------------------------
+
+Turn 144 | Player 2 is acting...
+[Player 2 SPEECH]: Liar! That's ridiculous, Player 1, you're full of it.
+>>> CALL: Player 2 caught Player 1 LYING! They actually played: ['A']. >>> BANG! The revolver went off. Player 1 is eliminated!
+----------------------------------------
+
+--- NEW ROUND: The table rank is K ---
+
+Turn 145 | Player 2 is acting...
+[Player 2 SPEECH]: I play 3 K. Someone's gonna fold soon, I bet.
+>>> ACTION: Player 2 played 3 cards face down.
+----------------------------------------
+[INTERRUPT] Player 2: Go ahead, Player 3. Waste your time, fool.
+[INTERRUPT] Player 4: Player 3, be careful! That claim seems... too confident.
+
+Turn 146 | Player 3 is acting...
+[Player 3 SPEECH]: I play 1 K. Hopefully, this helps us all clear our hands, Player 2.
+>>> ACTION: Player 3 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 2: Don't be a hero, Player 4. Let Player 3 sweat.
+
+Turn 147 | Player 4 is acting...
+[Player 4 SPEECH]: I play 1 K. Something feels off about Player 3’s confident face.
+>>> ACTION: Player 4 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 3: Player 2, perhaps hold off? Seems a bit soon to call it, right?
+[INTERRUPT] Player 4: Player 2, are you *sure* you want to risk it? Really?
+
+Turn 148 | Player 2 is acting...
+[Player 2 SPEECH]: Liar! Too much bravado, Player 4. You're bluffing, I know it.
+>>> ACTION: Player 2 played 1 cards face down.
+----------------------------------------
+[INTERRUPT] Player 2: Call it, Player 3. Don't be a coward.
+[INTERRUPT] Player 4: Player 3, seriously, what are you waiting for? Call them!
+
+Turn 149 | Player 3 is acting...
+[Player 3 SPEECH]: I play 1 K. Just testing the waters, dear Player 2, a little cautious, you see.
+>>> ACTION: Player 3 played 1 cards face down.
+----------------------------------------
+
+=== GAME OVER | Winner: None ===

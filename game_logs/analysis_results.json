@@ -1,0 +1,127 @@
+{
+  "game_001": {
+    "model": "unknown",
+    "total_entries": 84,
+    "action_count": 37,
+    "bidding_count": 47,
+    "valid_json_rate": 0.44047619047619047,
+    "speech_action_mismatches": 1,
+    "mismatch_details": [
+      {
+        "turn": 17,
+        "speech": "I play 1 A. Just trying to keep things interesting, Player 1!",
+        "claimed": 1,
+        "actual": 2
+      }
+    ],
+    "call_count": 10,
+    "call_accuracy": 0.7,
+    "bluff_rate": 0.7407407407407407,
+    "total_speeches": 84,
+    "avg_speech_length": 49.404761904761905,
+    "question_rate": 0.5595238095238095,
+    "exclamation_rate": 0.30952380952380953,
+    "ellipsis_rate": 0.11904761904761904,
+    "conversational_word_count": 51,
+    "speech_uniqueness": 1.0,
+    "banned_words_found": [],
+    "card_reveals": [],
+    "sample_speeches": [
+      "I play 2 K. Feels like a good start to this round, doesn't it?",
+      "I play 2 K. Hoping this round lasts a little longer, honestly!",
+      "I play 1 K. Player 2's confidence is unsettling me, honestly.",
+      "I play 2 K. Seriously, how many Kings are even left?",
+      "Liar! Seven is too much already, Player 4, seriously!"
+    ]
+  },
+  "game_002": {
+    "model": "unknown",
+    "total_entries": 42,
+    "action_count": 32,
+    "bidding_count": 10,
+    "valid_json_rate": 0.7619047619047619,
+    "speech_action_mismatches": 0,
+    "mismatch_details": [],
+    "call_count": 8,
+    "call_accuracy": 0.875,
+    "bluff_rate": 0.5833333333333334,
+    "total_speeches": 42,
+    "avg_speech_length": 62.54761904761905,
+    "question_rate": 0.023809523809523808,
+    "exclamation_rate": 0.2619047619047619,
+    "ellipsis_rate": 0.0,
+    "conversational_word_count": 3,
+    "speech_uniqueness": 1.0,
+    "banned_words_found": [],
+    "card_reveals": [],
+    "sample_speeches": [
+      "I play 3 Queens.",
+      "I play 2 Queens, because you really do have three of those!",
+      "Seven Queens can't exist, Player 1 and Player 2 lied about that pile count.",
+      "I play 1 K, just putting down a card to start the round off right.",
+      "I play 2 Ks, pile is low and this round is getting tight."
+    ]
+  },
+  "game_003": {
+    "model": "unknown",
+    "total_entries": 80,
+    "action_count": 44,
+    "bidding_count": 36,
+    "valid_json_rate": 0.55,
+    "speech_action_mismatches": 0,
+    "mismatch_details": [],
+    "call_count": 11,
+    "call_accuracy": 0.7272727272727273,
+    "bluff_rate": 0.7878787878787878,
+    "total_speeches": 80,
+    "avg_speech_length": 58.375,
+    "question_rate": 0.5375,
+    "exclamation_rate": 0.3125,
+    "ellipsis_rate": 0.0125,
+    "conversational_word_count": 58,
+    "speech_uniqueness": 1.0,
+    "banned_words_found": [],
+    "card_reveals": [
+      "i play 2 q. seems a little quiet around here, everyone think",
+      "i play 2 a. seriously, another two? someone's stacking aces."
+    ],
+    "sample_speeches": [
+      "I play 2 A's. Seems a little early to get dramatic, doesn't it?",
+      "I play 2 A's. Seriously? Already? What a waste of time.",
+      "I play 2 A's. Hopefully, Player 2 isn't leading us all astray already!",
+      "Liar! Player 3 claimed six A's; that is too many given what's been played.",
+      "I play 2 Queens. Hopefully, this doesn't stir up too much trouble already, Player 1."
+    ]
+  },
+  "game_004": {
+    "model": "unknown",
+    "total_entries": 152,
+    "action_count": 81,
+    "bidding_count": 71,
+    "valid_json_rate": 0.5328947368421053,
+    "speech_action_mismatches": 0,
+    "mismatch_details": [],
+    "call_count": 20,
+    "call_accuracy": 0.9,
+    "bluff_rate": 0.7049180327868853,
+    "total_speeches": 152,
+    "avg_speech_length": 61.921052631578945,
+    "question_rate": 0.4868421052631579,
+    "exclamation_rate": 0.3026315789473684,
+    "ellipsis_rate": 0.039473684210526314,
+    "conversational_word_count": 81,
+    "speech_uniqueness": 1.0,
+    "banned_words_found": [],
+    "card_reveals": [
+      "i play 2 a's. seems quiet around here. no one's making a big",
+      "i play 2 queens. two queens already? player 1\u2019s really setti"
+    ],
+    "sample_speeches": [
+      "I play 2 Queens. Feels good to get something down, let's see what everyone else has!",
+      "I play 2 Queens. Two? Seriously? Something feels off with Player 1\u2019s little announcement.",
+      "Liar! Four in the pile, two from Player 1, two from Player 2 - that\u2019s too many Queens.",
+      "I play 2 K's. Player 1\u2019s claim was so\u2026 calm. Makes me think they\u2019re hiding something!",
+      "I play 2 K's. Player 2 seems confident. I wonder if they\u2019re hiding something."
+    ]
+  }
+}

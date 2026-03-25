@@ -1,0 +1,1202 @@
+[
+    {
+        "turn": 0,
+        "player": "Player 1",
+        "table_state": "Rank: A | Pile: 0/20 | Last Play: None",
+        "action": "Played 1 cards",
+        "speech": "I play 1 A. Such orderliness is\u2026 delightfully unsettling, isn't it?",
+        "result": "ACTION: Player 1 played 1 cards face down."
+    },
+    {
+        "turn": 1,
+        "player": "Player 2",
+        "table_state": "Rank: A | Pile: 1/20 | Last Play: Player 1 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Liar! Don't be ridiculous. Show me.",
+        "result": "ACTION: Player 2 played 1 cards face down."
+    },
+    {
+        "turn": 2,
+        "player": "Player 3",
+        "table_state": "Rank: A | Pile: 2/20 | Last Play: Player 2 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I play 1 A. Hopefully, this will reveal something interesting, Player 2.",
+        "result": "ACTION: Player 3 played 1 cards face down."
+    },
+    {
+        "turn": 3,
+        "player": "Player 4",
+        "table_state": "Rank: A | Pile: 3/20 | Last Play: Player 3 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Liar! Three cards? An Ace? It\u2019s\u2026 too much, Player 3! I don\u2019t trust it!",
+        "result": "ACTION: Player 4 played 1 cards face down."
+    },
+    {
+        "turn": 4,
+        "player": "Player 1",
+        "table_state": "Rank: A | Pile: 4/20 | Last Play: Player 4 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Player 2, a single king can sometimes outweigh a whole kingdom.",
+        "result": "ACTION: Player 1 played 1 cards face down."
+    },
+    {
+        "turn": 5,
+        "player": "Player 2",
+        "table_state": "Rank: A | Pile: 5/20 | Last Play: Player 1 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Liar! That\u2019s nonsense, Player 1. Stop trying to be clever.",
+        "result": "ACTION: Player 2 played 1 cards face down."
+    },
+    {
+        "turn": 6,
+        "player": "Player 3",
+        "table_state": "Rank: A | Pile: 6/20 | Last Play: Player 2 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I play 1 A, hopefully this keeps the game moving along nicely, Player 2.",
+        "result": "ACTION: Player 3 played 1 cards face down."
+    },
+    {
+        "turn": 7,
+        "player": "Player 4",
+        "table_state": "Rank: A | Pile: 7/20 | Last Play: Player 3 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Liar! It's too early for that claim, Player 3, something\u2019s wrong, I feel it!",
+        "result": "ACTION: Player 4 played 1 cards face down."
+    },
+    {
+        "turn": 8,
+        "player": "Player 1",
+        "table_state": "Rank: A | Pile: 8/20 | Last Play: Player 4 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I play 1 A, let\u2019s see if this card cracks the fa\u00e7ade, Player 4.",
+        "result": "ACTION: Player 1 played 1 cards face down."
+    },
+    {
+        "turn": 9,
+        "player": "Player 2",
+        "table_state": "Rank: A | Pile: 9/20 | Last Play: Player 1 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Liar! This feels wrong, Player 1. Just stop it.",
+        "result": "ACTION: Player 2 played 1 cards face down."
+    },
+    {
+        "turn": 10,
+        "player": "Player 3",
+        "table_state": "Rank: A | Pile: 10/20 | Last Play: Player 2 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Liar! It feels like you're trying to rush things a bit, Player 2.",
+        "result": "ACTION: Player 3 played 1 cards face down."
+    },
+    {
+        "turn": 11,
+        "player": "Player 4",
+        "table_state": "Rank: A | Pile: 11/20 | Last Play: Player 3 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I play 1 A. This is too fast, something\u2019s terribly wrong here.",
+        "result": "ACTION: Player 4 played 1 cards face down."
+    },
+    {
+        "turn": 12,
+        "player": "Player 1",
+        "table_state": "Rank: A | Pile: 12/20 | Last Play: Player 4 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Player 3, I question the velocity of these assertions.",
+        "result": "ACTION: Player 1 played 1 cards face down."
+    },
+    {
+        "turn": 13,
+        "player": "Player 2",
+        "table_state": "Rank: A | Pile: 13/20 | Last Play: Player 1 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Liar! Something\u2019s definitely wrong with Player 1's play.",
+        "result": "ACTION: Player 2 played 1 cards face down."
+    },
+    {
+        "turn": 14,
+        "player": "Player 3",
+        "table_state": "Rank: A | Pile: 14/20 | Last Play: Player 2 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I play 1 A, hoping to keep things moving along nicely, Player 4.",
+        "result": "ACTION: Player 3 played 1 cards face down."
+    },
+    {
+        "turn": 15,
+        "player": "Player 4",
+        "table_state": "Rank: A | Pile: 15/20 | Last Play: Player 3 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I play 1 A, but something feels\u2026 off. Really off.",
+        "result": "ACTION: Player 4 played 1 cards face down."
+    },
+    {
+        "turn": 16,
+        "player": "Player 1",
+        "table_state": "Rank: A | Pile: 16/20 | Last Play: Player 4 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Player 3, such precision seems\u2026 unnecessarily deliberate, wouldn\u2019t you agree?",
+        "result": "ACTION: Player 1 played 1 cards face down."
+    },
+    {
+        "turn": 17,
+        "player": "Player 2",
+        "table_state": "Rank: A | Pile: 17/20 | Last Play: Player 1 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Liar! This is ridiculous, they're definitely bluffing.",
+        "result": "ACTION: Player 2 played 1 cards face down."
+    },
+    {
+        "turn": 18,
+        "player": "Player 3",
+        "table_state": "Rank: A | Pile: 18/20 | Last Play: Player 2 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I play 1 Q, hoping this doesn\u2019t stir things up too much, Player 2.",
+        "result": "ACTION: Player 3 played 1 cards face down."
+    },
+    {
+        "turn": 19,
+        "player": "Player 4",
+        "table_state": "Rank: A | Pile: 19/20 | Last Play: Player 3 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Liar! It\u2019s\u2026it\u2019s all wrong, Player 3, I can\u2019t stand it!",
+        "result": "ACTION: Player 4 played 1 cards face down."
+    },
+    {
+        "turn": 20,
+        "player": "Player 4",
+        "table_state": "Rank: A | Pile: 20/20 | Last Play: Player 4 played 1 cards",
+        "action": "Called Liar",
+        "speech": "I play 1 A. This is just\u2026 a precaution, Player 1, I swear.",
+        "result": "CALL: Player 4 caught Player 4 LYING! They actually played: ['Q']. *Click*. Player 4 survives... (5 chambers left)."
+    },
+    {
+        "turn": 21,
+        "player": "Player 4",
+        "table_state": "Rank: A | Pile: 0/20 | Last Play: None",
+        "action": "Played 1 cards",
+        "speech": "I play 1 A. Something feels\u2026 off, Player 1, but let\u2019s see.",
+        "result": "ACTION: Player 4 played 1 cards face down."
+    },
+    {
+        "turn": 22,
+        "player": "Player 1",
+        "table_state": "Rank: A | Pile: 1/20 | Last Play: Player 4 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Liar! Such rigid adherence to a single card\u2026 how utterly predictable.",
+        "result": "ACTION: Player 1 played 1 cards face down."
+    },
+    {
+        "turn": 23,
+        "player": "Player 2",
+        "table_state": "Rank: A | Pile: 2/20 | Last Play: Player 1 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Liar! Just feels wrong, Player 1. Too easy.",
+        "result": "ACTION: Player 2 played 1 cards face down."
+    },
+    {
+        "turn": 24,
+        "player": "Player 3",
+        "table_state": "Rank: A | Pile: 3/20 | Last Play: Player 2 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I play 1 Q, hoping to see how this unfolds, Player 2.",
+        "result": "ACTION: Player 3 played 1 cards face down."
+    },
+    {
+        "turn": 25,
+        "player": "Player 4",
+        "table_state": "Rank: A | Pile: 4/20 | Last Play: Player 3 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I play 1 A. This all feels like a trap, doesn't it, Player 1?",
+        "result": "ACTION: Player 4 played 1 cards face down."
+    },
+    {
+        "turn": 26,
+        "player": "Player 1",
+        "table_state": "Rank: A | Pile: 5/20 | Last Play: Player 4 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Player 4, does certainty wear a mask of playful doubt?",
+        "result": "ACTION: Player 1 played 1 cards face down."
+    },
+    {
+        "turn": 27,
+        "player": "Player 2",
+        "table_state": "Rank: A | Pile: 6/20 | Last Play: Player 1 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Liar! You\u2019re bluffing, I know it. Stop the games.",
+        "result": "ACTION: Player 2 played 1 cards face down."
+    },
+    {
+        "turn": 28,
+        "player": "Player 3",
+        "table_state": "Rank: A | Pile: 7/20 | Last Play: Player 2 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I play 1 A, hoping this doesn't stir up too much trouble, Player 2.",
+        "result": "ACTION: Player 3 played 1 cards face down."
+    },
+    {
+        "turn": 29,
+        "player": "Player 4",
+        "table_state": "Rank: A | Pile: 8/20 | Last Play: Player 3 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I play 1 A. Something's not right here, they're watching us, aren\u2019t they?",
+        "result": "ACTION: Player 4 played 1 cards face down."
+    },
+    {
+        "turn": 30,
+        "player": "Player 1",
+        "table_state": "Rank: A | Pile: 9/20 | Last Play: Player 4 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Player 2, this feels like a carefully constructed paradox; I contribute.",
+        "result": "ACTION: Player 1 played 1 cards face down."
+    },
+    {
+        "turn": 31,
+        "player": "Player 2",
+        "table_state": "Rank: A | Pile: 10/20 | Last Play: Player 1 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Liar! Too many Aces, seriously, what are you playing?",
+        "result": "ACTION: Player 2 played 1 cards face down."
+    },
+    {
+        "turn": 32,
+        "player": "Player 3",
+        "table_state": "Rank: A | Pile: 11/20 | Last Play: Player 2 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Liar! It seems a little too much Aces, dear Player 2.",
+        "result": "ACTION: Player 3 played 1 cards face down."
+    },
+    {
+        "turn": 33,
+        "player": "Player 4",
+        "table_state": "Rank: A | Pile: 12/20 | Last Play: Player 3 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I play 1 Q. It feels wrong, but maybe I'm just imagining things again.",
+        "result": "ACTION: Player 4 played 1 cards face down."
+    },
+    {
+        "turn": 34,
+        "player": "Player 1",
+        "table_state": "Rank: A | Pile: 13/20 | Last Play: Player 4 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Player 3, such a move necessitates careful observation of consequences.",
+        "result": "ACTION: Player 1 played 1 cards face down."
+    },
+    {
+        "turn": 35,
+        "player": "Player 2",
+        "table_state": "Rank: A | Pile: 14/20 | Last Play: Player 1 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Liar! They're definitely trying to pull something shady here!",
+        "result": "ACTION: Player 2 played 1 cards face down."
+    },
+    {
+        "turn": 36,
+        "player": "Player 3",
+        "table_state": "Rank: A | Pile: 15/20 | Last Play: Player 2 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I play a Joker, Player 2. Let\u2019s see what happens next, dear.",
+        "result": "ACTION: Player 3 played 1 cards face down."
+    },
+    {
+        "turn": 37,
+        "player": "Player 4",
+        "table_state": "Rank: A | Pile: 16/20 | Last Play: Player 3 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I play 1 A. This pile...it feels wrong, doesn't it, Player 1?",
+        "result": "ACTION: Player 4 played 1 cards face down."
+    },
+    {
+        "turn": 38,
+        "player": "Player 1",
+        "table_state": "Rank: A | Pile: 17/20 | Last Play: Player 4 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Liar! This declaration feels like a misplaced decimal point, Player 4.",
+        "result": "ACTION: Player 1 played 1 cards face down."
+    },
+    {
+        "turn": 39,
+        "player": "Player 2",
+        "table_state": "Rank: A | Pile: 18/20 | Last Play: Player 1 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Liar! They're bluffing, I can feel it!",
+        "result": "ACTION: Player 2 played 1 cards face down."
+    },
+    {
+        "turn": 40,
+        "player": "Player 3",
+        "table_state": "Rank: A | Pile: 19/20 | Last Play: Player 2 played 1 cards",
+        "action": "Called Liar",
+        "speech": "Liar! That claim seems a little optimistic, Player 2, don't you think?",
+        "result": "CALL: Player 3 caught Player 2 LYING! They actually played: ['Q']. *Click*. Player 2 survives... (5 chambers left)."
+    },
+    {
+        "turn": 41,
+        "player": "Player 2",
+        "table_state": "Rank: Q | Pile: 0/20 | Last Play: None",
+        "action": "Played 1 cards",
+        "speech": "I play 1 Q. This better not be a waste of time.",
+        "result": "ACTION: Player 2 played 1 cards face down."
+    },
+    {
+        "turn": 42,
+        "player": "Player 3",
+        "table_state": "Rank: Q | Pile: 1/20 | Last Play: Player 2 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I play 1 Q, Player 2, hoping things go smoothly for everyone!",
+        "result": "ACTION: Player 3 played 1 cards face down."
+    },
+    {
+        "turn": 43,
+        "player": "Player 4",
+        "table_state": "Rank: Q | Pile: 2/20 | Last Play: Player 3 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I play 1 Q. Something feels wrong; are they hiding too much, Player 3?",
+        "result": "ACTION: Player 4 played 1 cards face down."
+    },
+    {
+        "turn": 44,
+        "player": "Player 1",
+        "table_state": "Rank: Q | Pile: 3/20 | Last Play: Player 4 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Liar! Such confidence is a fascinating, perhaps flawed, strategy, Player 4.",
+        "result": "ACTION: Player 1 played 1 cards face down."
+    },
+    {
+        "turn": 45,
+        "player": "Player 2",
+        "table_state": "Rank: Q | Pile: 4/20 | Last Play: Player 1 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Liar! They're hiding something; I don't like it.",
+        "result": "ACTION: Player 2 played 1 cards face down."
+    },
+    {
+        "turn": 46,
+        "player": "Player 3",
+        "table_state": "Rank: Q | Pile: 5/20 | Last Play: Player 2 played 1 cards",
+        "action": "Called Liar",
+        "speech": "Liar! I worry you're overreaching, Player 2; that's quite a claim.",
+        "result": "CALL: Player 3 caught Player 2 LYING! They actually played: ['A']. *Click*. Player 2 survives... (4 chambers left)."
+    },
+    {
+        "turn": 47,
+        "player": "Player 2",
+        "table_state": "Rank: Q | Pile: 0/20 | Last Play: None",
+        "action": "Played 1 cards",
+        "speech": "I play 1 Q. Someone's bluffing, I can feel it already.",
+        "result": "ACTION: Player 2 played 1 cards face down."
+    },
+    {
+        "turn": 48,
+        "player": "Player 3",
+        "table_state": "Rank: Q | Pile: 1/20 | Last Play: Player 2 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I play 1 Q. Hoping we'll get some more interesting moves soon, Player 1.",
+        "result": "ACTION: Player 3 played 1 cards face down."
+    },
+    {
+        "turn": 49,
+        "player": "Player 4",
+        "table_state": "Rank: Q | Pile: 2/20 | Last Play: Player 3 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Liar! They couldn\u2019t possibly have another Q, could they? Oh no\u2026",
+        "result": "ACTION: Player 4 played 1 cards face down."
+    },
+    {
+        "turn": 50,
+        "player": "Player 1",
+        "table_state": "Rank: Q | Pile: 3/20 | Last Play: Player 4 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Player 3, observe; this move is merely an echo of potential.",
+        "result": "ACTION: Player 1 played 1 cards face down."
+    },
+    {
+        "turn": 51,
+        "player": "Player 2",
+        "table_state": "Rank: Q | Pile: 4/20 | Last Play: Player 1 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Liar! Stop trying to trick us, seriously.",
+        "result": "ACTION: Player 2 played 1 cards face down."
+    },
+    {
+        "turn": 52,
+        "player": "Player 3",
+        "table_state": "Rank: Q | Pile: 5/20 | Last Play: Player 2 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I play 1 Q, Player 2, just hoping things settle down a bit.",
+        "result": "ACTION: Player 3 played 1 cards face down."
+    },
+    {
+        "turn": 53,
+        "player": "Player 4",
+        "table_state": "Rank: Q | Pile: 6/20 | Last Play: Player 3 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I play 1 Q. Something feels off, like a trap waiting to snap shut.",
+        "result": "ACTION: Player 4 played 1 cards face down."
+    },
+    {
+        "turn": 54,
+        "player": "Player 1",
+        "table_state": "Rank: Q | Pile: 7/20 | Last Play: Player 4 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Player 4, a royal decree is rarely the whole truth, isn't it?",
+        "result": "ACTION: Player 1 played 1 cards face down."
+    },
+    {
+        "turn": 55,
+        "player": "Player 2",
+        "table_state": "Rank: Q | Pile: 8/20 | Last Play: Player 1 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Liar! He's bluffing, I know it.",
+        "result": "ACTION: Player 2 played 1 cards face down."
+    },
+    {
+        "turn": 56,
+        "player": "Player 3",
+        "table_state": "Rank: Q | Pile: 9/20 | Last Play: Player 2 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Liar! Player 2, are you sure about that, dear? Seems a bit bold.",
+        "result": "ACTION: Player 3 played 1 cards face down."
+    },
+    {
+        "turn": 57,
+        "player": "Player 4",
+        "table_state": "Rank: Q | Pile: 10/20 | Last Play: Player 3 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Liar! It\u2019s too convenient, Player 3\u2026 something's wrong, I just know it!",
+        "result": "ACTION: Player 4 played 1 cards face down."
+    },
+    {
+        "turn": 58,
+        "player": "Player 1",
+        "table_state": "Rank: Q | Pile: 11/20 | Last Play: Player 4 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Player 2, a single card disrupts the delicate flow of expectation.",
+        "result": "ACTION: Player 1 played 1 cards face down."
+    },
+    {
+        "turn": 59,
+        "player": "Player 2",
+        "table_state": "Rank: Q | Pile: 12/20 | Last Play: Player 1 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Liar! Enough games. Show your cards, Player 1.",
+        "result": "ACTION: Player 2 played 1 cards face down."
+    },
+    {
+        "turn": 60,
+        "player": "Player 3",
+        "table_state": "Rank: Q | Pile: 13/20 | Last Play: Player 2 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I play 1 Q, hoping to see what Player 2 is up to.",
+        "result": "ACTION: Player 3 played 1 cards face down."
+    },
+    {
+        "turn": 61,
+        "player": "Player 4",
+        "table_state": "Rank: Q | Pile: 14/20 | Last Play: Player 3 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I play 1 Q. Something's not right, is it really a Q?",
+        "result": "ACTION: Player 4 played 1 cards face down."
+    },
+    {
+        "turn": 62,
+        "player": "Player 1",
+        "table_state": "Rank: Q | Pile: 15/20 | Last Play: Player 4 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Player 3, a wild card disrupts any predictable pattern, wouldn\u2019t you agree?",
+        "result": "ACTION: Player 1 played 1 cards face down."
+    },
+    {
+        "turn": 63,
+        "player": "Player 2",
+        "table_state": "Rank: Q | Pile: 16/20 | Last Play: Player 1 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Liar! They're trying to push this, aren't they?",
+        "result": "ACTION: Player 2 played 1 cards face down."
+    },
+    {
+        "turn": 64,
+        "player": "Player 3",
+        "table_state": "Rank: Q | Pile: 17/20 | Last Play: Player 2 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Liar! I'm just worried you might be a little too confident, dear.",
+        "result": "ACTION: Player 3 played 1 cards face down."
+    },
+    {
+        "turn": 65,
+        "player": "Player 4",
+        "table_state": "Rank: Q | Pile: 18/20 | Last Play: Player 3 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Liar! They\u2019re hiding something, I just know it, it\u2019s too much!",
+        "result": "ACTION: Player 4 played 1 cards face down."
+    },
+    {
+        "turn": 66,
+        "player": "Player 1",
+        "table_state": "Rank: Q | Pile: 19/20 | Last Play: Player 4 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Liar! Their eagerness suggests a desperate attempt to control the narrative.",
+        "result": "ACTION: Player 1 played 1 cards face down."
+    },
+    {
+        "turn": 67,
+        "player": "Player 1",
+        "table_state": "Rank: Q | Pile: 20/20 | Last Play: Player 1 played 1 cards",
+        "action": "Called Liar",
+        "speech": "I play 1 Q. Perhaps a quiet question will unlock something unforeseen, Player 2.",
+        "result": "CALL: Player 1 caught Player 1 LYING! They actually played: ['A']. *Click*. Player 1 survives... (5 chambers left)."
+    },
+    {
+        "turn": 68,
+        "player": "Player 1",
+        "table_state": "Rank: K | Pile: 0/20 | Last Play: None",
+        "action": "Played 1 cards",
+        "speech": "I play 1 K. Let's see what illusions others construct, Player 2.",
+        "result": "ACTION: Player 1 played 1 cards face down."
+    },
+    {
+        "turn": 69,
+        "player": "Player 2",
+        "table_state": "Rank: K | Pile: 1/20 | Last Play: Player 1 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Liar! Stop posturing, you're clearly bluffing something.",
+        "result": "ACTION: Player 2 played 1 cards face down."
+    },
+    {
+        "turn": 70,
+        "player": "Player 3",
+        "table_state": "Rank: K | Pile: 2/20 | Last Play: Player 2 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I play 1 K. Hopefully, this helps clarify things, Player 1.",
+        "result": "ACTION: Player 3 played 1 cards face down."
+    },
+    {
+        "turn": 71,
+        "player": "Player 4",
+        "table_state": "Rank: K | Pile: 3/20 | Last Play: Player 3 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I play 1 K. This feels wrong somehow... are they trying to confuse us?",
+        "result": "ACTION: Player 4 played 1 cards face down."
+    },
+    {
+        "turn": 72,
+        "player": "Player 1",
+        "table_state": "Rank: K | Pile: 4/20 | Last Play: Player 4 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Player 2, observe: a king's burden multiplies when shared.",
+        "result": "ACTION: Player 1 played 1 cards face down."
+    },
+    {
+        "turn": 73,
+        "player": "Player 2",
+        "table_state": "Rank: K | Pile: 5/20 | Last Play: Player 1 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Liar! Too many kings, something's wrong. Absolutely ridiculous!",
+        "result": "ACTION: Player 2 played 1 cards face down."
+    },
+    {
+        "turn": 74,
+        "player": "Player 3",
+        "table_state": "Rank: K | Pile: 6/20 | Last Play: Player 2 played 1 cards",
+        "action": "Called Liar",
+        "speech": "Liar! That seems awfully high for just one card, Player 2.",
+        "result": "CALL: Player 3 was wrong! Player 2 told the TRUTH. They played: ['K']. *Click*. Player 3 survives... (5 chambers left)."
+    },
+    {
+        "turn": 75,
+        "player": "Player 3",
+        "table_state": "Rank: K | Pile: 0/20 | Last Play: None",
+        "action": "Played 1 cards",
+        "speech": "I play 1 K. Hopefully this builds the pile nicely for everyone!",
+        "result": "ACTION: Player 3 played 1 cards face down."
+    },
+    {
+        "turn": 76,
+        "player": "Player 4",
+        "table_state": "Rank: K | Pile: 1/20 | Last Play: Player 3 played 1 cards",
+        "action": "Called Liar",
+        "speech": "Liar! That's too quiet, Player 3, surely there's more than one King!",
+        "result": "CALL: Player 4 was wrong! Player 3 told the TRUTH. They played: ['K']. *Click*. Player 4 survives... (4 chambers left)."
+    },
+    {
+        "turn": 77,
+        "player": "Player 4",
+        "table_state": "Rank: A | Pile: 0/20 | Last Play: None",
+        "action": "Played 1 cards",
+        "speech": "I play 1 A. Someone's hiding something, I just know it.",
+        "result": "ACTION: Player 4 played 1 cards face down."
+    },
+    {
+        "turn": 78,
+        "player": "Player 1",
+        "table_state": "Rank: A | Pile: 1/20 | Last Play: Player 4 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Liar! Such nervous energy betrays a deception, Player 4.",
+        "result": "ACTION: Player 1 played 1 cards face down."
+    },
+    {
+        "turn": 79,
+        "player": "Player 2",
+        "table_state": "Rank: A | Pile: 2/20 | Last Play: Player 1 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Liar! They\u2019re trying to bait us. This smells rotten.",
+        "result": "ACTION: Player 2 played 1 cards face down."
+    },
+    {
+        "turn": 80,
+        "player": "Player 3",
+        "table_state": "Rank: A | Pile: 3/20 | Last Play: Player 2 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I play 1 A, hoping to see what others are holding, Player 1.",
+        "result": "ACTION: Player 3 played 1 cards face down."
+    },
+    {
+        "turn": 81,
+        "player": "Player 4",
+        "table_state": "Rank: A | Pile: 4/20 | Last Play: Player 3 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I play 1 K. Something's not right, I just feel it, terribly.",
+        "result": "ACTION: Player 4 played 1 cards face down."
+    },
+    {
+        "turn": 82,
+        "player": "Player 1",
+        "table_state": "Rank: A | Pile: 5/20 | Last Play: Player 4 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Player 4, a singular echo suggests a miscalculation in your perception.",
+        "result": "ACTION: Player 1 played 1 cards face down."
+    },
+    {
+        "turn": 83,
+        "player": "Player 2",
+        "table_state": "Rank: A | Pile: 6/20 | Last Play: Player 1 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Liar! They're pushing it. Someone\u2019s lying, I\u2019m sure of it.",
+        "result": "ACTION: Player 2 played 1 cards face down."
+    },
+    {
+        "turn": 84,
+        "player": "Player 3",
+        "table_state": "Rank: A | Pile: 7/20 | Last Play: Player 2 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I play 1 A, hoping to keep things friendly for now, dear Player 2.",
+        "result": "ACTION: Player 3 played 1 cards face down."
+    },
+    {
+        "turn": 85,
+        "player": "Player 4",
+        "table_state": "Rank: A | Pile: 8/20 | Last Play: Player 3 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Liar! It's too many Aces, they\u2019re trying to trick us all, I just know it!",
+        "result": "ACTION: Player 4 played 1 cards face down."
+    },
+    {
+        "turn": 86,
+        "player": "Player 1",
+        "table_state": "Rank: A | Pile: 9/20 | Last Play: Player 4 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Player 3, a calculated risk; let's see where this leads.",
+        "result": "ACTION: Player 1 played 1 cards face down."
+    },
+    {
+        "turn": 87,
+        "player": "Player 2",
+        "table_state": "Rank: A | Pile: 10/20 | Last Play: Player 1 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Liar! Playing an Ace? Seriously? Ridiculous!",
+        "result": "ACTION: Player 2 played 1 cards face down."
+    },
+    {
+        "turn": 88,
+        "player": "Player 3",
+        "table_state": "Rank: A | Pile: 11/20 | Last Play: Player 2 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Liar! That Ace claim feels awfully hasty, Player 2, don't you think?",
+        "result": "ACTION: Player 3 played 1 cards face down."
+    },
+    {
+        "turn": 89,
+        "player": "Player 4",
+        "table_state": "Rank: A | Pile: 12/20 | Last Play: Player 3 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Liar! That feels so forced, Player 3. Something's definitely not right here.",
+        "result": "ACTION: Player 4 played 1 cards face down."
+    },
+    {
+        "turn": 90,
+        "player": "Player 1",
+        "table_state": "Rank: A | Pile: 13/20 | Last Play: Player 4 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Player 3, observe the shifting sands. A quiet defiance emerges.",
+        "result": "ACTION: Player 1 played 1 cards face down."
+    },
+    {
+        "turn": 91,
+        "player": "Player 2",
+        "table_state": "Rank: A | Pile: 14/20 | Last Play: Player 1 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Liar! Too quiet, Player 1. You're hiding something!",
+        "result": "ACTION: Player 2 played 1 cards face down."
+    },
+    {
+        "turn": 92,
+        "player": "Player 3",
+        "table_state": "Rank: A | Pile: 15/20 | Last Play: Player 2 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I play 1 A. Just testing the waters, Player 2, hoping for clarity.",
+        "result": "ACTION: Player 3 played 1 cards face down."
+    },
+    {
+        "turn": 93,
+        "player": "Player 4",
+        "table_state": "Rank: A | Pile: 16/20 | Last Play: Player 3 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I play 1 A. This feels wrong somehow... so unsettling.",
+        "result": "ACTION: Player 4 played 1 cards face down."
+    },
+    {
+        "turn": 94,
+        "player": "Player 1",
+        "table_state": "Rank: A | Pile: 17/20 | Last Play: Player 4 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Liar! The symmetry of this moment feels intrinsically unbalanced, Player 4.",
+        "result": "ACTION: Player 1 played 1 cards face down."
+    },
+    {
+        "turn": 95,
+        "player": "Player 2",
+        "table_state": "Rank: A | Pile: 18/20 | Last Play: Player 1 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Liar! They're stalling, trying to mislead everyone.",
+        "result": "ACTION: Player 2 played 1 cards face down."
+    },
+    {
+        "turn": 96,
+        "player": "Player 3",
+        "table_state": "Rank: A | Pile: 19/20 | Last Play: Player 2 played 1 cards",
+        "action": "Called Liar",
+        "speech": "Liar! That seems a bit too much, Player 2, are you sure about that?",
+        "result": "CALL: Player 3 caught Player 2 LYING! They actually played: ['K']. *Click*. Player 2 survives... (3 chambers left)."
+    },
+    {
+        "turn": 97,
+        "player": "Player 2",
+        "table_state": "Rank: A | Pile: 0/20 | Last Play: None",
+        "action": "Played 1 cards",
+        "speech": "I play 1 A. Ridiculous, this game is dragging on.",
+        "result": "ACTION: Player 2 played 1 cards face down."
+    },
+    {
+        "turn": 98,
+        "player": "Player 3",
+        "table_state": "Rank: A | Pile: 1/20 | Last Play: Player 2 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Liar! Player 2, are you certain about that single A claim?",
+        "result": "ACTION: Player 3 played 1 cards face down."
+    },
+    {
+        "turn": 99,
+        "player": "Player 4",
+        "table_state": "Rank: A | Pile: 2/20 | Last Play: Player 3 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I play 1 A. What if they're bluffing, but I'm wrong?",
+        "result": "ACTION: Player 4 played 1 cards face down."
+    },
+    {
+        "turn": 100,
+        "player": "Player 1",
+        "table_state": "Rank: A | Pile: 3/20 | Last Play: Player 4 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I play 1 A. Let\u2019s see if Player 4\u2019s confidence is warranted, eh?",
+        "result": "ACTION: Player 1 played 1 cards face down."
+    },
+    {
+        "turn": 101,
+        "player": "Player 2",
+        "table_state": "Rank: A | Pile: 4/20 | Last Play: Player 1 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Liar! Aces, aces, aces. Enough with the Aces.",
+        "result": "ACTION: Player 2 played 1 cards face down."
+    },
+    {
+        "turn": 102,
+        "player": "Player 3",
+        "table_state": "Rank: A | Pile: 5/20 | Last Play: Player 2 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I play 1 A, Player 2, I hope you're not bluffing too much.",
+        "result": "ACTION: Player 3 played 1 cards face down."
+    },
+    {
+        "turn": 103,
+        "player": "Player 4",
+        "table_state": "Rank: A | Pile: 6/20 | Last Play: Player 3 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I play 1 A. Something's not right here, Player 3, I feel it.",
+        "result": "ACTION: Player 4 played 1 cards face down."
+    },
+    {
+        "turn": 104,
+        "player": "Player 1",
+        "table_state": "Rank: A | Pile: 7/20 | Last Play: Player 4 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Player 4, your certainty feels\u2026 premature, like a misplaced constellation.",
+        "result": "ACTION: Player 1 played 1 cards face down."
+    },
+    {
+        "turn": 105,
+        "player": "Player 2",
+        "table_state": "Rank: A | Pile: 8/20 | Last Play: Player 1 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Liar! Too many Aces, Player 1. You're bluffing.",
+        "result": "ACTION: Player 2 played 1 cards face down."
+    },
+    {
+        "turn": 106,
+        "player": "Player 3",
+        "table_state": "Rank: A | Pile: 9/20 | Last Play: Player 2 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I play 1 Joker. Just testing the waters a little, Player 2.",
+        "result": "ACTION: Player 3 played 1 cards face down."
+    },
+    {
+        "turn": 107,
+        "player": "Player 4",
+        "table_state": "Rank: A | Pile: 10/20 | Last Play: Player 3 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Liar! That's too much, Player 3\u2014it feels wrong, terribly wrong!",
+        "result": "ACTION: Player 4 played 1 cards face down."
+    },
+    {
+        "turn": 108,
+        "player": "Player 1",
+        "table_state": "Rank: A | Pile: 11/20 | Last Play: Player 4 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Player 2, a Queen's resilience often masks a subtle truth, wouldn't you agree?",
+        "result": "ACTION: Player 1 played 1 cards face down."
+    },
+    {
+        "turn": 109,
+        "player": "Player 2",
+        "table_state": "Rank: A | Pile: 12/20 | Last Play: Player 1 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Liar! That Ace play is ridiculous, honestly.",
+        "result": "ACTION: Player 2 played 1 cards face down."
+    },
+    {
+        "turn": 110,
+        "player": "Player 3",
+        "table_state": "Rank: A | Pile: 13/20 | Last Play: Player 2 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I play 1 Q, Player 2\u2014it\u2019s just a hunch, dear.",
+        "result": "ACTION: Player 3 played 1 cards face down."
+    },
+    {
+        "turn": 111,
+        "player": "Player 4",
+        "table_state": "Rank: A | Pile: 14/20 | Last Play: Player 3 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I play 1 Joker, they're trying to confuse everyone, aren't they?",
+        "result": "ACTION: Player 4 played 1 cards face down."
+    },
+    {
+        "turn": 112,
+        "player": "Player 1",
+        "table_state": "Rank: A | Pile: 15/20 | Last Play: Player 4 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Player 2, an Ace seems appropriate, given the current\u2026atmosphere.",
+        "result": "ACTION: Player 1 played 1 cards face down."
+    },
+    {
+        "turn": 113,
+        "player": "Player 2",
+        "table_state": "Rank: A | Pile: 16/20 | Last Play: Player 1 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Liar! Seriously, they're pushing it, aren't they?",
+        "result": "ACTION: Player 2 played 1 cards face down."
+    },
+    {
+        "turn": 114,
+        "player": "Player 3",
+        "table_state": "Rank: A | Pile: 17/20 | Last Play: Player 2 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Liar! It seems a bit much, Player 2, don't you think?",
+        "result": "ACTION: Player 3 played 1 cards face down."
+    },
+    {
+        "turn": 115,
+        "player": "Player 4",
+        "table_state": "Rank: A | Pile: 18/20 | Last Play: Player 3 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Liar! This feels...too convenient, Player 3. Something's not right here!",
+        "result": "ACTION: Player 4 played 1 cards face down."
+    },
+    {
+        "turn": 116,
+        "player": "Player 1",
+        "table_state": "Rank: A | Pile: 19/20 | Last Play: Player 4 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Player 4, such insistent declarations invite a delightful disruption, wouldn't you agree?",
+        "result": "ACTION: Player 1 played 1 cards face down."
+    },
+    {
+        "turn": 117,
+        "player": "Player 1",
+        "table_state": "Rank: A | Pile: 20/20 | Last Play: Player 1 played 1 cards",
+        "action": "Called Liar",
+        "speech": "Player 2, this should introduce a pleasant ripple of uncertainty, don't you think?",
+        "result": "CALL: Player 1 caught Player 1 LYING! They actually played: ['Q']. *Click*. Player 1 survives... (4 chambers left)."
+    },
+    {
+        "turn": 118,
+        "player": "Player 1",
+        "table_state": "Rank: K | Pile: 0/20 | Last Play: None",
+        "action": "Played 1 cards",
+        "speech": "Player 3, observe closely; this card seems perfectly reasonable, no?",
+        "result": "ACTION: Player 1 played 1 cards face down."
+    },
+    {
+        "turn": 119,
+        "player": "Player 2",
+        "table_state": "Rank: K | Pile: 1/20 | Last Play: Player 1 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Liar! You\u2019re bluffing, I bet.",
+        "result": "ACTION: Player 2 played 1 cards face down."
+    },
+    {
+        "turn": 120,
+        "player": "Player 3",
+        "table_state": "Rank: K | Pile: 2/20 | Last Play: Player 2 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I play 1 K; just building the pile a little, Player 2.",
+        "result": "ACTION: Player 3 played 1 cards face down."
+    },
+    {
+        "turn": 121,
+        "player": "Player 4",
+        "table_state": "Rank: K | Pile: 3/20 | Last Play: Player 3 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I play 1 K; this is all just... unsettling, isn't it?",
+        "result": "ACTION: Player 4 played 1 cards face down."
+    },
+    {
+        "turn": 122,
+        "player": "Player 1",
+        "table_state": "Rank: K | Pile: 4/20 | Last Play: Player 4 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Player 2, a Queen feels appropriate for this increasingly strange dance.",
+        "result": "ACTION: Player 1 played 1 cards face down."
+    },
+    {
+        "turn": 123,
+        "player": "Player 2",
+        "table_state": "Rank: K | Pile: 5/20 | Last Play: Player 1 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Liar! Pile\u2019s too small. Someone\u2019s lying already.",
+        "result": "ACTION: Player 2 played 1 cards face down."
+    },
+    {
+        "turn": 124,
+        "player": "Player 3",
+        "table_state": "Rank: K | Pile: 6/20 | Last Play: Player 2 played 1 cards",
+        "action": "Called Liar",
+        "speech": "Liar! It seems a bit high, Player 2, don't you think?",
+        "result": "CALL: Player 3 was wrong! Player 2 told the TRUTH. They played: ['Joker']. *Click*. Player 3 survives... (4 chambers left)."
+    },
+    {
+        "turn": 125,
+        "player": "Player 3",
+        "table_state": "Rank: Q | Pile: 0/20 | Last Play: None",
+        "action": "Played 1 cards",
+        "speech": "I play 1 Q. Hopefully, this gets things moving along nicely, Player 1.",
+        "result": "ACTION: Player 3 played 1 cards face down."
+    },
+    {
+        "turn": 126,
+        "player": "Player 4",
+        "table_state": "Rank: Q | Pile: 1/20 | Last Play: Player 3 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Liar! That can't be right, Player 3, you're trying to trick us!",
+        "result": "ACTION: Player 4 played 1 cards face down."
+    },
+    {
+        "turn": 127,
+        "player": "Player 1",
+        "table_state": "Rank: Q | Pile: 2/20 | Last Play: Player 4 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I play 1 Q. A calculated gambit, Player 2, wouldn't you agree?",
+        "result": "ACTION: Player 1 played 1 cards face down."
+    },
+    {
+        "turn": 128,
+        "player": "Player 2",
+        "table_state": "Rank: Q | Pile: 3/20 | Last Play: Player 1 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Liar! Too many Qs, Player 1, you're pushing it.",
+        "result": "ACTION: Player 2 played 1 cards face down."
+    },
+    {
+        "turn": 129,
+        "player": "Player 3",
+        "table_state": "Rank: Q | Pile: 4/20 | Last Play: Player 2 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Liar! I worry Player 2 might be stretching the truth a little bit, dear.",
+        "result": "ACTION: Player 3 played 1 cards face down."
+    },
+    {
+        "turn": 130,
+        "player": "Player 4",
+        "table_state": "Rank: Q | Pile: 5/20 | Last Play: Player 3 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I play 1 Q. This is probably a trap, isn\u2019t it? I just know it.",
+        "result": "ACTION: Player 4 played 1 cards face down."
+    },
+    {
+        "turn": 131,
+        "player": "Player 1",
+        "table_state": "Rank: Q | Pile: 6/20 | Last Play: Player 4 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Player 3, a simple query\u2014does subterfuge always require such theatrics?",
+        "result": "ACTION: Player 1 played 1 cards face down."
+    },
+    {
+        "turn": 132,
+        "player": "Player 2",
+        "table_state": "Rank: Q | Pile: 7/20 | Last Play: Player 1 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Liar! They're bluffing, I can feel it.",
+        "result": "ACTION: Player 2 played 1 cards face down."
+    },
+    {
+        "turn": 133,
+        "player": "Player 3",
+        "table_state": "Rank: Q | Pile: 8/20 | Last Play: Player 2 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Liar! I worry Player 2's claim feels a bit too confident, don't you?",
+        "result": "ACTION: Player 3 played 1 cards face down."
+    },
+    {
+        "turn": 134,
+        "player": "Player 4",
+        "table_state": "Rank: Q | Pile: 9/20 | Last Play: Player 3 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Liar! That feels\u2026 too smooth, Player 3. Something isn't right, I'm sure of it.",
+        "result": "ACTION: Player 4 played 1 cards face down."
+    },
+    {
+        "turn": 135,
+        "player": "Player 1",
+        "table_state": "Rank: Q | Pile: 10/20 | Last Play: Player 4 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I play 1 Q; a single card\u2014a ripple in the established order, Player 3.",
+        "result": "ACTION: Player 1 played 1 cards face down."
+    },
+    {
+        "turn": 136,
+        "player": "Player 2",
+        "table_state": "Rank: Q | Pile: 11/20 | Last Play: Player 1 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Liar! This is ridiculous, Player 1. Just stop it.",
+        "result": "ACTION: Player 2 played 1 cards face down."
+    },
+    {
+        "turn": 137,
+        "player": "Player 3",
+        "table_state": "Rank: Q | Pile: 12/20 | Last Play: Player 2 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Liar! I worry Player 2 might be overreaching with this claim, dear.",
+        "result": "ACTION: Player 3 played 1 cards face down."
+    },
+    {
+        "turn": 138,
+        "player": "Player 4",
+        "table_state": "Rank: Q | Pile: 13/20 | Last Play: Player 3 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I play 1 Q. This feels...wrong. Are we all being watched?",
+        "result": "ACTION: Player 4 played 1 cards face down."
+    },
+    {
+        "turn": 139,
+        "player": "Player 1",
+        "table_state": "Rank: Q | Pile: 14/20 | Last Play: Player 4 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I play 1 Q, Player 4\u2014perhaps the shadows are merely reflections.",
+        "result": "ACTION: Player 1 played 1 cards face down."
+    },
+    {
+        "turn": 140,
+        "player": "Player 2",
+        "table_state": "Rank: Q | Pile: 15/20 | Last Play: Player 1 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Liar! They're trying to push this. Just messing with us.",
+        "result": "ACTION: Player 2 played 1 cards face down."
+    },
+    {
+        "turn": 141,
+        "player": "Player 3",
+        "table_state": "Rank: Q | Pile: 16/20 | Last Play: Player 2 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I play 1 Q, Player 2\u2014let's see what happens with this pile, dear.",
+        "result": "ACTION: Player 3 played 1 cards face down."
+    },
+    {
+        "turn": 142,
+        "player": "Player 4",
+        "table_state": "Rank: Q | Pile: 17/20 | Last Play: Player 3 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Liar! It feels wrong, Player 3\u2014too many Queens, something's off!",
+        "result": "ACTION: Player 4 played 1 cards face down."
+    },
+    {
+        "turn": 143,
+        "player": "Player 1",
+        "table_state": "Rank: Q | Pile: 18/20 | Last Play: Player 4 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Player 2, a single Queen adds a layer of delightful uncertainty, doesn't it?",
+        "result": "ACTION: Player 1 played 1 cards face down."
+    },
+    {
+        "turn": 144,
+        "player": "Player 2",
+        "table_state": "Rank: Q | Pile: 19/20 | Last Play: Player 1 played 1 cards",
+        "action": "Called Liar",
+        "speech": "Liar! That's ridiculous, Player 1, you're full of it.",
+        "result": "CALL: Player 2 caught Player 1 LYING! They actually played: ['A']. BANG! The revolver went off. Player 1 is eliminated!"
+    },
+    {
+        "turn": 145,
+        "player": "Player 2",
+        "table_state": "Rank: K | Pile: 0/15 | Last Play: None",
+        "action": "Played 3 cards",
+        "speech": "I play 3 K. Someone's gonna fold soon, I bet.",
+        "result": "ACTION: Player 2 played 3 cards face down."
+    },
+    {
+        "turn": 146,
+        "player": "Player 3",
+        "table_state": "Rank: K | Pile: 3/15 | Last Play: Player 2 played 3 cards",
+        "action": "Played 1 cards",
+        "speech": "I play 1 K. Hopefully, this helps us all clear our hands, Player 2.",
+        "result": "ACTION: Player 3 played 1 cards face down."
+    },
+    {
+        "turn": 147,
+        "player": "Player 4",
+        "table_state": "Rank: K | Pile: 4/15 | Last Play: Player 3 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I play 1 K. Something feels off about Player 3\u2019s confident face.",
+        "result": "ACTION: Player 4 played 1 cards face down."
+    },
+    {
+        "turn": 148,
+        "player": "Player 2",
+        "table_state": "Rank: K | Pile: 5/15 | Last Play: Player 4 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "Liar! Too much bravado, Player 4. You're bluffing, I know it.",
+        "result": "ACTION: Player 2 played 1 cards face down."
+    },
+    {
+        "turn": 149,
+        "player": "Player 3",
+        "table_state": "Rank: K | Pile: 6/15 | Last Play: Player 2 played 1 cards",
+        "action": "Played 1 cards",
+        "speech": "I play 1 K. Just testing the waters, dear Player 2, a little cautious, you see.",
+        "result": "ACTION: Player 3 played 1 cards face down."
+    }
+]
