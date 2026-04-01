@@ -1,0 +1,970 @@
+{
+    "game_id": "game_007",
+    "train": 64,
+    "rejected": 17,
+    "breakdown": [
+        {
+            "turn": 0,
+            "phase": "action",
+            "player": "Player 1",
+            "persona": "The Hothead",
+            "action": {
+                "type": "play",
+                "cards": [
+                    "Joker",
+                    "K"
+                ]
+            },
+            "label": "desirable",
+            "label_reason": "Played honest K(s) early in round (pile=0) \u2014 sound play."
+        },
+        {
+            "turn": 1,
+            "phase": "action",
+            "player": "Player 2",
+            "persona": "The Calculator",
+            "action": {
+                "type": "play",
+                "cards": [
+                    "Q",
+                    "A"
+                ]
+            },
+            "label": "desirable",
+            "label_reason": "Played cards without rule violations."
+        },
+        {
+            "turn": 2,
+            "phase": "bidding",
+            "player": "Player 2",
+            "persona": "The Calculator",
+            "action": {},
+            "label": "desirable",
+            "label_reason": "Contextual interrupt \u2014 references game state meaningfully."
+        },
+        {
+            "turn": 2,
+            "phase": "action",
+            "player": "Player 3",
+            "persona": "The Chaos Agent",
+            "action": {
+                "type": "play",
+                "cards": [
+                    "K",
+                    "Q"
+                ]
+            },
+            "label": "desirable",
+            "label_reason": "Played cards without rule violations."
+        },
+        {
+            "turn": 3,
+            "phase": "bidding",
+            "player": "Player 1",
+            "persona": "The Hothead",
+            "action": {},
+            "label": "desirable",
+            "label_reason": "Contextual interrupt \u2014 references game state meaningfully."
+        },
+        {
+            "turn": 3,
+            "phase": "action",
+            "player": "Player 4",
+            "persona": "The Veteran",
+            "action": {
+                "type": "call_liar",
+                "cards": []
+            },
+            "label": "desirable",
+            "label_reason": "Called Liar correctly \u2014 caught the liar."
+        },
+        {
+            "turn": 5,
+            "phase": "action",
+            "player": "Player 4",
+            "persona": "The Veteran",
+            "action": {
+                "type": "play",
+                "cards": [
+                    "Q",
+                    "Q"
+                ]
+            },
+            "label": "desirable",
+            "label_reason": "Played honest Q(s) early in round (pile=2) \u2014 sound play."
+        },
+        {
+            "turn": 6,
+            "phase": "action",
+            "player": "Player 1",
+            "persona": "The Hothead",
+            "action": {
+                "type": "play",
+                "cards": [
+                    "K",
+                    "A"
+                ]
+            },
+            "label": "desirable",
+            "label_reason": "Played cards without rule violations."
+        },
+        {
+            "turn": 7,
+            "phase": "bidding",
+            "player": "Player 1",
+            "persona": "The Hothead",
+            "action": {},
+            "label": "desirable",
+            "label_reason": "Contextual interrupt \u2014 references game state meaningfully."
+        },
+        {
+            "turn": 7,
+            "phase": "bidding",
+            "player": "Player 3",
+            "persona": "The Chaos Agent",
+            "action": {},
+            "label": "desirable",
+            "label_reason": "Contextual interrupt \u2014 references game state meaningfully."
+        },
+        {
+            "turn": 7,
+            "phase": "action",
+            "player": "Player 2",
+            "persona": "The Calculator",
+            "action": {
+                "type": "play",
+                "cards": [
+                    "K",
+                    "A"
+                ]
+            },
+            "label": "desirable",
+            "label_reason": "Played cards without rule violations."
+        },
+        {
+            "turn": 8,
+            "phase": "bidding",
+            "player": "Player 2",
+            "persona": "The Calculator",
+            "action": {},
+            "label": "desirable",
+            "label_reason": "Contextual interrupt \u2014 references game state meaningfully."
+        },
+        {
+            "turn": 8,
+            "phase": "bidding",
+            "player": "Player 1",
+            "persona": "The Hothead",
+            "action": {},
+            "label": "desirable",
+            "label_reason": "Contextual interrupt \u2014 references game state meaningfully."
+        },
+        {
+            "turn": 8,
+            "phase": "action",
+            "player": "Player 3",
+            "persona": "The Chaos Agent",
+            "action": {
+                "type": "play",
+                "cards": [
+                    "Q",
+                    "A"
+                ]
+            },
+            "label": "desirable",
+            "label_reason": "Played cards without rule violations."
+        },
+        {
+            "turn": 9,
+            "phase": "bidding",
+            "player": "Player 3",
+            "persona": "The Chaos Agent",
+            "action": {},
+            "label": "desirable",
+            "label_reason": "Contextual interrupt \u2014 references game state meaningfully."
+        },
+        {
+            "turn": 9,
+            "phase": "bidding",
+            "player": "Player 2",
+            "persona": "The Calculator",
+            "action": {},
+            "label": "desirable",
+            "label_reason": "Contextual interrupt \u2014 references game state meaningfully."
+        },
+        {
+            "turn": 9,
+            "phase": "action",
+            "player": "Player 4",
+            "persona": "The Veteran",
+            "action": {
+                "type": "call_liar",
+                "cards": []
+            },
+            "label": "desirable",
+            "label_reason": "Called Liar correctly \u2014 caught the liar."
+        },
+        {
+            "turn": 10,
+            "phase": "action",
+            "player": "Player 3",
+            "persona": "The Chaos Agent",
+            "action": {
+                "type": "play",
+                "cards": [
+                    "A",
+                    "A"
+                ]
+            },
+            "label": "desirable",
+            "label_reason": "Played honest A(s) early in round (pile=0) \u2014 sound play."
+        },
+        {
+            "turn": 11,
+            "phase": "action",
+            "player": "Player 4",
+            "persona": "The Veteran",
+            "action": {
+                "type": "play",
+                "cards": [
+                    "A",
+                    "Q"
+                ]
+            },
+            "label": "desirable",
+            "label_reason": "Played cards without rule violations."
+        },
+        {
+            "turn": 12,
+            "phase": "action",
+            "player": "Player 1",
+            "persona": "The Hothead",
+            "action": {
+                "type": "play",
+                "cards": [
+                    "A",
+                    "Q"
+                ]
+            },
+            "label": "desirable",
+            "label_reason": "Played cards without rule violations."
+        },
+        {
+            "turn": 13,
+            "phase": "bidding",
+            "player": "Player 1",
+            "persona": "The Hothead",
+            "action": {},
+            "label": "desirable",
+            "label_reason": "Contextual interrupt \u2014 references game state meaningfully."
+        },
+        {
+            "turn": 13,
+            "phase": "action",
+            "player": "Player 2",
+            "persona": "The Calculator",
+            "action": {
+                "type": "play",
+                "cards": [
+                    "A",
+                    "Q"
+                ]
+            },
+            "label": "desirable",
+            "label_reason": "Played cards without rule violations."
+        },
+        {
+            "turn": 14,
+            "phase": "bidding",
+            "player": "Player 2",
+            "persona": "The Calculator",
+            "action": {},
+            "label": "desirable",
+            "label_reason": "Contextual interrupt \u2014 references game state meaningfully."
+        },
+        {
+            "turn": 14,
+            "phase": "bidding",
+            "player": "Player 1",
+            "persona": "The Hothead",
+            "action": {},
+            "label": "desirable",
+            "label_reason": "Contextual interrupt \u2014 references game state meaningfully."
+        },
+        {
+            "turn": 14,
+            "phase": "action",
+            "player": "Player 3",
+            "persona": "The Chaos Agent",
+            "action": {
+                "type": "play",
+                "cards": [
+                    "K",
+                    "K"
+                ]
+            },
+            "label": "desirable",
+            "label_reason": "Played cards without rule violations."
+        },
+        {
+            "turn": 15,
+            "phase": "bidding",
+            "player": "Player 1",
+            "persona": "The Hothead",
+            "action": {},
+            "label": "desirable",
+            "label_reason": "Contextual interrupt \u2014 references game state meaningfully."
+        },
+        {
+            "turn": 15,
+            "phase": "bidding",
+            "player": "Player 3",
+            "persona": "The Chaos Agent",
+            "action": {},
+            "label": "desirable",
+            "label_reason": "Contextual interrupt \u2014 references game state meaningfully."
+        },
+        {
+            "turn": 15,
+            "phase": "action",
+            "player": "Player 4",
+            "persona": "The Veteran",
+            "action": {
+                "type": "call_liar",
+                "cards": []
+            },
+            "label": "desirable",
+            "label_reason": "Called Liar correctly \u2014 caught the liar."
+        },
+        {
+            "turn": 16,
+            "phase": "action",
+            "player": "Player 3",
+            "persona": "The Chaos Agent",
+            "action": {
+                "type": "play",
+                "cards": [
+                    "Q",
+                    "K"
+                ]
+            },
+            "label": "desirable",
+            "label_reason": "Played cards without rule violations."
+        },
+        {
+            "turn": 17,
+            "phase": "action",
+            "player": "Player 4",
+            "persona": "The Veteran",
+            "action": {
+                "type": "play",
+                "cards": [
+                    "A",
+                    "A"
+                ]
+            },
+            "label": "desirable",
+            "label_reason": "Played cards without rule violations."
+        },
+        {
+            "turn": 18,
+            "phase": "bidding",
+            "player": "Player 4",
+            "persona": "The Veteran",
+            "action": {},
+            "label": "desirable",
+            "label_reason": "Contextual interrupt \u2014 references game state meaningfully."
+        },
+        {
+            "turn": 18,
+            "phase": "action",
+            "player": "Player 1",
+            "persona": "The Hothead",
+            "action": {
+                "type": "play",
+                "cards": [
+                    "Q",
+                    "Joker"
+                ]
+            },
+            "label": "desirable",
+            "label_reason": "Played honest Q(s) early in round (pile=4) \u2014 sound play."
+        },
+        {
+            "turn": 19,
+            "phase": "bidding",
+            "player": "Player 1",
+            "persona": "The Hothead",
+            "action": {},
+            "label": "desirable",
+            "label_reason": "Contextual interrupt \u2014 references game state meaningfully."
+        },
+        {
+            "turn": 20,
+            "phase": "action",
+            "player": "Player 2",
+            "persona": "The Calculator",
+            "action": {
+                "type": "play",
+                "cards": [
+                    "K",
+                    "Q"
+                ]
+            },
+            "label": "desirable",
+            "label_reason": "Played cards without rule violations."
+        },
+        {
+            "turn": 21,
+            "phase": "action",
+            "player": "Player 3",
+            "persona": "The Chaos Agent",
+            "action": {
+                "type": "play",
+                "cards": [
+                    "K",
+                    "A"
+                ]
+            },
+            "label": "desirable",
+            "label_reason": "Played cards without rule violations."
+        },
+        {
+            "turn": 22,
+            "phase": "bidding",
+            "player": "Player 3",
+            "persona": "The Chaos Agent",
+            "action": {},
+            "label": "desirable",
+            "label_reason": "Contextual interrupt \u2014 references game state meaningfully."
+        },
+        {
+            "turn": 22,
+            "phase": "bidding",
+            "player": "Player 2",
+            "persona": "The Calculator",
+            "action": {},
+            "label": "desirable",
+            "label_reason": "Contextual interrupt \u2014 references game state meaningfully."
+        },
+        {
+            "turn": 22,
+            "phase": "action",
+            "player": "Player 4",
+            "persona": "The Veteran",
+            "action": {
+                "type": "play",
+                "cards": [
+                    "A",
+                    "A"
+                ]
+            },
+            "label": "desirable",
+            "label_reason": "Played cards without rule violations."
+        },
+        {
+            "turn": 23,
+            "phase": "bidding",
+            "player": "Player 4",
+            "persona": "The Veteran",
+            "action": {},
+            "label": "desirable",
+            "label_reason": "Contextual interrupt \u2014 references game state meaningfully."
+        },
+        {
+            "turn": 23,
+            "phase": "action",
+            "player": "Player 1",
+            "persona": "The Hothead",
+            "action": {
+                "type": "play",
+                "cards": [
+                    "K",
+                    "K"
+                ]
+            },
+            "label": "desirable",
+            "label_reason": "Played cards without rule violations."
+        },
+        {
+            "turn": 24,
+            "phase": "bidding",
+            "player": "Player 1",
+            "persona": "The Hothead",
+            "action": {},
+            "label": "desirable",
+            "label_reason": "Contextual interrupt \u2014 references game state meaningfully."
+        },
+        {
+            "turn": 25,
+            "phase": "action",
+            "player": "Player 3",
+            "persona": "The Chaos Agent",
+            "action": {
+                "type": "play",
+                "cards": [
+                    "K",
+                    "Joker"
+                ]
+            },
+            "label": "desirable",
+            "label_reason": "Played honest K(s) early in round (pile=0) \u2014 sound play."
+        },
+        {
+            "turn": 26,
+            "phase": "action",
+            "player": "Player 4",
+            "persona": "The Veteran",
+            "action": {
+                "type": "play",
+                "cards": [
+                    "Q",
+                    "Q"
+                ]
+            },
+            "label": "desirable",
+            "label_reason": "Played cards without rule violations."
+        },
+        {
+            "turn": 27,
+            "phase": "action",
+            "player": "Player 1",
+            "persona": "The Hothead",
+            "action": {
+                "type": "play",
+                "cards": [
+                    "K",
+                    "K"
+                ]
+            },
+            "label": "desirable",
+            "label_reason": "Played honest K(s) early in round (pile=4) \u2014 sound play."
+        },
+        {
+            "turn": 29,
+            "phase": "action",
+            "player": "Player 3",
+            "persona": "The Chaos Agent",
+            "action": {
+                "type": "play",
+                "cards": [
+                    "A",
+                    "Joker"
+                ]
+            },
+            "label": "desirable",
+            "label_reason": "Played honest A(s) early in round (pile=0) \u2014 sound play."
+        },
+        {
+            "turn": 30,
+            "phase": "action",
+            "player": "Player 4",
+            "persona": "The Veteran",
+            "action": {
+                "type": "play",
+                "cards": [
+                    "K",
+                    "Q"
+                ]
+            },
+            "label": "desirable",
+            "label_reason": "Played cards without rule violations."
+        },
+        {
+            "turn": 31,
+            "phase": "bidding",
+            "player": "Player 4",
+            "persona": "The Veteran",
+            "action": {},
+            "label": "desirable",
+            "label_reason": "Contextual interrupt \u2014 references game state meaningfully."
+        },
+        {
+            "turn": 31,
+            "phase": "action",
+            "player": "Player 1",
+            "persona": "The Hothead",
+            "action": {
+                "type": "play",
+                "cards": [
+                    "A",
+                    "A"
+                ]
+            },
+            "label": "desirable",
+            "label_reason": "Played honest A(s) early in round (pile=4) \u2014 sound play."
+        },
+        {
+            "turn": 32,
+            "phase": "bidding",
+            "player": "Player 1",
+            "persona": "The Hothead",
+            "action": {},
+            "label": "desirable",
+            "label_reason": "Contextual interrupt \u2014 references game state meaningfully."
+        },
+        {
+            "turn": 33,
+            "phase": "action",
+            "player": "Player 3",
+            "persona": "The Chaos Agent",
+            "action": {
+                "type": "play",
+                "cards": [
+                    "Q",
+                    "A"
+                ]
+            },
+            "label": "desirable",
+            "label_reason": "Played cards without rule violations."
+        },
+        {
+            "turn": 34,
+            "phase": "action",
+            "player": "Player 4",
+            "persona": "The Veteran",
+            "action": {
+                "type": "play",
+                "cards": [
+                    "K",
+                    "A"
+                ]
+            },
+            "label": "desirable",
+            "label_reason": "Played cards without rule violations."
+        },
+        {
+            "turn": 35,
+            "phase": "bidding",
+            "player": "Player 4",
+            "persona": "The Veteran",
+            "action": {},
+            "label": "desirable",
+            "label_reason": "Contextual interrupt \u2014 references game state meaningfully."
+        },
+        {
+            "turn": 35,
+            "phase": "action",
+            "player": "Player 1",
+            "persona": "The Hothead",
+            "action": {
+                "type": "play",
+                "cards": [
+                    "A",
+                    "K"
+                ]
+            },
+            "label": "desirable",
+            "label_reason": "Played cards without rule violations."
+        },
+        {
+            "turn": 36,
+            "phase": "bidding",
+            "player": "Player 1",
+            "persona": "The Hothead",
+            "action": {},
+            "label": "desirable",
+            "label_reason": "Contextual interrupt \u2014 references game state meaningfully."
+        },
+        {
+            "turn": 36,
+            "phase": "action",
+            "player": "Player 3",
+            "persona": "The Chaos Agent",
+            "action": {
+                "type": "call_liar",
+                "cards": []
+            },
+            "label": "desirable",
+            "label_reason": "Called Liar correctly \u2014 caught the liar."
+        },
+        {
+            "turn": 37,
+            "phase": "action",
+            "player": "Player 3",
+            "persona": "The Chaos Agent",
+            "action": {
+                "type": "play",
+                "cards": [
+                    "K",
+                    "K"
+                ]
+            },
+            "label": "desirable",
+            "label_reason": "Played honest K(s) early in round (pile=0) \u2014 sound play."
+        },
+        {
+            "turn": 38,
+            "phase": "action",
+            "player": "Player 4",
+            "persona": "The Veteran",
+            "action": {
+                "type": "play",
+                "cards": [
+                    "Q",
+                    "A"
+                ]
+            },
+            "label": "desirable",
+            "label_reason": "Played cards without rule violations."
+        },
+        {
+            "turn": 39,
+            "phase": "bidding",
+            "player": "Player 4",
+            "persona": "The Veteran",
+            "action": {},
+            "label": "desirable",
+            "label_reason": "Contextual interrupt \u2014 references game state meaningfully."
+        },
+        {
+            "turn": 39,
+            "phase": "action",
+            "player": "Player 3",
+            "persona": "The Chaos Agent",
+            "action": {
+                "type": "call_liar",
+                "cards": []
+            },
+            "label": "desirable",
+            "label_reason": "Called Liar correctly \u2014 caught the liar."
+        },
+        {
+            "turn": 40,
+            "phase": "action",
+            "player": "Player 4",
+            "persona": "The Veteran",
+            "action": {
+                "type": "play",
+                "cards": [
+                    "Q",
+                    "Q"
+                ]
+            },
+            "label": "desirable",
+            "label_reason": "Played honest Q(s) early in round (pile=0) \u2014 sound play."
+        },
+        {
+            "turn": 41,
+            "phase": "action",
+            "player": "Player 3",
+            "persona": "The Chaos Agent",
+            "action": {
+                "type": "play",
+                "cards": [
+                    "A",
+                    "A"
+                ]
+            },
+            "label": "desirable",
+            "label_reason": "Played cards without rule violations."
+        },
+        {
+            "turn": 42,
+            "phase": "bidding",
+            "player": "Player 3",
+            "persona": "The Chaos Agent",
+            "action": {},
+            "label": "desirable",
+            "label_reason": "Contextual interrupt \u2014 references game state meaningfully."
+        },
+        {
+            "turn": 42,
+            "phase": "action",
+            "player": "Player 4",
+            "persona": "The Veteran",
+            "action": {
+                "type": "play",
+                "cards": [
+                    "K",
+                    "A"
+                ]
+            },
+            "label": "desirable",
+            "label_reason": "Played cards without rule violations."
+        },
+        {
+            "turn": 43,
+            "phase": "action",
+            "player": "Player 3",
+            "persona": "The Chaos Agent",
+            "action": {
+                "type": "call_liar",
+                "cards": []
+            },
+            "label": "desirable",
+            "label_reason": "Called Liar correctly \u2014 caught the liar."
+        },
+        {
+            "turn": 1,
+            "phase": "bidding",
+            "player": "Player 1",
+            "persona": "The Hothead",
+            "action": {},
+            "label": "unacceptable",
+            "label_reason": "High urgency interrupt at pile=2 \u2014 too early, no information yet."
+        },
+        {
+            "turn": 4,
+            "phase": "action",
+            "player": "Player 3",
+            "persona": "The Chaos Agent",
+            "action": {
+                "type": "play",
+                "cards": [
+                    "Q",
+                    "A"
+                ]
+            },
+            "label": "unacceptable",
+            "label_reason": "Speech reveals actual cards played \u2014 breaks face-down rule."
+        },
+        {
+            "turn": 5,
+            "phase": "bidding",
+            "player": "Player 3",
+            "persona": "The Chaos Agent",
+            "action": {},
+            "label": "unacceptable",
+            "label_reason": "High urgency interrupt at pile=2 \u2014 too early, no information yet."
+        },
+        {
+            "turn": 11,
+            "phase": "bidding",
+            "player": "Player 3",
+            "persona": "The Chaos Agent",
+            "action": {},
+            "label": "unacceptable",
+            "label_reason": "High urgency interrupt at pile=2 \u2014 too early, no information yet."
+        },
+        {
+            "turn": 11,
+            "phase": "bidding",
+            "player": "Player 1",
+            "persona": "The Hothead",
+            "action": {},
+            "label": "unacceptable",
+            "label_reason": "High urgency interrupt at pile=2 \u2014 too early, no information yet."
+        },
+        {
+            "turn": 17,
+            "phase": "bidding",
+            "player": "Player 3",
+            "persona": "The Chaos Agent",
+            "action": {},
+            "label": "unacceptable",
+            "label_reason": "High urgency interrupt at pile=2 \u2014 too early, no information yet."
+        },
+        {
+            "turn": 19,
+            "phase": "action",
+            "player": "Player 2",
+            "persona": "The Calculator",
+            "action": {
+                "type": "call_liar",
+                "cards": []
+            },
+            "label": "unacceptable",
+            "label_reason": "Called Liar incorrectly \u2014 wasted a trigger pull."
+        },
+        {
+            "turn": 21,
+            "phase": "bidding",
+            "player": "Player 2",
+            "persona": "The Calculator",
+            "action": {},
+            "label": "unacceptable",
+            "label_reason": "High urgency interrupt at pile=2 \u2014 too early, no information yet."
+        },
+        {
+            "turn": 24,
+            "phase": "action",
+            "player": "Player 2",
+            "persona": "The Calculator",
+            "action": {
+                "type": "call_liar",
+                "cards": []
+            },
+            "label": "unacceptable",
+            "label_reason": "Called Liar incorrectly \u2014 wasted a trigger pull."
+        },
+        {
+            "turn": 26,
+            "phase": "bidding",
+            "player": "Player 3",
+            "persona": "The Chaos Agent",
+            "action": {},
+            "label": "unacceptable",
+            "label_reason": "High urgency interrupt at pile=2 \u2014 too early, no information yet."
+        },
+        {
+            "turn": 28,
+            "phase": "action",
+            "player": "Player 3",
+            "persona": "The Chaos Agent",
+            "action": {
+                "type": "call_liar",
+                "cards": []
+            },
+            "label": "unacceptable",
+            "label_reason": "Called Liar incorrectly \u2014 wasted a trigger pull."
+        },
+        {
+            "turn": 30,
+            "phase": "bidding",
+            "player": "Player 3",
+            "persona": "The Chaos Agent",
+            "action": {},
+            "label": "unacceptable",
+            "label_reason": "High urgency interrupt at pile=2 \u2014 too early, no information yet."
+        },
+        {
+            "turn": 32,
+            "phase": "action",
+            "player": "Player 3",
+            "persona": "The Chaos Agent",
+            "action": {
+                "type": "call_liar",
+                "cards": []
+            },
+            "label": "unacceptable",
+            "label_reason": "Called Liar incorrectly \u2014 wasted a trigger pull."
+        },
+        {
+            "turn": 34,
+            "phase": "bidding",
+            "player": "Player 3",
+            "persona": "The Chaos Agent",
+            "action": {},
+            "label": "unacceptable",
+            "label_reason": "High urgency interrupt at pile=2 \u2014 too early, no information yet."
+        },
+        {
+            "turn": 38,
+            "phase": "bidding",
+            "player": "Player 3",
+            "persona": "The Chaos Agent",
+            "action": {},
+            "label": "unacceptable",
+            "label_reason": "High urgency interrupt at pile=2 \u2014 too early, no information yet."
+        },
+        {
+            "turn": 41,
+            "phase": "bidding",
+            "player": "Player 4",
+            "persona": "The Veteran",
+            "action": {},
+            "label": "unacceptable",
+            "label_reason": "High urgency interrupt at pile=2 \u2014 too early, no information yet."
+        },
+        {
+            "turn": 43,
+            "phase": "bidding",
+            "player": "Player 4",
+            "persona": "The Veteran",
+            "action": {},
+            "label": "unacceptable",
+            "label_reason": "High urgency but generic speech \u2014 not grounded in game state."
+        }
+    ]
+}

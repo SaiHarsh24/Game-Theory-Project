@@ -1,0 +1,1137 @@
+{
+    "game_id": "game_010",
+    "total": 94,
+    "desirable": 63,
+    "unacceptable": 31,
+    "lambda_D": 0.7,
+    "lambda_U": 1.0,
+    "breakdown": [
+        {
+            "turn": 0,
+            "phase": "action",
+            "player": "Player 1",
+            "persona": "The Hothead",
+            "action": {
+                "type": "play",
+                "cards": [
+                    "Q",
+                    "K"
+                ]
+            },
+            "label": "desirable",
+            "label_reason": "Bluffed with ['Q', 'K'] (rank=Q) and was NOT caught \u2014 successful deception."
+        },
+        {
+            "turn": 1,
+            "phase": "bidding",
+            "player": "Player 1",
+            "persona": "The Hothead",
+            "action": {},
+            "label": "unacceptable",
+            "label_reason": "High urgency at pile=2 \u2014 too early in round."
+        },
+        {
+            "turn": 1,
+            "phase": "action",
+            "player": "Player 2",
+            "persona": "The Calculator",
+            "action": {
+                "type": "play",
+                "cards": [
+                    "K",
+                    "A"
+                ]
+            },
+            "label": "desirable",
+            "label_reason": "Bluffed with ['K', 'A'] (rank=Q) and was NOT caught \u2014 successful deception."
+        },
+        {
+            "turn": 2,
+            "phase": "bidding",
+            "player": "Player 2",
+            "persona": "The Calculator",
+            "action": {},
+            "label": "desirable",
+            "label_reason": "Contextual high-urgency interrupt."
+        },
+        {
+            "turn": 2,
+            "phase": "bidding",
+            "player": "Player 4",
+            "persona": "The Paranoid",
+            "action": {},
+            "label": "desirable",
+            "label_reason": "Contextual high-urgency interrupt."
+        },
+        {
+            "turn": 2,
+            "phase": "action",
+            "player": "Player 3",
+            "persona": "The Sweetheart",
+            "action": {
+                "type": "play",
+                "cards": [
+                    "A",
+                    "K"
+                ]
+            },
+            "label": "unacceptable",
+            "label_reason": "Bluffed with ['A', 'K'] (rank=Q) and got caught this round."
+        },
+        {
+            "turn": 3,
+            "phase": "bidding",
+            "player": "Player 3",
+            "persona": "The Sweetheart",
+            "action": {},
+            "label": "desirable",
+            "label_reason": "Contextual high-urgency interrupt."
+        },
+        {
+            "turn": 3,
+            "phase": "action",
+            "player": "Player 4",
+            "persona": "The Paranoid",
+            "action": {
+                "type": "call_liar"
+            },
+            "label": "desirable",
+            "label_reason": "Called Liar correctly \u2014 caught the liar."
+        },
+        {
+            "turn": 4,
+            "phase": "action",
+            "player": "Player 3",
+            "persona": "The Sweetheart",
+            "action": {
+                "type": "play",
+                "cards": [
+                    "K",
+                    "K"
+                ]
+            },
+            "label": "desirable",
+            "label_reason": "Played honest cards ['K', 'K'] (rank=K) \u2014 truthful play."
+        },
+        {
+            "turn": 5,
+            "phase": "bidding",
+            "player": "Player 3",
+            "persona": "The Sweetheart",
+            "action": {},
+            "label": "unacceptable",
+            "label_reason": "High urgency at pile=2 \u2014 too early in round."
+        },
+        {
+            "turn": 5,
+            "phase": "action",
+            "player": "Player 4",
+            "persona": "The Paranoid",
+            "action": {
+                "type": "play",
+                "cards": [
+                    "K",
+                    "Joker"
+                ]
+            },
+            "label": "desirable",
+            "label_reason": "Played honest cards ['K', 'Joker'] (rank=K) \u2014 truthful play."
+        },
+        {
+            "turn": 6,
+            "phase": "action",
+            "player": "Player 1",
+            "persona": "The Hothead",
+            "action": {
+                "type": "call_liar",
+                "cards": []
+            },
+            "label": "unacceptable",
+            "label_reason": "Called Liar incorrectly \u2014 pulled the trigger needlessly."
+        },
+        {
+            "turn": 7,
+            "phase": "action",
+            "player": "Player 1",
+            "persona": "The Hothead",
+            "action": {
+                "type": "play",
+                "cards": [
+                    "A",
+                    "Q",
+                    "Q"
+                ]
+            },
+            "label": "desirable",
+            "label_reason": "Bluffed with ['A', 'Q', 'Q'] (rank=A) and was NOT caught \u2014 successful deception."
+        },
+        {
+            "turn": 8,
+            "phase": "bidding",
+            "player": "Player 1",
+            "persona": "The Hothead",
+            "action": {},
+            "label": "unacceptable",
+            "label_reason": "High urgency but generic speech \u2014 not grounded in game state."
+        },
+        {
+            "turn": 8,
+            "phase": "action",
+            "player": "Player 2",
+            "persona": "The Calculator",
+            "action": {
+                "type": "play",
+                "cards": [
+                    "A",
+                    "A"
+                ]
+            },
+            "label": "desirable",
+            "label_reason": "Played honest cards ['A', 'A'] (rank=A) \u2014 truthful play."
+        },
+        {
+            "turn": 9,
+            "phase": "bidding",
+            "player": "Player 2",
+            "persona": "The Calculator",
+            "action": {},
+            "label": "desirable",
+            "label_reason": "Contextual high-urgency interrupt."
+        },
+        {
+            "turn": 9,
+            "phase": "bidding",
+            "player": "Player 1",
+            "persona": "The Hothead",
+            "action": {},
+            "label": "unacceptable",
+            "label_reason": "High urgency but generic speech \u2014 not grounded in game state."
+        },
+        {
+            "turn": 9,
+            "phase": "action",
+            "player": "Player 3",
+            "persona": "The Sweetheart",
+            "action": {
+                "type": "play",
+                "cards": [
+                    "Q",
+                    "K"
+                ]
+            },
+            "label": "unacceptable",
+            "label_reason": "Bluffed with ['Q', 'K'] (rank=A) and got caught this round."
+        },
+        {
+            "turn": 10,
+            "phase": "bidding",
+            "player": "Player 3",
+            "persona": "The Sweetheart",
+            "action": {},
+            "label": "desirable",
+            "label_reason": "Contextual high-urgency interrupt."
+        },
+        {
+            "turn": 10,
+            "phase": "action",
+            "player": "Player 4",
+            "persona": "The Paranoid",
+            "action": {
+                "type": "call_liar"
+            },
+            "label": "desirable",
+            "label_reason": "Called Liar correctly \u2014 caught the liar."
+        },
+        {
+            "turn": 11,
+            "phase": "action",
+            "player": "Player 3",
+            "persona": "The Sweetheart",
+            "action": {
+                "type": "play",
+                "cards": [
+                    "Q",
+                    "K"
+                ]
+            },
+            "label": "desirable",
+            "label_reason": "Bluffed with ['Q', 'K'] (rank=A) and was NOT caught \u2014 successful deception."
+        },
+        {
+            "turn": 12,
+            "phase": "bidding",
+            "player": "Player 3",
+            "persona": "The Sweetheart",
+            "action": {},
+            "label": "unacceptable",
+            "label_reason": "High urgency at pile=2 \u2014 too early in round."
+        },
+        {
+            "turn": 12,
+            "phase": "action",
+            "player": "Player 4",
+            "persona": "The Paranoid",
+            "action": {
+                "type": "play",
+                "cards": [
+                    "K",
+                    "Q"
+                ]
+            },
+            "label": "desirable",
+            "label_reason": "Bluffed with ['K', 'Q'] (rank=A) and was NOT caught \u2014 successful deception."
+        },
+        {
+            "turn": 13,
+            "phase": "action",
+            "player": "Player 1",
+            "persona": "The Hothead",
+            "action": {
+                "type": "play",
+                "cards": [
+                    "A",
+                    "Joker"
+                ]
+            },
+            "label": "desirable",
+            "label_reason": "Played honest cards ['A', 'Joker'] (rank=A) \u2014 truthful play."
+        },
+        {
+            "turn": 14,
+            "phase": "bidding",
+            "player": "Player 1",
+            "persona": "The Hothead",
+            "action": {},
+            "label": "desirable",
+            "label_reason": "Contextual high-urgency interrupt."
+        },
+        {
+            "turn": 14,
+            "phase": "bidding",
+            "player": "Player 4",
+            "persona": "The Paranoid",
+            "action": {},
+            "label": "desirable",
+            "label_reason": "Contextual high-urgency interrupt."
+        },
+        {
+            "turn": 14,
+            "phase": "action",
+            "player": "Player 2",
+            "persona": "The Calculator",
+            "action": {
+                "type": "call_liar",
+                "cards": []
+            },
+            "label": "unacceptable",
+            "label_reason": "Called Liar incorrectly \u2014 pulled the trigger needlessly."
+        },
+        {
+            "turn": 15,
+            "phase": "action",
+            "player": "Player 2",
+            "persona": "The Calculator",
+            "action": {
+                "type": "play",
+                "cards": [
+                    "Joker",
+                    "K"
+                ]
+            },
+            "label": "desirable",
+            "label_reason": "Played honest cards ['Joker', 'K'] (rank=K) \u2014 truthful play."
+        },
+        {
+            "turn": 16,
+            "phase": "bidding",
+            "player": "Player 2",
+            "persona": "The Calculator",
+            "action": {},
+            "label": "unacceptable",
+            "label_reason": "High urgency at pile=2 \u2014 too early in round."
+        },
+        {
+            "turn": 16,
+            "phase": "bidding",
+            "player": "Player 4",
+            "persona": "The Paranoid",
+            "action": {},
+            "label": "unacceptable",
+            "label_reason": "High urgency at pile=2 \u2014 too early in round."
+        },
+        {
+            "turn": 16,
+            "phase": "action",
+            "player": "Player 3",
+            "persona": "The Sweetheart",
+            "action": {
+                "type": "play",
+                "cards": [
+                    "K",
+                    "Q"
+                ]
+            },
+            "label": "unacceptable",
+            "label_reason": "Bluffed with ['K', 'Q'] (rank=K) and got caught this round."
+        },
+        {
+            "turn": 17,
+            "phase": "bidding",
+            "player": "Player 3",
+            "persona": "The Sweetheart",
+            "action": {},
+            "label": "desirable",
+            "label_reason": "Contextual high-urgency interrupt."
+        },
+        {
+            "turn": 17,
+            "phase": "bidding",
+            "player": "Player 1",
+            "persona": "The Hothead",
+            "action": {},
+            "label": "desirable",
+            "label_reason": "Contextual high-urgency interrupt."
+        },
+        {
+            "turn": 17,
+            "phase": "action",
+            "player": "Player 4",
+            "persona": "The Paranoid",
+            "action": {
+                "type": "call_liar",
+                "cards": []
+            },
+            "label": "desirable",
+            "label_reason": "Called Liar correctly \u2014 caught the liar."
+        },
+        {
+            "turn": 18,
+            "phase": "action",
+            "player": "Player 4",
+            "persona": "The Paranoid",
+            "action": {
+                "type": "play",
+                "cards": [
+                    "K"
+                ]
+            },
+            "label": "desirable",
+            "label_reason": "Played honest cards ['K'] (rank=K) \u2014 truthful play."
+        },
+        {
+            "turn": 19,
+            "phase": "bidding",
+            "player": "Player 4",
+            "persona": "The Paranoid",
+            "action": {},
+            "label": "unacceptable",
+            "label_reason": "High urgency at pile=1 \u2014 too early in round."
+        },
+        {
+            "turn": 19,
+            "phase": "action",
+            "player": "Player 1",
+            "persona": "The Hothead",
+            "action": {
+                "type": "play",
+                "cards": [
+                    "A",
+                    "A"
+                ]
+            },
+            "label": "desirable",
+            "label_reason": "Bluffed with ['A', 'A'] (rank=K) and was NOT caught \u2014 successful deception."
+        },
+        {
+            "turn": 20,
+            "phase": "bidding",
+            "player": "Player 1",
+            "persona": "The Hothead",
+            "action": {},
+            "label": "desirable",
+            "label_reason": "Contextual high-urgency interrupt."
+        },
+        {
+            "turn": 20,
+            "phase": "action",
+            "player": "Player 2",
+            "persona": "The Calculator",
+            "action": {
+                "type": "play",
+                "cards": [
+                    "A",
+                    "A"
+                ]
+            },
+            "label": "unacceptable",
+            "label_reason": "Bluffed with ['A', 'A'] (rank=K) and got caught this round."
+        },
+        {
+            "turn": 21,
+            "phase": "bidding",
+            "player": "Player 2",
+            "persona": "The Calculator",
+            "action": {},
+            "label": "desirable",
+            "label_reason": "Contextual high-urgency interrupt."
+        },
+        {
+            "turn": 21,
+            "phase": "action",
+            "player": "Player 4",
+            "persona": "The Paranoid",
+            "action": {
+                "type": "call_liar",
+                "cards": []
+            },
+            "label": "desirable",
+            "label_reason": "Called Liar correctly \u2014 caught the liar."
+        },
+        {
+            "turn": 22,
+            "phase": "action",
+            "player": "Player 2",
+            "persona": "The Calculator",
+            "action": {
+                "type": "play",
+                "cards": [
+                    "K",
+                    "A"
+                ]
+            },
+            "label": "unacceptable",
+            "label_reason": "Bluffed with ['K', 'A'] (rank=K) and got caught this round."
+        },
+        {
+            "turn": 23,
+            "phase": "bidding",
+            "player": "Player 2",
+            "persona": "The Calculator",
+            "action": {},
+            "label": "unacceptable",
+            "label_reason": "High urgency at pile=2 \u2014 too early in round."
+        },
+        {
+            "turn": 23,
+            "phase": "action",
+            "player": "Player 4",
+            "persona": "The Paranoid",
+            "action": {
+                "type": "play",
+                "cards": [
+                    "K",
+                    "Joker"
+                ]
+            },
+            "label": "desirable",
+            "label_reason": "Played honest cards ['K', 'Joker'] (rank=K) \u2014 truthful play."
+        },
+        {
+            "turn": 24,
+            "phase": "bidding",
+            "player": "Player 4",
+            "persona": "The Paranoid",
+            "action": {},
+            "label": "desirable",
+            "label_reason": "Contextual high-urgency interrupt."
+        },
+        {
+            "turn": 24,
+            "phase": "action",
+            "player": "Player 1",
+            "persona": "The Hothead",
+            "action": {
+                "type": "play",
+                "cards": [
+                    "K",
+                    "K"
+                ]
+            },
+            "label": "desirable",
+            "label_reason": "Played honest cards ['K', 'K'] (rank=K) \u2014 truthful play."
+        },
+        {
+            "turn": 25,
+            "phase": "bidding",
+            "player": "Player 1",
+            "persona": "The Hothead",
+            "action": {},
+            "label": "desirable",
+            "label_reason": "Contextual high-urgency interrupt."
+        },
+        {
+            "turn": 25,
+            "phase": "action",
+            "player": "Player 2",
+            "persona": "The Calculator",
+            "action": {
+                "type": "play",
+                "cards": [
+                    "Q",
+                    "A"
+                ]
+            },
+            "label": "unacceptable",
+            "label_reason": "Bluffed with ['Q', 'A'] (rank=K) and got caught this round."
+        },
+        {
+            "turn": 26,
+            "phase": "bidding",
+            "player": "Player 2",
+            "persona": "The Calculator",
+            "action": {},
+            "label": "desirable",
+            "label_reason": "Contextual high-urgency interrupt."
+        },
+        {
+            "turn": 26,
+            "phase": "action",
+            "player": "Player 4",
+            "persona": "The Paranoid",
+            "action": {
+                "type": "call_liar",
+                "cards": []
+            },
+            "label": "desirable",
+            "label_reason": "Called Liar correctly \u2014 caught the liar."
+        },
+        {
+            "turn": 27,
+            "phase": "action",
+            "player": "Player 2",
+            "persona": "The Calculator",
+            "action": {
+                "type": "play",
+                "cards": [
+                    "Joker",
+                    "Q",
+                    "Q"
+                ]
+            },
+            "label": "desirable",
+            "label_reason": "Played honest cards ['Joker', 'Q', 'Q'] (rank=Q) \u2014 truthful play."
+        },
+        {
+            "turn": 28,
+            "phase": "bidding",
+            "player": "Player 2",
+            "persona": "The Calculator",
+            "action": {},
+            "label": "desirable",
+            "label_reason": "Contextual high-urgency interrupt."
+        },
+        {
+            "turn": 28,
+            "phase": "bidding",
+            "player": "Player 1",
+            "persona": "The Hothead",
+            "action": {},
+            "label": "desirable",
+            "label_reason": "Contextual high-urgency interrupt."
+        },
+        {
+            "turn": 28,
+            "phase": "action",
+            "player": "Player 4",
+            "persona": "The Paranoid",
+            "action": {
+                "type": "call_liar",
+                "cards": []
+            },
+            "label": "unacceptable",
+            "label_reason": "Called Liar incorrectly \u2014 pulled the trigger needlessly."
+        },
+        {
+            "turn": 29,
+            "phase": "action",
+            "player": "Player 4",
+            "persona": "The Paranoid",
+            "action": {
+                "type": "play",
+                "cards": [
+                    "A",
+                    "A",
+                    "Q"
+                ]
+            },
+            "label": "unacceptable",
+            "label_reason": "Bluffed with ['A', 'A', 'Q'] (rank=A) and got caught this round."
+        },
+        {
+            "turn": 30,
+            "phase": "bidding",
+            "player": "Player 4",
+            "persona": "The Paranoid",
+            "action": {},
+            "label": "desirable",
+            "label_reason": "Contextual high-urgency interrupt."
+        },
+        {
+            "turn": 30,
+            "phase": "action",
+            "player": "Player 1",
+            "persona": "The Hothead",
+            "action": {
+                "type": "call_liar",
+                "cards": []
+            },
+            "label": "desirable",
+            "label_reason": "Called Liar correctly \u2014 caught the liar."
+        },
+        {
+            "turn": 31,
+            "phase": "action",
+            "player": "Player 4",
+            "persona": "The Paranoid",
+            "action": {
+                "type": "play",
+                "cards": [
+                    "Q",
+                    "Joker"
+                ]
+            },
+            "label": "desirable",
+            "label_reason": "Played honest cards ['Q', 'Joker'] (rank=Q) \u2014 truthful play."
+        },
+        {
+            "turn": 32,
+            "phase": "bidding",
+            "player": "Player 4",
+            "persona": "The Paranoid",
+            "action": {},
+            "label": "unacceptable",
+            "label_reason": "High urgency at pile=2 \u2014 too early in round."
+        },
+        {
+            "turn": 32,
+            "phase": "action",
+            "player": "Player 1",
+            "persona": "The Hothead",
+            "action": {
+                "type": "play",
+                "cards": [
+                    "Q",
+                    "Joker"
+                ]
+            },
+            "label": "desirable",
+            "label_reason": "Played honest cards ['Q', 'Joker'] (rank=Q) \u2014 truthful play."
+        },
+        {
+            "turn": 33,
+            "phase": "bidding",
+            "player": "Player 1",
+            "persona": "The Hothead",
+            "action": {},
+            "label": "desirable",
+            "label_reason": "Contextual high-urgency interrupt."
+        },
+        {
+            "turn": 33,
+            "phase": "action",
+            "player": "Player 2",
+            "persona": "The Calculator",
+            "action": {
+                "type": "play",
+                "cards": [
+                    "K",
+                    "K"
+                ]
+            },
+            "label": "unacceptable",
+            "label_reason": "Bluffed with ['K', 'K'] (rank=Q) and got caught this round."
+        },
+        {
+            "turn": 34,
+            "phase": "bidding",
+            "player": "Player 2",
+            "persona": "The Calculator",
+            "action": {},
+            "label": "desirable",
+            "label_reason": "Contextual high-urgency interrupt."
+        },
+        {
+            "turn": 34,
+            "phase": "action",
+            "player": "Player 4",
+            "persona": "The Paranoid",
+            "action": {
+                "type": "call_liar",
+                "cards": []
+            },
+            "label": "desirable",
+            "label_reason": "Called Liar correctly \u2014 caught the liar."
+        },
+        {
+            "turn": 35,
+            "phase": "action",
+            "player": "Player 2",
+            "persona": "The Calculator",
+            "action": {
+                "type": "play",
+                "cards": [
+                    "Q",
+                    "A"
+                ]
+            },
+            "label": "unacceptable",
+            "label_reason": "Bluffed with ['Q', 'A'] (rank=Q) and got caught this round."
+        },
+        {
+            "turn": 36,
+            "phase": "bidding",
+            "player": "Player 2",
+            "persona": "The Calculator",
+            "action": {},
+            "label": "unacceptable",
+            "label_reason": "High urgency at pile=2 \u2014 too early in round."
+        },
+        {
+            "turn": 36,
+            "phase": "action",
+            "player": "Player 4",
+            "persona": "The Paranoid",
+            "action": {
+                "type": "play",
+                "cards": [
+                    "A",
+                    "K"
+                ]
+            },
+            "label": "desirable",
+            "label_reason": "Bluffed with ['A', 'K'] (rank=Q) and was NOT caught \u2014 successful deception."
+        },
+        {
+            "turn": 37,
+            "phase": "bidding",
+            "player": "Player 4",
+            "persona": "The Paranoid",
+            "action": {},
+            "label": "desirable",
+            "label_reason": "Contextual high-urgency interrupt."
+        },
+        {
+            "turn": 37,
+            "phase": "action",
+            "player": "Player 1",
+            "persona": "The Hothead",
+            "action": {
+                "type": "play",
+                "cards": [
+                    "Joker",
+                    "Q"
+                ]
+            },
+            "label": "desirable",
+            "label_reason": "Played honest cards ['Joker', 'Q'] (rank=Q) \u2014 truthful play."
+        },
+        {
+            "turn": 38,
+            "phase": "bidding",
+            "player": "Player 1",
+            "persona": "The Hothead",
+            "action": {},
+            "label": "desirable",
+            "label_reason": "Contextual high-urgency interrupt."
+        },
+        {
+            "turn": 38,
+            "phase": "action",
+            "player": "Player 2",
+            "persona": "The Calculator",
+            "action": {
+                "type": "play",
+                "cards": [
+                    "A",
+                    "Q"
+                ]
+            },
+            "label": "unacceptable",
+            "label_reason": "Bluffed with ['A', 'Q'] (rank=Q) and got caught this round."
+        },
+        {
+            "turn": 39,
+            "phase": "action",
+            "player": "Player 4",
+            "persona": "The Paranoid",
+            "action": {
+                "type": "call_liar",
+                "cards": []
+            },
+            "label": "desirable",
+            "label_reason": "Called Liar correctly \u2014 caught the liar."
+        },
+        {
+            "turn": 40,
+            "phase": "action",
+            "player": "Player 2",
+            "persona": "The Calculator",
+            "action": {
+                "type": "play",
+                "cards": [
+                    "A",
+                    "A"
+                ]
+            },
+            "label": "desirable",
+            "label_reason": "Played honest cards ['A', 'A'] (rank=A) \u2014 truthful play."
+        },
+        {
+            "turn": 41,
+            "phase": "bidding",
+            "player": "Player 2",
+            "persona": "The Calculator",
+            "action": {},
+            "label": "unacceptable",
+            "label_reason": "High urgency at pile=2 \u2014 too early in round."
+        },
+        {
+            "turn": 41,
+            "phase": "action",
+            "player": "Player 4",
+            "persona": "The Paranoid",
+            "action": {
+                "type": "play",
+                "cards": [
+                    "A",
+                    "Q"
+                ]
+            },
+            "label": "desirable",
+            "label_reason": "Bluffed with ['A', 'Q'] (rank=A) and was NOT caught \u2014 successful deception."
+        },
+        {
+            "turn": 42,
+            "phase": "bidding",
+            "player": "Player 4",
+            "persona": "The Paranoid",
+            "action": {},
+            "label": "desirable",
+            "label_reason": "Contextual high-urgency interrupt."
+        },
+        {
+            "turn": 42,
+            "phase": "action",
+            "player": "Player 1",
+            "persona": "The Hothead",
+            "action": {
+                "type": "play",
+                "cards": [
+                    "A",
+                    "Q"
+                ]
+            },
+            "label": "desirable",
+            "label_reason": "Bluffed with ['A', 'Q'] (rank=A) and was NOT caught \u2014 successful deception."
+        },
+        {
+            "turn": 43,
+            "phase": "action",
+            "player": "Player 2",
+            "persona": "The Calculator",
+            "action": {
+                "type": "play",
+                "cards": [
+                    "Q",
+                    "K"
+                ]
+            },
+            "label": "unacceptable",
+            "label_reason": "Bluffed with ['Q', 'K'] (rank=A) and got caught this round."
+        },
+        {
+            "turn": 44,
+            "phase": "action",
+            "player": "Player 4",
+            "persona": "The Paranoid",
+            "action": {
+                "type": "call_liar",
+                "cards": []
+            },
+            "label": "desirable",
+            "label_reason": "Called Liar correctly \u2014 caught the liar."
+        },
+        {
+            "turn": 45,
+            "phase": "action",
+            "player": "Player 4",
+            "persona": "The Paranoid",
+            "action": {
+                "type": "play",
+                "cards": [
+                    "K",
+                    "Q"
+                ]
+            },
+            "label": "desirable",
+            "label_reason": "Bluffed with ['K', 'Q'] (rank=A) and was NOT caught \u2014 successful deception."
+        },
+        {
+            "turn": 46,
+            "phase": "bidding",
+            "player": "Player 4",
+            "persona": "The Paranoid",
+            "action": {},
+            "label": "unacceptable",
+            "label_reason": "High urgency at pile=2 \u2014 too early in round."
+        },
+        {
+            "turn": 46,
+            "phase": "action",
+            "player": "Player 1",
+            "persona": "The Hothead",
+            "action": {
+                "type": "play",
+                "cards": [
+                    "A",
+                    "K"
+                ]
+            },
+            "label": "unacceptable",
+            "label_reason": "Bluffed with ['A', 'K'] (rank=A) and got caught this round."
+        },
+        {
+            "turn": 47,
+            "phase": "bidding",
+            "player": "Player 1",
+            "persona": "The Hothead",
+            "action": {},
+            "label": "desirable",
+            "label_reason": "Contextual high-urgency interrupt."
+        },
+        {
+            "turn": 47,
+            "phase": "action",
+            "player": "Player 4",
+            "persona": "The Paranoid",
+            "action": {
+                "type": "play",
+                "cards": [
+                    "A",
+                    "K"
+                ]
+            },
+            "label": "desirable",
+            "label_reason": "Bluffed with ['A', 'K'] (rank=A) and was NOT caught \u2014 successful deception."
+        },
+        {
+            "turn": 48,
+            "phase": "action",
+            "player": "Player 1",
+            "persona": "The Hothead",
+            "action": {
+                "type": "play",
+                "cards": [
+                    "K",
+                    "Q"
+                ]
+            },
+            "label": "unacceptable",
+            "label_reason": "Bluffed with ['K', 'Q'] (rank=A) and got caught this round."
+        },
+        {
+            "turn": 49,
+            "phase": "bidding",
+            "player": "Player 1",
+            "persona": "The Hothead",
+            "action": {},
+            "label": "desirable",
+            "label_reason": "Contextual high-urgency interrupt."
+        },
+        {
+            "turn": 49,
+            "phase": "action",
+            "player": "Player 4",
+            "persona": "The Paranoid",
+            "action": {
+                "type": "call_liar",
+                "cards": []
+            },
+            "label": "desirable",
+            "label_reason": "Called Liar correctly \u2014 caught the liar."
+        },
+        {
+            "turn": 50,
+            "phase": "action",
+            "player": "Player 1",
+            "persona": "The Hothead",
+            "action": {
+                "type": "play",
+                "cards": [
+                    "Joker"
+                ]
+            },
+            "label": "desirable",
+            "label_reason": "Played honest cards ['Joker'] (rank=Q) \u2014 truthful play."
+        },
+        {
+            "turn": 51,
+            "phase": "bidding",
+            "player": "Player 1",
+            "persona": "The Hothead",
+            "action": {},
+            "label": "unacceptable",
+            "label_reason": "High urgency at pile=1 \u2014 too early in round."
+        },
+        {
+            "turn": 51,
+            "phase": "action",
+            "player": "Player 4",
+            "persona": "The Paranoid",
+            "action": {
+                "type": "play",
+                "cards": [
+                    "Q",
+                    "K"
+                ]
+            },
+            "label": "desirable",
+            "label_reason": "Bluffed with ['Q', 'K'] (rank=Q) and was NOT caught \u2014 successful deception."
+        },
+        {
+            "turn": 52,
+            "phase": "bidding",
+            "player": "Player 4",
+            "persona": "The Paranoid",
+            "action": {},
+            "label": "desirable",
+            "label_reason": "Contextual high-urgency interrupt."
+        },
+        {
+            "turn": 52,
+            "phase": "action",
+            "player": "Player 1",
+            "persona": "The Hothead",
+            "action": {
+                "type": "play",
+                "cards": [
+                    "K",
+                    "K"
+                ]
+            },
+            "label": "unacceptable",
+            "label_reason": "Bluffed with ['K', 'K'] (rank=Q) and got caught this round."
+        },
+        {
+            "turn": 53,
+            "phase": "bidding",
+            "player": "Player 1",
+            "persona": "The Hothead",
+            "action": {},
+            "label": "desirable",
+            "label_reason": "Contextual high-urgency interrupt."
+        },
+        {
+            "turn": 53,
+            "phase": "action",
+            "player": "Player 4",
+            "persona": "The Paranoid",
+            "action": {
+                "type": "call_liar",
+                "cards": []
+            },
+            "label": "desirable",
+            "label_reason": "Called Liar correctly \u2014 caught the liar."
+        }
+    ]
+}
